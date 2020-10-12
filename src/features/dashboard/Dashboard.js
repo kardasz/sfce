@@ -25,7 +25,7 @@ export default function Dashboard () {
                 <Switch>
                     <Route exact path="/">
                         <h3>
-                            This is as simple todo app to help you learning<br/> <a href="https://certification.symfony.com/">Symfony 5.0 certification topics</a>
+                            This is a simple todo app to help you learn<br/> <a href="https://certification.symfony.com/">Symfony 5.0 certification topics</a>
                         </h3>
                     </Route>
                     <Route path="/:id">
