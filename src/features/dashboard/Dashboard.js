@@ -23,6 +23,11 @@ export default function Dashboard () {
             </div>
             <div className="col-9">
                 <Switch>
+                    <Route exact path="/">
+                        <h3>
+                            This is as simple todo app to help you learning<br/> <a href="https://certification.symfony.com/">Symfony 5.0 certification topics</a>
+                        </h3>
+                    </Route>
                     <Route path="/:id">
                         <Topic />
                     </Route>
