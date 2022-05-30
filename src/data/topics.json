@@ -1,1372 +1,2325 @@
 [
   {
-    "id":"edc5ac75-37b6-4f8a-8832-6f028120dfa4",
-    "title":"PHP",
-    "slug":"php",
-    "chapters":[
+    "id": "158c8b75-c655-4bb5-8c3f-27c74ae2b303",
+    "title": "PHP",
+    "slug": "php",
+    "chapters": [
       {
-        "id":"0536f202-4698-4124-ab37-a5ed9ebcf450",
-        "title":"PHP extensions",
-        "references":[
-          {
-            "id":"83b37cc7-5c45-4b80-8260-ca090ab731df",
-            "title":"PHP: Membership - Manual ",
-            "url":"http:\/\/php.net\/manual\/en\/extensions.membership.php"
-          }
-        ]
+        "id": "1956fbd4-c353-44af-a6a4-c77921d4a327",
+        "title": "PHP API up to PHP 7.2 version",
+        "references": []
       },
       {
-        "id":"219a6495-4e38-4c51-b265-2dd29def7e73",
-        "title":"PHP API up to PHP 7.2 version",
-        "references":[
-
-        ]
-      },
-      {
-        "id":"3f9e7f8f-000a-4c14-9fa9-d278567e448e",
-        "title":"Abstract classes",
-        "references":[
+        "id": "6ef4e89e-8dcd-44e2-ac1b-23c1e13d306d",
+        "title": "Object Oriented Programming",
+        "references": [
           {
-            "id":"0cf6a619-00b9-412b-96c3-fffcde6a0504",
-            "title":"PHP: Class Abstraction - Manual ",
-            "url":"http:\/\/php.net\/manual\/en\/language.oop5.abstract.php"
-          }
-        ]
-      },
-      {
-        "id":"5e0aeb99-8912-4ae6-bfe0-0f9057d36b92",
-        "title":"Interfaces",
-        "references":[
-          {
-            "id":"619af630-da7e-4fa9-9a21-a608323b4ae0",
-            "title":"PHP: Type Operators - Manual ",
-            "url":"http:\/\/php.net\/manual\/en\/language.operators.type.php"
+            "id": "06975a7a-f183-4b8e-8107-f48ac7cbd164",
+            "title": "PHP: Final Keyword - Manual ",
+            "url": "https:\/\/www.php.net\/manual\/en\/language.oop5.final.php"
           },
           {
-            "id":"f991abb5-60f5-4d0c-af51-6932088c5166",
-            "title":"PHP: Function arguments - Manual ",
-            "url":"http:\/\/php.net\/manual\/en\/functions.arguments.php#functions.arguments.type-declaration"
-          }
-        ]
-      },
-      {
-        "id":"607f0799-cdd0-4d7e-99ab-de1c2eff2c68",
-        "title":"Anonymous functions and closures",
-        "references":[
-          {
-            "id":"65b8e005-cc3a-49f6-9abd-bad361d6f59d",
-            "title":"PHP: Anonymous functions - Manual ",
-            "url":"http:\/\/php.net\/manual\/en\/functions.anonymous.php"
+            "id": "1915537c-c17b-4c2b-956b-400740188f9c",
+            "title": "PHP: OOP Changelog - Manual ",
+            "url": "https:\/\/www.php.net\/manual\/en\/language.oop5.changelog.php"
           },
           {
-            "id":"f6f97f00-5caa-4676-ac92-6525f6784b2a",
-            "title":"PHP: Closure - Manual ",
-            "url":"http:\/\/php.net\/manual\/en\/class.closure.php"
-          }
-        ]
-      },
-      {
-        "id":"6c1e066d-a97c-4753-b7a0-70de8ba9a55a",
-        "title":"Object Oriented Programming",
-        "references":[
-          {
-            "id":"1184ad42-87f4-4dc1-88c4-979b813c7d1d",
-            "title":"PHP: Classes and Objects - Manual ",
-            "url":"http:\/\/php.net\/manual\/en\/language.oop5.php"
-          }
-        ]
-      },
-      {
-        "id":"720a407f-f83b-4651-9ed3-ef893be53278",
-        "title":"Traits",
-        "references":[
-          {
-            "id":"9a708cbf-30ab-4216-881f-54d57bfe6b2a",
-            "title":"PHP: Traits - Manual ",
-            "url":"http:\/\/php.net\/manual\/en\/language.oop5.traits.php"
-          }
-        ]
-      },
-      {
-        "id":"7533e8e9-b6ec-4709-9aa3-a0d0dea40ced",
-        "title":"Exception and error handling",
-        "references":[
-          {
-            "id":"3b5aa77e-cb72-4dba-82b6-c180f88cf5b4",
-            "title":"PHP: Exceptions - Manual ",
-            "url":"http:\/\/php.net\/manual\/en\/language.exceptions.php"
+            "id": "1f340920-8772-46c2-a53e-1f4071b91986",
+            "title": "PHP: Constructors and Destructors - Manual ",
+            "url": "https:\/\/www.php.net\/manual\/en\/language.oop5.decon.php"
           },
           {
-            "id":"d3c01b6c-a08b-45bd-8772-ddc7c8793dfb",
-            "title":"PHP: Exception - Manual ",
-            "url":"http:\/\/php.net\/manual\/en\/class.exception.php"
+            "id": "20716cf2-02d2-4446-a632-9d60a2b0f4ee",
+            "title": "PHP: Objects and references - Manual ",
+            "url": "https:\/\/www.php.net\/manual\/en\/language.oop5.references.php"
+          },
+          {
+            "id": "2aa0354a-c26c-45b5-afdf-94e797d8c688",
+            "title": "PHP: Late Static Bindings - Manual ",
+            "url": "https:\/\/www.php.net\/manual\/en\/language.oop5.late-static-bindings.php"
+          },
+          {
+            "id": "4a35e1cb-2499-46ee-b1e6-7d74113748f9",
+            "title": "PHP: Object Cloning - Manual ",
+            "url": "https:\/\/www.php.net\/manual\/en\/language.oop5.cloning.php"
+          },
+          {
+            "id": "66b0e3b2-1eca-4d4e-a274-d2b38667ba78",
+            "title": "PHP: Static Keyword - Manual ",
+            "url": "https:\/\/www.php.net\/manual\/en\/language.oop5.static.php"
+          },
+          {
+            "id": "6b933714-722b-45b4-a85c-9ea1ab4c6059",
+            "title": "PHP: Autoloading Classes - Manual ",
+            "url": "https:\/\/www.php.net\/manual\/en\/language.oop5.autoload.php"
+          },
+          {
+            "id": "6e085dd9-9f82-45cc-8cd0-69791e191dc7",
+            "title": "PHP: Anonymous classes - Manual ",
+            "url": "https:\/\/www.php.net\/manual\/en\/language.oop5.anonymous.php"
+          },
+          {
+            "id": "7fc0dc21-3f08-40fb-a89b-d5f1f68c1fb5",
+            "title": "PHP: Function arguments - Manual ",
+            "url": "https:\/\/www.php.net\/manual\/en\/functions.arguments.php#functions.arguments.type-declaration"
+          },
+          {
+            "id": "8d924a7a-a73d-49fb-88cd-1478fce08b79",
+            "title": "PHP: The Basics - Manual ",
+            "url": "https:\/\/www.php.net\/manual\/en\/language.oop5.basic.php"
+          },
+          {
+            "id": "95976afc-bc77-477c-86c0-76d762d44a51",
+            "title": "PHP: Comparing Objects - Manual ",
+            "url": "https:\/\/www.php.net\/manual\/en\/language.oop5.object-comparison.php"
+          },
+          {
+            "id": "992a8aa0-c1de-4e5b-9bd3-1c7e9fd7d649",
+            "title": "PHP: Magic Methods - Manual ",
+            "url": "https:\/\/www.php.net\/manual\/en\/language.oop5.magic.php"
+          },
+          {
+            "id": "9a005a41-20a5-4186-a0f1-04e732e2a2e6",
+            "title": "PHP: Object Inheritance - Manual ",
+            "url": "https:\/\/www.php.net\/manual\/en\/language.oop5.inheritance.php"
+          },
+          {
+            "id": "a567181d-ac6d-4700-af59-e03cc321b212",
+            "title": "PHP: Class Constants - Manual ",
+            "url": "https:\/\/www.php.net\/manual\/en\/language.oop5.constants.php"
+          },
+          {
+            "id": "aa79b5b5-f757-4017-b18a-f36a9285bddd",
+            "title": "PHP: Covariance and Contravariance - Manual ",
+            "url": "https:\/\/www.php.net\/manual\/en\/language.oop5.variance.php"
+          },
+          {
+            "id": "bd30cf0f-5dc6-46b5-89ac-8aa283529462",
+            "title": "PHP: Scope Resolution Operator (::) - Manual ",
+            "url": "https:\/\/www.php.net\/manual\/en\/language.oop5.paamayim-nekudotayim.php"
+          },
+          {
+            "id": "c30bb114-d163-4eb4-b4e8-9a30bed987c4",
+            "title": "PHP: Object Iteration - Manual ",
+            "url": "https:\/\/www.php.net\/manual\/en\/language.oop5.iterations.php"
+          },
+          {
+            "id": "cd733c52-53fa-4a62-adf8-a1c3bf52cd65",
+            "title": "PHP: Visibility - Manual ",
+            "url": "https:\/\/www.php.net\/manual\/en\/language.oop5.visibility.php"
+          },
+          {
+            "id": "d99b496b-b71e-4039-8590-79541a8d4c3c",
+            "title": "PHP: Object Serialization - Manual ",
+            "url": "https:\/\/www.php.net\/manual\/en\/language.oop5.serialization.php"
+          },
+          {
+            "id": "e059eb30-887c-472d-9cfc-77f01e70d4b6",
+            "title": "PHP: Introduction - Manual ",
+            "url": "https:\/\/www.php.net\/manual\/en\/oop5.intro.php"
+          },
+          {
+            "id": "e6df76a2-94f2-4c9d-a698-790244dc5e16",
+            "title": "PHP: Properties - Manual ",
+            "url": "https:\/\/www.php.net\/manual\/en\/language.oop5.properties.php"
+          },
+          {
+            "id": "f94e06c6-9b18-42a5-bb57-d93385f20235",
+            "title": "PHP: Overloading - Manual ",
+            "url": "https:\/\/www.php.net\/manual\/en\/language.oop5.overloading.php"
           }
         ]
       },
       {
-        "id":"a55b159e-c8db-420b-ab12-7cb2d98f5b15",
-        "title":"Namespaces",
-        "references":[
+        "id": "e5603abd-e7e9-4b54-a3d7-07b52ee2f947",
+        "title": "Namespaces",
+        "references": [
           {
-            "id":"62043bf1-cf87-46c9-8f17-30112283f636",
-            "title":"PHP: Namespaces - Manual ",
-            "url":"http:\/\/php.net\/manual\/en\/language.namespaces.php"
+            "id": "840f590a-2a25-4211-9905-0a050380adc4",
+            "title": "PHP: Namespaces - Manual ",
+            "url": "https:\/\/www.php.net\/manual\/en\/language.namespaces.php"
           }
         ]
       },
       {
-        "id":"c1adc647-879f-4855-afd5-17826d43de66",
-        "title":"SPL",
-        "references":[
+        "id": "235f9f84-70ca-4ad4-a0f3-61926ac619de",
+        "title": "Interfaces",
+        "references": [
           {
-            "id":"ca49c761-ce37-4905-92db-4aa836b066d3",
-            "title":"PHP: SPL - Manual ",
-            "url":"http:\/\/php.net\/book.spl"
+            "id": "1b584be6-35af-48c5-9a99-57f915ec805e",
+            "title": "PHP: Type Operators - Manual ",
+            "url": "https:\/\/www.php.net\/manual\/en\/language.operators.type.php"
+          },
+          {
+            "id": "75a5aef0-d536-44f7-8e3d-f3ccb6d8ee89",
+            "title": "PHP: Predefined Interfaces and Classes - Manual ",
+            "url": "https:\/\/www.php.net\/manual\/en\/reserved.interfaces.php"
+          },
+          {
+            "id": "7fc0dc21-3f08-40fb-a89b-d5f1f68c1fb5",
+            "title": "PHP: Function arguments - Manual ",
+            "url": "https:\/\/www.php.net\/manual\/en\/functions.arguments.php#functions.arguments.type-declaration"
+          },
+          {
+            "id": "ed397238-8b61-4016-940e-c72bbc958ff1",
+            "title": "PHP: Object Interfaces - Manual ",
+            "url": "https:\/\/www.php.net\/manual\/en\/language.oop5.interfaces.php"
+          }
+        ]
+      },
+      {
+        "id": "976972e7-d087-4127-ae4d-0d84744d1650",
+        "title": "Anonymous functions and closures",
+        "references": [
+          {
+            "id": "236c7f9f-3e7d-411a-a2c8-87dffdf46978",
+            "title": "PHP: Anonymous functions - Manual ",
+            "url": "https:\/\/www.php.net\/manual\/en\/functions.anonymous.php"
+          },
+          {
+            "id": "eeabb316-658d-4711-a0d4-c8f2a762978d",
+            "title": "PHP: Closure - Manual ",
+            "url": "https:\/\/www.php.net\/manual\/en\/class.closure.php"
+          }
+        ]
+      },
+      {
+        "id": "02f379d6-06ea-4085-b364-3ddb326c8a5d",
+        "title": "Abstract classes",
+        "references": [
+          {
+            "id": "8709a0b6-0f21-431a-ae2c-efa6f8b787f2",
+            "title": "PHP: Class Abstraction - Manual ",
+            "url": "https:\/\/www.php.net\/manual\/en\/language.oop5.abstract.php"
+          }
+        ]
+      },
+      {
+        "id": "6c6b343e-fc20-4291-a1f9-fe3ac1272dce",
+        "title": "Exception and error handling",
+        "references": [
+          {
+            "id": "35b0f6ca-bf41-4d1f-a0e2-8eb051dbb3f8",
+            "title": "PHP: Exception - Manual ",
+            "url": "https:\/\/www.php.net\/manual\/en\/class.exception.php"
+          },
+          {
+            "id": "abf554ef-fa22-4b1a-a54c-5713d0720363",
+            "title": "PHP: Exceptions - Manual ",
+            "url": "https:\/\/www.php.net\/manual\/en\/language.exceptions.php"
+          },
+          {
+            "id": "b56604f0-55a5-44c9-9c36-945d1e623524",
+            "title": "PHP: Errors - Manual ",
+            "url": "https:\/\/www.php.net\/manual\/en\/language.errors.php"
+          }
+        ]
+      },
+      {
+        "id": "38ab64a5-d1ef-43b2-8d37-0cf30317f6a9",
+        "title": "Traits",
+        "references": [
+          {
+            "id": "9ffbe40e-8879-4cf9-a215-9408b0bada08",
+            "title": "PHP: Traits - Manual ",
+            "url": "https:\/\/www.php.net\/manual\/en\/language.oop5.traits.php"
+          }
+        ]
+      },
+      {
+        "id": "209747a9-cb0c-4a0f-8c66-876d4a21558b",
+        "title": "PHP extensions",
+        "references": [
+          {
+            "id": "1399a5a3-5c89-417f-89ad-5b29afed5967",
+            "title": "PHP: ReflectionExtension::getFunctions - Manual ",
+            "url": "https:\/\/www.php.net\/manual\/en\/reflectionextension.getfunctions.php"
+          },
+          {
+            "id": "2de6c350-397c-4d69-aa14-743b72eaabad",
+            "title": "PHP: Membership - Manual ",
+            "url": "https:\/\/www.php.net\/manual\/en\/extensions.membership.php"
+          },
+          {
+            "id": "45301946-f214-42cc-87e4-667c118ecbb8",
+            "title": "PHP: get_extension_funcs - Manual ",
+            "url": "https:\/\/www.php.net\/manual\/en\/function.get-extension-funcs.php"
+          },
+          {
+            "id": "74d2328d-af08-40d2-9e3b-d9aaa3e38f40",
+            "title": "PHP: extension_loaded - Manual ",
+            "url": "https:\/\/www.php.net\/manual\/en\/function.extension-loaded"
+          },
+          {
+            "id": "d88b7444-669a-436d-a62d-7ea1424f31a8",
+            "title": "PHP: get_loaded_extensions - Manual ",
+            "url": "https:\/\/www.php.net\/manual\/en\/function.get-loaded-extensions.php"
+          }
+        ]
+      },
+      {
+        "id": "9e180a18-0a00-464c-908f-f6303cd981cc",
+        "title": "SPL",
+        "references": [
+          {
+            "id": "157132a3-ad6d-4fed-889a-81fabbfb29b0",
+            "title": "PHP: Iterators - Manual ",
+            "url": "https:\/\/www.php.net\/manual\/en\/spl.iterators.php"
+          },
+          {
+            "id": "211c38ea-5577-44f8-8ec0-6b14d2bed05f",
+            "title": "PHP: Datastructures - Manual ",
+            "url": "https:\/\/www.php.net\/manual\/en\/spl.datastructures.php"
+          },
+          {
+            "id": "24e00317-4e2a-4409-918e-4c2185dbc758",
+            "title": "PHP: SPL Functions - Manual ",
+            "url": "https:\/\/www.php.net\/manual\/en\/ref.spl.php"
+          },
+          {
+            "id": "a2f4fd97-93c0-41d6-aa52-ab8f97ea44e8",
+            "title": "PHP: Miscellaneous Classes and Interfaces - Manual ",
+            "url": "https:\/\/www.php.net\/manual\/en\/spl.misc.php"
+          },
+          {
+            "id": "ddc6d1cd-f439-4002-9036-e5bead42db2e",
+            "title": "PHP: Exceptions - Manual ",
+            "url": "https:\/\/www.php.net\/manual\/en\/spl.exceptions.php"
+          },
+          {
+            "id": "ffc68714-6c6b-4886-90c2-8f15cea728f0",
+            "title": "PHP: Interfaces - Manual ",
+            "url": "https:\/\/www.php.net\/manual\/en\/spl.interfaces.php"
+          },
+          {
+            "id": "ffd9637c-dfdd-49e1-81c6-64fe325a5797",
+            "title": "PHP: File Handling - Manual ",
+            "url": "https:\/\/www.php.net\/manual\/en\/spl.files.php"
           }
         ]
       }
     ]
   },
   {
-    "id":"50a0f08c-3e3b-4fed-b071-a04b5e6f423b",
-    "title":"HTTP",
-    "slug":"http",
-    "chapters":[
+    "id": "79174297-5499-42d6-a603-e6a3dd64169e",
+    "title": "HTTP",
+    "slug": "http",
+    "chapters": [
       {
-        "id":"16ace755-44d4-4659-bc62-3dfafcde9148",
-        "title":"HTTP methods",
-        "references":[
+        "id": "afd45fda-095a-4943-9c79-604e6c1e4e21",
+        "title": "Client \/ Server interaction",
+        "references": [
           {
-            "id":"24d735dd-7c42-4a49-9300-e928b1329b33",
-            "title":"HTTP\/1.1: Method Definitions",
-            "url":"https:\/\/www.w3.org\/Protocols\/rfc2616\/rfc2616-sec9.html"
-          }
-        ]
-      },
-      {
-        "id":"35d3873a-8311-4dfe-95a1-08250f2fca47",
-        "title":"Status codes",
-        "references":[
-          {
-            "id":"5e625b64-5c83-46bf-9b3f-a45ebca5689e",
-            "title":"know-your-http-well\/status-codes.md at master \u00b7 for-GET\/know-your-http-well \u00b7 GitHub",
-            "url":"https:\/\/github.com\/for-GET\/know-your-http-well\/blob\/master\/status-codes.md"
-          }
-        ]
-      },
-      {
-        "id":"61393344-ed15-43bb-8450-e5a1857d3b57",
-        "title":"Content negotiation",
-        "references":[
-          {
-            "id":"4a6a424e-db85-46d0-9df7-d55f93dda434",
-            "title":"Content negotiation - HTTP | MDN",
-            "url":"https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/HTTP\/Content_negotiation"
-          }
-        ]
-      },
-      {
-        "id":"664387f7-7d94-4241-92c2-9a582d63d374",
-        "title":"Cookies",
-        "references":[
-          {
-            "id":"4b2b0e9c-5de8-414e-bc08-8956da3f723b",
-            "title":"HTTP cookie - Wikipedia",
-            "url":"https:\/\/en.wikipedia.org\/wiki\/HTTP_cookie"
+            "id": "18f74cfe-f46b-4b77-ab78-cd7eb36b01a8",
+            "title": "HTTP\/1.1: Header Field Definitions",
+            "url": "https:\/\/www.w3.org\/Protocols\/rfc2616\/rfc2616-sec14.html"
           },
           {
-            "id":"ac293c9c-4b38-4472-898b-1e2ec4f3d143",
-            "title":"The HttpFoundation Component (Symfony 4.0 Docs)",
-            "url":"https:\/\/symfony.com\/doc\/4.0\/components\/http_foundation.html#setting-cookies"
-          }
-        ]
-      },
-      {
-        "id":"6766421f-4d64-4c69-b764-349a8852bc74",
-        "title":"Language detection",
-        "references":[
-          {
-            "id":"afa1ea8e-dd0f-4d65-be86-bc87eaaefb47",
-            "title":"Accept-Language used for locale setting",
-            "url":"https:\/\/www.w3.org\/International\/questions\/qa-accept-lang-locales"
+            "id": "1a890089-58b1-49c3-a870-d3ffe31baaab",
+            "title": "Communication Networks\/HTTP Protocol - Wikibooks, open books for an open world",
+            "url": "https:\/\/en.wikibooks.org\/wiki\/Communication_Networks\/HTTP_Protocol"
           },
           {
-            "id":"d711b072-2f39-48c6-8f2d-b828124dcd5d",
-            "title":"HTTP\/1.1: Header Field Definitions",
-            "url":"https:\/\/www.w3.org\/Protocols\/rfc2616\/rfc2616-sec14.html#sec14.4"
-          }
-        ]
-      },
-      {
-        "id":"67f77e47-9c2d-4401-bcc4-b572dbdb9c76",
-        "title":"Symfony HttpClient component",
-        "references":[
-          {
-            "id":"0af2f5da-2fb9-4cd0-a53a-7ec6a1f84aa0",
-            "title":"HTTP Client (Symfony Docs)",
-            "url":"https:\/\/symfony.com\/doc\/current\/components\/http_client.html"
-          }
-        ]
-      },
-      {
-        "id":"a8c45bc7-76b9-4497-8139-60bb70540b9c",
-        "title":"HTTP response",
-        "references":[
-          {
-            "id":"8304909f-081a-40fa-a54e-e0c915a810b6",
-            "title":"HTTP\/1.1: Response",
-            "url":"https:\/\/www.w3.org\/Protocols\/rfc2616\/rfc2616-sec6.html#sec"
-          }
-        ]
-      },
-      {
-        "id":"b2e64375-e796-46a4-bca4-dde3e02fdb07",
-        "title":"Client \/ Server interaction",
-        "references":[
-          {
-            "id":"2c1dac7c-df39-48dd-a615-d5c8eaeeab98",
-            "title":"HTTP\/1.1: Header Field Definitions",
-            "url":"https:\/\/www.w3.org\/Protocols\/rfc2616\/rfc2616-sec14.html"
+            "id": "90cb22f9-7dd5-45de-8c5b-e8e3de1855c1",
+            "title": "HTTP | MDN",
+            "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/HTTP"
           },
           {
-            "id":"c55ea1ee-bf78-4e6d-9221-6d51fcf2d2a5",
-            "title":"Communication Networks\/HTTP Protocol - Wikibooks, open books for an open world",
-            "url":"https:\/\/en.wikibooks.org\/wiki\/Communication_Networks\/HTTP_Protocol"
-          },
-          {
-            "id":"ea66a05a-609b-48b1-a251-cda3bc3b8db5",
-            "title":"Hypertext Transfer Protocol - Wikipedia",
-            "url":"https:\/\/en.wikipedia.org\/wiki\/Hypertext_Transfer_Protocol"
+            "id": "db486c51-cd70-4869-b47f-0476db3538a7",
+            "title": "Hypertext Transfer Protocol - Wikipedia",
+            "url": "https:\/\/en.wikipedia.org\/wiki\/Hypertext_Transfer_Protocol"
           }
         ]
       },
       {
-        "id":"b9dbb4a2-5020-4b8a-8807-c7bd274c984a",
-        "title":"HTTP request",
-        "references":[
+        "id": "073683f8-6cdf-4d55-be86-e4b65e988869",
+        "title": "Status codes",
+        "references": [
           {
-            "id":"24d735dd-7c42-4a49-9300-e928b1329b33",
-            "title":"HTTP\/1.1: Method Definitions",
-            "url":"https:\/\/www.w3.org\/Protocols\/rfc2616\/rfc2616-sec9.html"
-          },
-          {
-            "id":"bf7f1219-b23a-41f2-9914-d63eeb2f71c4",
-            "title":"HTTP\/1.1: Request",
-            "url":"https:\/\/www.w3.org\/Protocols\/rfc2616\/rfc2616-sec5.html"
+            "id": "09ccecc7-d3da-4813-a118-f0c53ae5d7b1",
+            "title": "know-your-http-well\/status-codes.md at master \u00b7 for-GET\/know-your-http-well \u00b7 GitHub",
+            "url": "https:\/\/github.com\/for-GET\/know-your-http-well\/blob\/master\/status-codes.md"
           }
         ]
       },
       {
-        "id":"ee0b6042-cb2a-4203-bb76-4d1d16557b76",
-        "title":"Caching",
-        "references":[
+        "id": "4cf63f47-984d-40ba-8fb1-f685903c001a",
+        "title": "HTTP request",
+        "references": [
           {
-            "id":"ec138b1f-118e-4a4f-aaa1-780688637468",
-            "title":"HTTP caching - HTTP | MDN",
-            "url":"https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/HTTP\/Caching"
+            "id": "2e21e886-0cc8-45a4-8591-66f80a75a3d7",
+            "title": "The HttpFoundation Component (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/components\/http_foundation.html#request"
+          },
+          {
+            "id": "338257f3-67d3-4574-b37b-9906a889497f",
+            "title": "HTTP\/1.1: Method Definitions",
+            "url": "https:\/\/www.w3.org\/Protocols\/rfc2616\/rfc2616-sec9.html"
+          },
+          {
+            "id": "75cb9461-7555-4269-aad2-3d49d5ad2ce9",
+            "title": "HTTP\/1.1: Request",
+            "url": "https:\/\/www.w3.org\/Protocols\/rfc2616\/rfc2616-sec5.html"
+          }
+        ]
+      },
+      {
+        "id": "a80fb043-38a8-4b5d-9905-154e6a9f9edf",
+        "title": "HTTP response",
+        "references": [
+          {
+            "id": "f1086512-7205-450c-baa9-044fb1920b82",
+            "title": "HTTP\/1.1: Response",
+            "url": "https:\/\/www.w3.org\/Protocols\/rfc2616\/rfc2616-sec6.html#sec"
+          }
+        ]
+      },
+      {
+        "id": "4599f968-8f96-42fd-a237-d6caec6f2bb8",
+        "title": "HTTP methods",
+        "references": [
+          {
+            "id": "338257f3-67d3-4574-b37b-9906a889497f",
+            "title": "HTTP\/1.1: Method Definitions",
+            "url": "https:\/\/www.w3.org\/Protocols\/rfc2616\/rfc2616-sec9.html"
+          }
+        ]
+      },
+      {
+        "id": "f1d9df15-1eab-4bb2-aa45-4895cd2803e9",
+        "title": "Cookies",
+        "references": [
+          {
+            "id": "696c5212-6587-48cb-8ff2-34251f5c04aa",
+            "title": "Using HTTP cookies - HTTP | MDN",
+            "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/HTTP\/Cookies"
+          },
+          {
+            "id": "c169ed6c-0d3f-47d4-aa3d-d1592f49c561",
+            "title": "The HttpFoundation Component (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/components\/http_foundation.html#setting-cookies"
+          },
+          {
+            "id": "e433106c-4870-411e-bb69-4f5c4ada1e84",
+            "title": "HTTP cookie - Wikipedia",
+            "url": "https:\/\/en.wikipedia.org\/wiki\/HTTP_cookie"
+          }
+        ]
+      },
+      {
+        "id": "71e14982-2a5b-4572-8868-befe2df6b698",
+        "title": "Caching",
+        "references": [
+          {
+            "id": "190c4afc-5951-47b4-97e4-e41f48e7d1fc",
+            "title": "symfony\/HttpCache.php at 5.2 \u00b7 symfony\/symfony \u00b7 GitHub",
+            "url": "https:\/\/github.com\/symfony\/symfony\/blob\/5.2\/src\/Symfony\/Component\/HttpKernel\/HttpCache\/HttpCache.php"
+          },
+          {
+            "id": "1d3877bf-28bc-48eb-a70b-5e5575c06c98",
+            "title": "HTTP Cache Validation (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/http_cache\/validation.html"
+          },
+          {
+            "id": "3ad00b02-54a8-43d9-9bbd-c00d38f923fa",
+            "title": "Cache Invalidation (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/http_cache\/cache_invalidation.html"
+          },
+          {
+            "id": "742ecd4c-4369-437e-9329-c5f634cc65bd",
+            "title": "HTTP Cache (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/http_cache.html"
+          },
+          {
+            "id": "798125d6-53a3-4995-8993-c122060a7da2",
+            "title": "How to Use Varnish to Speed up my Website (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/http_cache\/varnish.html"
+          },
+          {
+            "id": "a05a916d-4e6d-4474-802f-1b6ec00d81cb",
+            "title": "Working with Edge Side Includes (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/http_cache\/esi.html"
+          },
+          {
+            "id": "c41e5cdc-d4cf-43d9-a0f7-f064d0dfb54d",
+            "title": "\n            \n    \n        RFC 7234 - Hypertext Transfer Protocol (HTTP\/1.1): Caching\n    \n\n        ",
+            "url": "https:\/\/tools.ietf.org\/html\/rfc7234"
+          },
+          {
+            "id": "c50b9506-90a8-4cee-8fef-afa79209395c",
+            "title": "Working with Server Side Includes (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/http_cache\/ssi.html"
+          },
+          {
+            "id": "d5ee1a77-af25-41be-9153-3eedf3eeab91",
+            "title": "HTTP caching - HTTP | MDN",
+            "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/HTTP\/Caching"
+          },
+          {
+            "id": "e25415c1-0aed-48b3-9133-7a9ab290c187",
+            "title": "HTTP Cache Expiration (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/http_cache\/expiration.html"
+          },
+          {
+            "id": "e862c188-08e2-41af-b9d1-b2de14d2dd6c",
+            "title": "Things Caches Do",
+            "url": "https:\/\/tomayko.com\/blog\/2008\/things-caches-do"
+          },
+          {
+            "id": "fbce5a35-1ac2-4e03-965b-c72320dc5c0b",
+            "title": "Caching Tutorial for Web Authors and Webmasters",
+            "url": "https:\/\/www.mnot.net\/cache_docs\/"
+          },
+          {
+            "id": "fbdf8a65-1ee2-4506-93e0-b291a0ce4602",
+            "title": "Varying the Response for HTTP Cache (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/http_cache\/cache_vary.html"
+          }
+        ]
+      },
+      {
+        "id": "ed52875d-3c2e-463e-b2bf-f3b724358daa",
+        "title": "Content negotiation",
+        "references": [
+          {
+            "id": "2b4cfea4-767a-4b60-8268-772753c38f10",
+            "title": "Content negotiation - HTTP | MDN",
+            "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/HTTP\/Content_negotiation"
+          }
+        ]
+      },
+      {
+        "id": "b7afab67-0411-4154-aca2-1322c316f75d",
+        "title": "Language detection",
+        "references": [
+          {
+            "id": "54e05f4f-f063-437c-907b-78317bce49a2",
+            "title": "HTTP\/1.1: Header Field Definitions",
+            "url": "https:\/\/www.w3.org\/Protocols\/rfc2616\/rfc2616-sec14.html#sec14.4"
+          },
+          {
+            "id": "eec590a8-aeb6-4359-a7ba-60ad4841cd47",
+            "title": "Accept-Language used for locale setting",
+            "url": "https:\/\/www.w3.org\/International\/questions\/qa-accept-lang-locales"
+          }
+        ]
+      },
+      {
+        "id": "f97a375b-7175-47fe-8d3f-bd6b90f24430",
+        "title": "Symfony HttpClient component",
+        "references": [
+          {
+            "id": "ec315bfd-693b-45e2-b3ff-0d29bb8f6b70",
+            "title": "HTTP Client (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/components\/http_client.html"
           }
         ]
       }
     ]
   },
   {
-    "id":"18a7dff8-f3fa-4173-94cb-fec009087ebb",
-    "title":"Symfony Architecture",
-    "slug":"symfony-architecture",
-    "chapters":[
+    "id": "8e116389-424d-4547-99a6-7d911f82cfb5",
+    "title": "Symfony Architecture",
+    "slug": "symfony-architecture",
+    "chapters": [
       {
-        "id":"030de20d-4c7d-4573-91a5-3d663602431a",
-        "title":"Code organization",
-        "references":[
+        "id": "52a13d58-87c3-40f1-a1a1-8a1ce08dbc02",
+        "title": "Symfony Flex",
+        "references": [
           {
-            "id":"190555dd-ee1b-41d2-835c-893226800b3f",
-            "title":"Installing &amp; Setting up the Symfony Framework (Symfony Docs)",
-            "url":"https:\/\/symfony.com\/doc\/current\/setup.html"
+            "id": "0cda5364-dfbf-47c4-b7a3-6df0b8ea51f9",
+            "title": "Flex: Compose your Application (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/quick_tour\/flex_recipes.html"
           },
           {
-            "id":"268f1d54-c22c-435d-98cc-7f9d8b7a0c81",
-            "title":"The Symfony Framework Best Practices (Symfony Best Practices)",
-            "url":"https:\/\/symfony.com\/doc\/current\/best_practices.html#business-logic"
+            "id": "9d98bb2b-c85b-4d1f-86ca-de2afc53de52",
+            "title": "Symfony 5.0 Documentation",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/index.html"
           },
           {
-            "id":"884157c0-944e-4ff9-9af8-4f322a781fc9",
-            "title":"How to Override Symfony\u2019s default Directory Structure (Symfony Docs)",
-            "url":"https:\/\/symfony.com\/doc\/current\/configuration\/override_dir_structure.html"
-          },
-          {
-            "id":"d4c370ec-adeb-4320-806d-5f0fec598cf3",
-            "title":"Symfony 4: Directory Structure |Articles - Fabien Potencier",
-            "url":"http:\/\/fabien.potencier.org\/symfony4-directory-structure.html"
-          },
-          {
-            "id":"d86ca014-0795-4afa-b524-e1c3daa8ef50",
-            "title":"Symfony Quick Tour: The Architecture",
-            "url":"https:\/\/symfony.com\/doc\/current\/quick_tour\/the_architecture.html"
+            "id": "f8964d6f-83f6-4b25-ac97-8728f48c9508",
+            "title": "Upgrading Existing Applications to Symfony Flex (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/setup\/flex.html"
           }
         ]
       },
       {
-        "id":"07295a51-a757-4d1a-bff4-b1999d3c6db7",
-        "title":"Deprecations best practices",
-        "references":[
+        "id": "9915d7a5-741a-4fc8-865c-4ec24f776498",
+        "title": "License",
+        "references": [
           {
-            "id":"547b4a2e-0cf8-4edb-b77c-99015bc3123d",
-            "title":"Conventions (Symfony Docs)",
-            "url":"https:\/\/symfony.com\/doc\/current\/contributing\/code\/conventions.html#deprecating-code"
+            "id": "ef15331c-8628-43f0-b1c7-af9fdaf5ea03",
+            "title": "Symfony Code License (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/contributing\/code\/license.html"
           }
         ]
       },
       {
-        "id":"2c1e00ea-4f0e-4c0d-b491-ad64232b5452",
-        "title":"Naming conventions",
-        "references":[
+        "id": "7a754242-3255-46df-a908-c41dcc666184",
+        "title": "Components",
+        "references": [
           {
-            "id":"5190b57b-ad91-4da6-a637-e9a9a67eebf6",
-            "title":"Conventions (Symfony Docs)",
-            "url":"https:\/\/symfony.com\/doc\/current\/contributing\/code\/conventions.html#method-names"
+            "id": "057589b1-8c40-4b16-965e-af5aa37939db",
+            "title": "Symfony, High Performance PHP Framework for Web Development",
+            "url": "https:\/\/symfony.com\/components"
           }
         ]
       },
       {
-        "id":"328a57eb-ac46-4701-b1d5-37f79b41ccdb",
-        "title":"Framework overloading",
-        "references":[
+        "id": "b986e9e2-e7c7-4a81-b1f7-b11fe18c92d2",
+        "title": "Bridges",
+        "references": [
           {
-            "id":"d79b7d5e-149c-415a-a739-967f7e4a1274",
-            "title":"How to Override any Part of a Bundle (Symfony Bundles Docs)",
-            "url":"https:\/\/symfony.com\/doc\/current\/bundles\/override.html"
+            "id": "d7307133-b221-4c65-9411-633c98e336b1",
+            "title": "What are symfony bridges, bundles and vendor? - Stack Overflow",
+            "url": "https:\/\/stackoverflow.com\/questions\/11888522\/what-are-symfony-bridges-bundles-and-vendor"
           }
         ]
       },
       {
-        "id":"3c261282-e2d8-47cb-99a5-2a8cacd27312",
-        "title":"Request handling",
-        "references":[
+        "id": "3617a566-ca3c-43b0-8510-7b20378f0cf6",
+        "title": "Code organization",
+        "references": [
           {
-            "id":"89495b6b-c93b-4b0a-b191-63f43fa034b4",
-            "title":"Symfony and HTTP Fundamentals (Symfony Docs)",
-            "url":"https:\/\/symfony.com\/doc\/current\/introduction\/http_fundamentals.html"
-          }
-        ]
-      },
-      {
-        "id":"3da5184d-1702-4fd7-83a3-44cd49180058",
-        "title":"Event dispatcher and kernel events",
-        "references":[
-          {
-            "id":"3c374259-0141-407c-9e02-0b091ba7fd49",
-            "title":"The EventDispatcher Component (Symfony Docs)",
-            "url":"https:\/\/symfony.com\/doc\/current\/components\/event_dispatcher.html"
+            "id": "59943c69-a411-4857-ae71-1822f4498648",
+            "title": "Installing &amp; Setting up the Symfony Framework (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/setup.html"
           },
           {
-            "id":"841fc753-55fc-4001-8688-9912c8ccad98",
-            "title":"The HttpKernel Component (Symfony Docs)",
-            "url":"https:\/\/symfony.com\/doc\/current\/components\/http_kernel.html"
+            "id": "63849778-486c-4146-80e1-f4d4d56e5b94",
+            "title": "Symfony 4: Directory Structure |Articles - Fabien Potencier",
+            "url": "http:\/\/fabien.potencier.org\/symfony4-directory-structure.html"
           },
           {
-            "id":"eb54d05d-3ec4-47d0-8e73-5b1dca21733d",
-            "title":"Built-in Symfony Events (Symfony Docs)",
-            "url":"https:\/\/symfony.com\/doc\/current\/reference\/events.html"
+            "id": "76c717fa-00ee-4708-83c2-bdf9a41d32d9",
+            "title": "How to Override Symfony's default Directory Structure (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/configuration\/override_dir_structure.html"
+          },
+          {
+            "id": "8b87ade7-c0b6-44ec-b10b-9fe93dce475d",
+            "title": "The Architecture (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/quick_tour\/the_architecture.html"
+          },
+          {
+            "id": "badd8b1d-261f-42a9-b9e6-61871144ca26",
+            "title": "The Symfony Framework Best Practices (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/best_practices.html#business-logic"
           }
         ]
       },
       {
-        "id":"3dde7445-c3ad-48ed-a597-8fce88a3636b",
-        "title":"License",
-        "references":[
+        "id": "381ec719-4708-4a01-b02f-b86eb5508db8",
+        "title": "Request handling",
+        "references": [
           {
-            "id":"12ecbe62-3fe8-4eb8-9de1-e1a4883f3fb9",
-            "title":"Symfony Code License (Symfony Docs)",
-            "url":"https:\/\/symfony.com\/doc\/current\/contributing\/code\/license.html"
+            "id": "1cc0d08b-34cb-4b4b-8962-a3c0a80dfcf3",
+            "title": "Symfony and HTTP Fundamentals (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/introduction\/http_fundamentals.html"
           }
         ]
       },
       {
-        "id":"507cc9a9-7121-4f81-8558-eb3d0b12836d",
-        "title":"Components",
-        "references":[
+        "id": "3d539d06-0f52-47ac-9236-acc1805d9b46",
+        "title": "Exception handling",
+        "references": [
           {
-            "id":"19cb94bd-bb55-40d5-981e-e20d8dad06e0",
-            "title":"Symfony Components",
-            "url":"https:\/\/symfony.com\/components"
+            "id": "78a24d04-4126-42bd-8f54-70d479c6d352",
+            "title": "How to Customize Error Pages (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/controller\/error_pages.html"
           }
         ]
       },
       {
-        "id":"6d6245cc-a59a-4582-983e-36539b05388b",
-        "title":"Framework interoperability and PSRs",
-        "references":[
+        "id": "bb3ef26a-c767-4fce-9706-63ef5449a76b",
+        "title": "Event dispatcher and kernel events",
+        "references": [
           {
-            "id":"1cb476ff-15d0-459d-a8f6-6aeceb00a93b",
-            "title":"PSR-1: Basic Coding Standard - PHP-FIG",
-            "url":"https:\/\/www.php-fig.org\/psr\/psr-1\/"
+            "id": "36643bf9-879c-4509-9353-e2dd44546c26",
+            "title": "Built-in Symfony Events (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/reference\/events.html"
           },
           {
-            "id":"5a6c25d5-60aa-46bb-891e-9665a9ea0b85",
-            "title":"PSR-17: HTTP Factories - PHP-FIG",
-            "url":"https:\/\/www.php-fig.org\/psr\/psr-17\/"
+            "id": "904bbc1a-da23-4137-b0bb-6818b7aef862",
+            "title": "The HttpKernel Component (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/components\/http_kernel.html"
           },
           {
-            "id":"652e11b3-dc95-4313-8b88-cd20dacdd723",
-            "title":"PSR-18: HTTP Client - PHP-FIG",
-            "url":"https:\/\/www.php-fig.org\/psr\/psr-18\/"
-          },
-          {
-            "id":"99a995f5-d908-4335-adcb-5794eaf894be",
-            "title":"PSR-4: Autoloader - PHP-FIG",
-            "url":"https:\/\/www.php-fig.org\/psr\/psr-4\/"
-          },
-          {
-            "id":"c0711cd3-8dc0-4b4f-beca-2a153eed0bae",
-            "title":"HTTP Client (Symfony Docs)",
-            "url":"https:\/\/symfony.com\/doc\/current\/components\/http_client.html#interoperability"
-          },
-          {
-            "id":"c7911b08-c782-487d-88e3-e7cde6299f61",
-            "title":"Six good reasons to use Symfony",
-            "url":"https:\/\/symfony.com\/six-good-reasons"
-          },
-          {
-            "id":"cf160e0e-8f2e-4b11-b6db-1bbe15d6de14",
-            "title":"Coding Standards (Symfony Docs)",
-            "url":"https:\/\/symfony.com\/doc\/current\/contributing\/code\/standards.html"
-          },
-          {
-            "id":"d3331e7a-0274-4f5d-aaad-c2e4a1fa1515",
-            "title":"PSR-2: Coding Style Guide - PHP-FIG",
-            "url":"https:\/\/www.php-fig.org\/psr\/psr-2\/"
-          },
-          {
-            "id":"d42c0976-6f6f-4771-9993-14b83347cd6c",
-            "title":"Adapters For Interoperability between PSR-6 and PSR-16 Cache (The Cache Component - Symfony Docs)",
-            "url":"https:\/\/symfony.com\/doc\/current\/components\/cache\/psr6_psr16_adapters.html"
+            "id": "98c9967b-33f1-404f-88e9-4ba7b6bfb255",
+            "title": "The EventDispatcher Component (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/components\/event_dispatcher.html"
           }
         ]
       },
       {
-        "id":"789ab41b-d4f3-4b49-af6d-376f0dd2652d",
-        "title":"Bridges",
-        "references":[
+        "id": "0e76801b-930e-42f2-9f3a-e4f5da913850",
+        "title": "Official best practices",
+        "references": [
           {
-            "id":"7d06b3c1-dd38-45c6-8c68-8eb32f101bdf",
-            "title":"What are symfony bridges, bundles and vendor? - Stack Overflow",
-            "url":"https:\/\/stackoverflow.com\/questions\/11888522\/what-are-symfony-bridges-bundles-and-vendor"
+            "id": "f6720ddc-37c9-4b6b-b5ff-c6ee9b453575",
+            "title": "The Symfony Framework Best Practices (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/best_practices.html"
           }
         ]
       },
       {
-        "id":"91e4e3c8-cfe1-45de-b3c1-f4ea84a7c0c0",
-        "title":"Release management",
-        "references":[
+        "id": "40e3abb1-e386-4e11-9f88-2a226640e042",
+        "title": "Release management",
+        "references": [
           {
-            "id":"6267c03f-8043-417b-837c-38c92dd7af25",
-            "title":"The Release Process (Symfony Docs)",
-            "url":"https:\/\/symfony.com\/doc\/current\/contributing\/community\/releases.html"
+            "id": "529ae641-494f-4ddc-b724-baffe216f9df",
+            "title": "The Release Process (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/contributing\/community\/releases.html"
           }
         ]
       },
       {
-        "id":"9b9cb6df-0bb3-4f04-bbe6-c01e07828c22",
-        "title":"Backward compatibility promise",
-        "references":[
+        "id": "a9df1828-41da-4093-bfae-f9303f1970bc",
+        "title": "Backward compatibility promise",
+        "references": [
           {
-            "id":"a2935bfe-e43d-4dfb-862c-6c216555d4c6",
-            "title":"Our Backward Compatibility Promise (Symfony Docs)",
-            "url":"https:\/\/symfony.com\/doc\/current\/contributing\/code\/bc.html"
+            "id": "e8c69d68-319e-4c80-8dfe-76e159360112",
+            "title": "Our Backward Compatibility Promise (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/contributing\/code\/bc.html"
           }
         ]
       },
       {
-        "id":"a3ac406f-c10a-4fee-be4b-4f3d7a1cc583",
-        "title":"Release management and roadmap schedule",
-        "references":[
+        "id": "8d4932bc-c109-470d-ad9c-62a32958d676",
+        "title": "Deprecations best practices",
+        "references": [
           {
-            "id":"165e70e7-fec2-4acb-9429-24a598c33f75",
-            "title":"Symfony releases, notifications and release checker",
-            "url":"https:\/\/symfony.com\/releases"
+            "id": "90a1ebed-c470-40cd-a55c-1c8f05b0043e",
+            "title": "Conventions (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/contributing\/code\/conventions.html#deprecating-code"
+          }
+        ]
+      },
+      {
+        "id": "876c1a28-23b3-46d3-806c-6b0b6c7508a0",
+        "title": "Framework overloading",
+        "references": [
+          {
+            "id": "a94fc16b-7df9-4b48-9392-eab658b7beeb",
+            "title": "How to Override any Part of a Bundle (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/bundles\/override.html"
+          }
+        ]
+      },
+      {
+        "id": "b113a30c-d17a-4139-bf94-11a2e7915215",
+        "title": "Release management and roadmap schedule",
+        "references": [
+          {
+            "id": "176ac7b0-0353-4119-a9d7-1f3321d106e0",
+            "title": "Symfony releases, notifications and release checker",
+            "url": "https:\/\/symfony.com\/releases"
           },
           {
-            "id":"3e1aa98a-a4ee-4685-9b31-16e60e590695",
-            "title":"Semantic Versioning 2.0.0 | Semantic Versioning",
-            "url":"https:\/\/semver.org\/"
+            "id": "529ae641-494f-4ddc-b724-baffe216f9df",
+            "title": "The Release Process (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/contributing\/community\/releases.html"
           },
           {
-            "id":"6267c03f-8043-417b-837c-38c92dd7af25",
-            "title":"The Release Process (Symfony Docs)",
-            "url":"https:\/\/symfony.com\/doc\/current\/contributing\/community\/releases.html"
+            "id": "82d4863b-654d-49ba-9ebe-53f6b940de6a",
+            "title": "Semantic Versioning 2.0.0 | Semantic Versioning",
+            "url": "https:\/\/semver.org\/"
           }
         ]
       },
       {
-        "id":"ab572935-735b-4ad6-8619-3967960492f8",
-        "title":"Official best practices",
-        "references":[
+        "id": "66eec21b-2fef-4b15-be2d-cd25aeef4082",
+        "title": "Framework interoperability and PSRs",
+        "references": [
           {
-            "id":"09d15203-57c9-4e85-b5a5-8c4e52c1eafd",
-            "title":"The Symfony Framework Best Practices (Symfony Best Practices)",
-            "url":"https:\/\/symfony.com\/doc\/current\/best_practices.html"
-          }
-        ]
-      },
-      {
-        "id":"d96ae34a-c989-49a7-8348-ac04393e7bf1",
-        "title":"Symfony Flex",
-        "references":[
-          {
-            "id":"42879f9f-c63d-44ac-8294-2bd3387c6c09",
-            "title":"Symfony Quick Tour: Flex: Compose your Application",
-            "url":"https:\/\/symfony.com\/doc\/current\/quick_tour\/flex_recipes.html"
+            "id": "09937d31-e06e-4a62-a169-42ce81d9addd",
+            "title": "PSR-1: Basic Coding Standard - PHP-FIG",
+            "url": "https:\/\/www.php-fig.org\/psr\/psr-1\/"
           },
           {
-            "id":"829e7220-346e-48ff-abd6-fae75761af2d",
-            "title":"Upgrading Existing Applications to Symfony Flex (Symfony Docs)",
-            "url":"https:\/\/symfony.com\/doc\/current\/setup\/flex.html"
+            "id": "52cd5149-2ff0-44d1-9635-6a233a0f7ddf",
+            "title": "PSR-2: Coding Style Guide - PHP-FIG",
+            "url": "https:\/\/www.php-fig.org\/psr\/psr-2\/"
+          },
+          {
+            "id": "83e13a87-ea57-4206-8aa0-55975f2a6653",
+            "title": "Adapters For Interoperability between PSR-6 and PSR-16 Cache (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/components\/cache\/psr6_psr16_adapters.html"
+          },
+          {
+            "id": "d3bfc92a-87b5-4477-b0f7-c3b8409eb75d",
+            "title": "PSR-4: Autoloader - PHP-FIG",
+            "url": "https:\/\/www.php-fig.org\/psr\/psr-4\/"
+          },
+          {
+            "id": "d8be0306-07f8-4aec-a0fa-448327392e98",
+            "title": "Coding Standards (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/contributing\/code\/standards.html"
+          },
+          {
+            "id": "f379c2dc-0d36-4475-ba5f-f102aeb15f8f",
+            "title": "HTTP Client (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/components\/http_client.html#interoperability"
+          },
+          {
+            "id": "f50a3367-a2f8-40d2-a4e3-998dade64f00",
+            "title": "Symfony, High Performance PHP Framework for Web Development",
+            "url": "https:\/\/symfony.com\/six-good-reasons"
+          },
+          {
+            "id": "f8347e60-3ade-4f47-869e-9a5813ec9bdc",
+            "title": "PSR-18: HTTP Client - PHP-FIG",
+            "url": "https:\/\/www.php-fig.org\/psr\/psr-18\/"
+          },
+          {
+            "id": "f9dadd3e-77fa-480f-b95e-b336bea13dac",
+            "title": "PSR-17: HTTP Factories - PHP-FIG",
+            "url": "https:\/\/www.php-fig.org\/psr\/psr-17\/"
           }
         ]
       },
       {
-        "id":"e87ed507-69d3-4f53-bd1e-4ba36f98292d",
-        "title":"Exception handling",
-        "references":[
+        "id": "afc084bc-2d41-422f-93c5-009248e27ac7",
+        "title": "Naming conventions",
+        "references": [
           {
-            "id":"36d2cc7c-3e80-47bc-8dfc-4d2998647a5b",
-            "title":"How to Customize Error Pages (Symfony Docs)",
-            "url":"https:\/\/symfony.com\/doc\/current\/controller\/error_pages.html"
+            "id": "0496cfe0-77e1-42cc-bedc-f961bf85f8fe",
+            "title": "Conventions (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/contributing\/code\/conventions.html#method-names"
           }
         ]
       }
     ]
   },
   {
-    "id":"7ad275c7-c526-4f7f-a698-7a818397fe4b",
-    "title":"Controllers",
-    "slug":"controllers",
-    "chapters":[
+    "id": "6fdad99b-691e-4fb3-af7d-47e97b11f5c8",
+    "title": "Controllers",
+    "slug": "controllers",
+    "chapters": [
       {
-        "id":"2d2de0cf-1133-4c2d-a92e-c764e8c346e9",
-        "title":"The response",
-        "references":[
-
+        "id": "e81d31f0-a3a5-4270-ba96-a78f5b1bfd47",
+        "title": "Controllers",
+        "references": [
+          {
+            "id": "2cb75b52-5e42-4f8f-ab8d-f3e954711e20",
+            "title": "Controller (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/controller.html"
+          }
         ]
       },
       {
-        "id":"40eae707-c877-49fa-a293-b7801a8a84c2",
-        "title":"The session",
-        "references":[
-
+        "id": "fefd2fdf-b21a-44cd-9b56-08a00baed9b7",
+        "title": "Naming conventions",
+        "references": [
+          {
+            "id": "5143aea9-5716-41f8-b64b-1b4a5b845cfc",
+            "title": "Routing (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/routing.html#controller-naming-pattern"
+          }
         ]
       },
       {
-        "id":"4ee4f5db-607a-4b50-a935-da7a097e21a5",
-        "title":"The request",
-        "references":[
-
+        "id": "2615657f-e89e-426a-940f-2f9dee428117",
+        "title": "The base AbstractController class",
+        "references": [
+          {
+            "id": "ebf84cb6-c1ac-49f4-abb3-4d12c0128e8e",
+            "title": "symfony\/AbstractController.php at 5.0 \u00b7 symfony\/symfony \u00b7 GitHub",
+            "url": "https:\/\/github.com\/symfony\/symfony\/blob\/5.0\/src\/Symfony\/Bundle\/FrameworkBundle\/Controller\/AbstractController.php"
+          }
         ]
       },
       {
-        "id":"8506092c-78f0-4885-8a39-1a9e02185175",
-        "title":"Internal redirects",
-        "references":[
-
+        "id": "446894b7-9ee4-43f5-8ba4-4758d780d4d5",
+        "title": "The request",
+        "references": [
+          {
+            "id": "1bc29646-2c6e-4972-9433-d8487de99100",
+            "title": "Controller (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/controller.html#the-request-and-response-object"
+          },
+          {
+            "id": "67664f50-ae6c-4768-baf5-0f276eaa7e5b",
+            "title": "symfony\/ControllerResolverInterface.php at 5.0 \u00b7 symfony\/symfony \u00b7 GitHub",
+            "url": "https:\/\/github.com\/symfony\/symfony\/blob\/5.0\/src\/Symfony\/Component\/HttpKernel\/Controller\/ControllerResolverInterface.php"
+          },
+          {
+            "id": "904bbc1a-da23-4137-b0bb-6818b7aef862",
+            "title": "The HttpKernel Component (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/components\/http_kernel.html"
+          },
+          {
+            "id": "92f9dff5-6705-4b01-beb6-8a1ba03aed2b",
+            "title": "symfony\/ArgumentResolverInterface.php at 5.0 \u00b7 symfony\/symfony \u00b7 GitHub",
+            "url": "https:\/\/github.com\/symfony\/symfony\/blob\/5.0\/src\/Symfony\/Component\/HttpKernel\/Controller\/ArgumentResolverInterface.php"
+          },
+          {
+            "id": "e9f86994-5b2b-44d7-865f-16c158105f0a",
+            "title": "http-foundation\/Request.php at 5.0 \u00b7 symfony\/http-foundation \u00b7 GitHub",
+            "url": "https:\/\/github.com\/symfony\/http-foundation\/blob\/5.0\/Request.php"
+          }
         ]
       },
       {
-        "id":"899e54b8-f0f7-4b60-9b23-1edb27732ff6",
-        "title":"Naming conventions",
-        "references":[
-
+        "id": "4346669c-28e3-44eb-8792-a21540213a8f",
+        "title": "The response",
+        "references": [
+          {
+            "id": "99c60c29-4404-4179-84b4-fdcbef2d5b7f",
+            "title": "http-foundation\/Response.php at 5.0 \u00b7 symfony\/http-foundation \u00b7 GitHub",
+            "url": "https:\/\/github.com\/symfony\/http-foundation\/blob\/5.0\/Response.php"
+          }
         ]
       },
       {
-        "id":"8ec85421-f2e6-4ce6-8c9f-79701c22f450",
-        "title":"The cookies",
-        "references":[
-
+        "id": "45543721-d887-4f43-ac28-f982bd5a061e",
+        "title": "The cookies",
+        "references": [
+          {
+            "id": "352fca03-f6cc-42ef-97d6-912a8e197f56",
+            "title": "The HttpFoundation Component (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/components\/http_foundation.html"
+          }
         ]
       },
       {
-        "id":"a02d88eb-1c07-4611-9f01-d2a6cdefbfe0",
-        "title":"File upload",
-        "references":[
-
+        "id": "a8a61386-e84c-4797-87a4-0fbe60211e1a",
+        "title": "The session",
+        "references": [
+          {
+            "id": "01239f57-8174-45c6-915e-d0110c647abf",
+            "title": "Sessions (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/session.html"
+          },
+          {
+            "id": "40fb1c5a-cd83-41a0-96f5-ae741aa55846",
+            "title": "symfony\/SessionInterface.php at 5.0 \u00b7 symfony\/symfony \u00b7 GitHub",
+            "url": "https:\/\/github.com\/symfony\/symfony\/blob\/5.0\/src\/Symfony\/Component\/HttpFoundation\/Session\/SessionInterface.php"
+          },
+          {
+            "id": "522e7dae-c935-4067-88d3-f8544b9b2820",
+            "title": "Session Management (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/components\/http_foundation\/sessions.html"
+          },
+          {
+            "id": "9a7ec6bd-bb9c-4643-95c8-98e25816b8e9",
+            "title": "Store Sessions in a Database (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/session\/database.html"
+          },
+          {
+            "id": "a12f3e42-c171-4ee3-a861-2135b0e7c0d0",
+            "title": "Bridge a legacy Application with Symfony Sessions (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/session\/php_bridge.html"
+          },
+          {
+            "id": "ad765f7f-d133-44ef-bc1e-a46fc855bf3d",
+            "title": "Making the Locale &quot;Sticky&quot; during a User's Session (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/session\/locale_sticky_session.html"
+          },
+          {
+            "id": "b113b087-0cf6-44b8-83d2-7850a34edf7b",
+            "title": "Framework Configuration Reference (FrameworkBundle) (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/reference\/configuration\/framework.html#config-framework-session"
+          },
+          {
+            "id": "b1c1244d-cbba-447c-926c-c81cab86f6b3",
+            "title": "Session Proxy Examples (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/session\/proxy_examples.html"
+          },
+          {
+            "id": "eb96ae54-7ae0-4249-9c46-b9fd6d825bfa",
+            "title": "Controller (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/controller.html#managing-the-session"
+          }
         ]
       },
       {
-        "id":"a07142b7-23f5-4b97-982a-c1983e154b67",
-        "title":"HTTP redirects",
-        "references":[
-
+        "id": "a53cecad-2927-483c-ae5b-9b1b09f21634",
+        "title": "The flash messages",
+        "references": [
+          {
+            "id": "3dbcc4e7-de2c-4f52-a044-b5e7061836c2",
+            "title": "Controller (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/controller.html#flash-message"
+          },
+          {
+            "id": "78c293af-25ac-438c-9c33-a77b72d743b7",
+            "title": "symfony\/FlashBagInterface.php at 5.0 \u00b7 symfony\/symfony \u00b7 GitHub",
+            "url": "https:\/\/github.com\/symfony\/symfony\/blob\/5.0\/src\/Symfony\/Component\/HttpFoundation\/Session\/Flash\/FlashBagInterface.php"
+          },
+          {
+            "id": "99e52462-0cfa-4e52-ab05-2cd6e4dbff17",
+            "title": "symfony\/AutoExpireFlashBag.php at 5.0 \u00b7 symfony\/symfony \u00b7 GitHub",
+            "url": "https:\/\/github.com\/symfony\/symfony\/blob\/5.0\/src\/Symfony\/Component\/HttpFoundation\/Session\/Flash\/AutoExpireFlashBag.php"
+          },
+          {
+            "id": "ab8e1970-fcf5-4437-863a-b8db1c4c021a",
+            "title": "symfony\/FlashBag.php at 5.0 \u00b7 symfony\/symfony \u00b7 GitHub",
+            "url": "https:\/\/github.com\/symfony\/symfony\/blob\/5.0\/src\/Symfony\/Component\/HttpFoundation\/Session\/Flash\/FlashBag.php"
+          },
+          {
+            "id": "e4a0160f-6796-4035-84c0-9aaadc42e59a",
+            "title": "Session Management (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/components\/http_foundation\/sessions.html#flash-messages"
+          }
         ]
       },
       {
-        "id":"c5530920-40ff-4c6c-86ba-c534bdbf4288",
-        "title":"The flash messages",
-        "references":[
-
+        "id": "d224f213-73f3-418e-9b7d-89daa366badc",
+        "title": "HTTP redirects",
+        "references": [
+          {
+            "id": "2d3fd9f9-2ea0-40da-8899-8330841ec0f6",
+            "title": "The HttpFoundation Component (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/components\/http_foundation.html#redirecting-the-user"
+          },
+          {
+            "id": "5005b05d-340f-4756-a8c5-53f25bea0169",
+            "title": "Controller (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/controller.html#redirecting"
+          },
+          {
+            "id": "dde26b31-6684-47ed-a853-4375090ccd94",
+            "title": "symfony\/RedirectResponse.php at 5.0 \u00b7 symfony\/symfony \u00b7 GitHub",
+            "url": "https:\/\/github.com\/symfony\/symfony\/blob\/5.0\/src\/Symfony\/Component\/HttpFoundation\/RedirectResponse.php"
+          },
+          {
+            "id": "f744316e-98f8-477f-a157-72bb50c03cca",
+            "title": "Unvalidated Redirects and Forwards - OWASP Cheat Sheet Series",
+            "url": "https:\/\/cheatsheetseries.owasp.org\/cheatsheets\/Unvalidated_Redirects_and_Forwards_Cheat_Sheet.html"
+          }
         ]
       },
       {
-        "id":"d2006f49-b008-425c-a3c1-c7e0d76d895d",
-        "title":"Generate 404 pages",
-        "references":[
-
+        "id": "189c03ed-f448-4341-bcbf-45473dbf2534",
+        "title": "Internal redirects",
+        "references": [
+          {
+            "id": "6fa32654-5bf8-4acc-ba88-a25d7af25c0e",
+            "title": "How to Forward Requests to another Controller (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/controller\/forwarding.html#how-to-forward-requests-to-another-controller"
+          }
         ]
       },
       {
-        "id":"f6b2c8a8-068f-4126-9932-b52d27cce309",
-        "title":"Built-in internal controllers",
-        "references":[
-
+        "id": "db7e6e68-21fd-4134-8515-21591dff5ae7",
+        "title": "Generate 404 pages",
+        "references": [
+          {
+            "id": "78a24d04-4126-42bd-8f54-70d479c6d352",
+            "title": "How to Customize Error Pages (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/controller\/error_pages.html"
+          },
+          {
+            "id": "ea0b39b5-3112-42de-b667-f24d47bea8d4",
+            "title": "Framework Configuration Reference (FrameworkBundle) (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/reference\/configuration\/framework.html#config-framework-error_controller"
+          }
         ]
       },
       {
-        "id":"f7121ff0-0580-48f3-ac8f-d7283ba99a56",
-        "title":"The base AbstractController class",
-        "references":[
-
-        ]
-      }
-    ]
-  },
-  {
-    "id":"b1f817b4-1b6c-4ea3-a343-49247e1837f4",
-    "title":"Routing",
-    "slug":"routing",
-    "chapters":[
-      {
-        "id":"0b4ceb0a-4ff2-45b0-b431-b02311468aab",
-        "title":"Domain name matching",
-        "references":[
-
+        "id": "eb0836fa-d217-4d07-85e4-8814d76eb78e",
+        "title": "File upload",
+        "references": [
+          {
+            "id": "05def13f-a5ad-448e-86e2-61564f5927d5",
+            "title": "How to Upload Files (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/controller\/upload_file.html"
+          }
         ]
       },
       {
-        "id":"232c3beb-c97c-4af3-9258-fd9c4ff307da",
-        "title":"Generate URL parameters",
-        "references":[
-
-        ]
-      },
-      {
-        "id":"32a3bbbd-534a-4b5e-bc69-a233bc52db0a",
-        "title":"Set default values to URL parameters",
-        "references":[
-
-        ]
-      },
-      {
-        "id":"407f9a90-039f-4c43-a88e-de90c80bfb86",
-        "title":"Special internal routing attributes",
-        "references":[
-
-        ]
-      },
-      {
-        "id":"425343cb-d644-4b74-8e81-68fd05810b94",
-        "title":"User's locale guessing",
-        "references":[
-
-        ]
-      },
-      {
-        "id":"83daa472-1a72-48b0-81ef-92bd08728066",
-        "title":"Router debugging",
-        "references":[
-
-        ]
-      },
-      {
-        "id":"8e67811e-94e3-4fd1-a1cf-720166433e4a",
-        "title":"Restrict URL parameters",
-        "references":[
-
-        ]
-      },
-      {
-        "id":"a653bc53-c390-451f-95ce-3b4af1992deb",
-        "title":"Conditional request matching",
-        "references":[
-
-        ]
-      },
-      {
-        "id":"c2a7c0ea-436b-4c9b-9e5d-43ea0eee427b",
-        "title":"Configuration (YAML, XML, PHP & annotations)",
-        "references":[
-
-        ]
-      },
-      {
-        "id":"da64b46c-8db7-4469-872e-ca66405d34c2",
-        "title":"HTTP methods matching",
-        "references":[
-
-        ]
-      },
-      {
-        "id":"e5283a77-0180-4fb6-9c6a-52c57b0255ed",
-        "title":"Trigger redirects",
-        "references":[
-
-        ]
-      }
-    ]
-  },
-  {
-    "id":"ab541c09-6ba4-4541-b3ea-50ee4a521571",
-    "title":"Templating with Twig",
-    "slug":"templating-with-twig",
-    "chapters":[
-      {
-        "id":"0e9010f9-0c52-4d43-b275-1225cb7729b3",
-        "title":"Filters and functions",
-        "references":[
-
-        ]
-      },
-      {
-        "id":"11ef9fb0-3475-49bd-8263-114da95657cf",
-        "title":"Template includes",
-        "references":[
-
-        ]
-      },
-      {
-        "id":"156d637a-a7e1-43e3-981a-55bb9379ed38",
-        "title":"Debugging variables",
-        "references":[
-
-        ]
-      },
-      {
-        "id":"49345510-1a6f-4bff-9871-05ee9049379f",
-        "title":"Global variables",
-        "references":[
-
-        ]
-      },
-      {
-        "id":"693577c1-6023-46d3-99b1-c1e78f2d6755",
-        "title":"Auto escaping",
-        "references":[
-
-        ]
-      },
-      {
-        "id":"6bb1a912-a01d-4244-adbd-78e16876bc69",
-        "title":"URLs generation",
-        "references":[
-
-        ]
-      },
-      {
-        "id":"8f84c121-8137-420a-8958-0819ef248c0b",
-        "title":"Loops and conditions",
-        "references":[
-
-        ]
-      },
-      {
-        "id":"9643bb07-5243-4b29-8bfc-91de335a40e1",
-        "title":"Template inheritance",
-        "references":[
-
-        ]
-      },
-      {
-        "id":"9cba2e81-9ea8-46ca-9684-e18d6258c559",
-        "title":"String interpolation",
-        "references":[
-
-        ]
-      },
-      {
-        "id":"b5ac9bc5-6335-4e4d-a4ce-74bbb83a2250",
-        "title":"Assets management",
-        "references":[
-
-        ]
-      },
-      {
-        "id":"dd4a5caa-63dd-4a81-a660-c5d066e56c99",
-        "title":"Controller rendering",
-        "references":[
-
-        ]
-      },
-      {
-        "id":"e4529932-5e6a-448a-8e30-9e2a55442c3b",
-        "title":"Translations and pluralization",
-        "references":[
-
+        "id": "71dc0f4b-a274-4887-8911-9c143239d3a2",
+        "title": "Built-in internal controllers",
+        "references": [
+          {
+            "id": "0fcb2b19-11a7-416c-8eb8-bc1f5063249f",
+            "title": "Routing (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/routing.html#redirecting-to-urls-and-routes-directly-from-a-route"
+          },
+          {
+            "id": "88da4fee-27be-4169-9acc-4db212961c02",
+            "title": "Creating and Using Templates (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/templates.html#rendering-a-template-directly-from-a-route"
+          }
         ]
       }
     ]
   },
   {
-    "id":"5536c9e5-1f5b-493f-96fe-08f25dd8daf2",
-    "title":"Forms",
-    "slug":"forms",
-    "chapters":[
+    "id": "737a9ac2-1ad4-4ad8-81c3-7a44c249f9f7",
+    "title": "Routing",
+    "slug": "routing",
+    "chapters": [
       {
-        "id":"26fa0317-8a35-47fa-a272-8e562546cdda",
-        "title":"Forms rendering with Twig",
-        "references":[
-
+        "id": "c9a67849-76e7-43cc-b680-095928ebeaf9",
+        "title": "Routing",
+        "references": [
+          {
+            "id": "9a61748f-1ceb-4fc8-81df-de9f77d05d26",
+            "title": "Routing (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/routing.html"
+          }
         ]
       },
       {
-        "id":"292b82c7-de31-43f2-ad5d-425a6a533471",
-        "title":"Forms theming",
-        "references":[
-
+        "id": "4ad4f0bf-0cf6-4297-b3bb-c9a7f35d0efc",
+        "title": "Configuration (YAML, XML, PHP & annotations)",
+        "references": [
+          {
+            "id": "682c2529-38a5-4977-9176-ada23687c528",
+            "title": "Routing (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/routing.html#creating-routes"
+          }
         ]
       },
       {
-        "id":"2ba29fb5-ad16-441c-bd64-0aecc2380e87",
-        "title":"Form types",
-        "references":[
-
+        "id": "c5af6af3-6027-4161-8c88-aea58368bd16",
+        "title": "Restrict URL parameters",
+        "references": [
+          {
+            "id": "5bbc704f-ccad-4b8a-b64d-3936077e4615",
+            "title": "Routing (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/routing.html#route-parameters"
+          }
         ]
       },
       {
-        "id":"3534d851-e45d-4177-9b85-5511e1d545dc",
-        "title":"Forms handling",
-        "references":[
-
+        "id": "8b8d01f9-ccb9-4f2e-9a06-2ea62dc1ebc3",
+        "title": "Set default values to URL parameters",
+        "references": [
+          {
+            "id": "125e4975-1ec9-4fa0-bd62-858a87ac0593",
+            "title": "Routing (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/routing.html#optional-parameters"
+          }
         ]
       },
       {
-        "id":"393060db-9657-4db4-ac74-476fdc8ca905",
-        "title":"Form type extensions",
-        "references":[
-
+        "id": "87c76626-2297-47e6-a440-d5b4540353dd",
+        "title": "Generate URL parameters",
+        "references": [
+          {
+            "id": "df7aba9b-7b8e-47c5-9401-6a2cfa703522",
+            "title": "Routing (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/routing.html#generating-urls"
+          }
         ]
       },
       {
-        "id":"48519f9e-b654-48d5-8c19-9b6f3682fec5",
-        "title":"Data transformers",
-        "references":[
-
+        "id": "3b6e8a3c-eebe-486e-99ec-26f14b44d5a8",
+        "title": "Trigger redirects",
+        "references": [
+          {
+            "id": "0fcb2b19-11a7-416c-8eb8-bc1f5063249f",
+            "title": "Routing (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/routing.html#redirecting-to-urls-and-routes-directly-from-a-route"
+          }
         ]
       },
       {
-        "id":"674a791a-501a-4828-991e-d39dbc9b87c5",
-        "title":"Forms creation",
-        "references":[
-
+        "id": "3e1b7bb4-9b9f-4aab-9758-80829964b770",
+        "title": "Special internal routing attributes",
+        "references": [
+          {
+            "id": "db201aea-e18d-40e6-8eb2-b5c9df2ce33b",
+            "title": "Routing (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/routing.html#special-parameters"
+          }
         ]
       },
       {
-        "id":"67cc56e4-f818-47c9-b5a9-8d6d42ac7d36",
-        "title":"Form events",
-        "references":[
-
+        "id": "a2b1cb5b-ded1-462f-9f4f-9b6831fbb3a5",
+        "title": "Domain name matching",
+        "references": [
+          {
+            "id": "310e30d9-7720-47e0-b966-ddca3b6c541c",
+            "title": "Routing (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/routing.html#sub-domain-routing"
+          }
         ]
       },
       {
-        "id":"6ebefe02-aaa8-487a-858f-04ea9ca862d8",
-        "title":"Built-in form types",
-        "references":[
-
+        "id": "df74ebe4-bbe8-47fa-8925-b847e3ff66c1",
+        "title": "Conditional request matching",
+        "references": [
+          {
+            "id": "3b197c89-e5d4-4b87-a52d-61cb0aef72fb",
+            "title": "Routing (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/routing.html#matching-expressions"
+          }
         ]
       },
       {
-        "id":"758dfa6f-7bcf-445c-88c2-26a86913ffd0",
-        "title":"CSRF protection",
-        "references":[
-
+        "id": "9adb864b-9a6f-48f1-a70e-db66f33aabfb",
+        "title": "HTTP methods matching",
+        "references": [
+          {
+            "id": "dc491b12-5870-44b2-bc2e-69ffdd068b7c",
+            "title": "Routing (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/routing.html#matching-http-methods"
+          }
         ]
       },
       {
-        "id":"990edbf2-eb1b-410a-be29-a2c4de7d074f",
-        "title":"Handling file upload",
-        "references":[
-
-        ]
-      }
-    ]
-  },
-  {
-    "id":"68b0f3e3-452d-4d76-9b22-e50577bf69f4",
-    "title":"Data Validation",
-    "slug":"data-validation",
-    "chapters":[
-      {
-        "id":"105445a6-09f4-4b42-b9bc-3d53cd624a47",
-        "title":"Group sequence",
-        "references":[
-
+        "id": "c7d5bfff-1a15-4732-908b-917269d4b773",
+        "title": "User's locale guessing",
+        "references": [
+          {
+            "id": "b5c9ddeb-041e-4d4d-b771-445e8e6c939e",
+            "title": "Routing (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/routing.html#localized-routes-i18n"
+          }
         ]
       },
       {
-        "id":"49aa0444-efcb-4cba-b8b9-aa65f7057185",
-        "title":"Custom callback validators",
-        "references":[
-
-        ]
-      },
-      {
-        "id":"5f8a267b-728b-4d1a-84b4-52c0707c64f8",
-        "title":"Validation scopes",
-        "references":[
-
-        ]
-      },
-      {
-        "id":"9914b1a0-3db6-49cc-bd72-4c85b0ca12ea",
-        "title":"PHP object validation",
-        "references":[
-
-        ]
-      },
-      {
-        "id":"d235e6bf-116c-47ed-a2c2-931e4c1c4a15",
-        "title":"Validation groups",
-        "references":[
-
-        ]
-      },
-      {
-        "id":"fdd9b946-827a-4323-b4a9-d6778339ce79",
-        "title":"Violations builder",
-        "references":[
-
-        ]
-      },
-      {
-        "id":"fdfdab76-1c0e-44fa-9436-e363958124d7",
-        "title":"Built-in validation constraints",
-        "references":[
-
-        ]
-      }
-    ]
-  },
-  {
-    "id":"7df7004f-8775-4fdd-9200-5399c45bb294",
-    "title":"Dependency Injection",
-    "slug":"dependency-injection",
-    "chapters":[
-      {
-        "id":"0aada9da-8f44-4e92-82e9-ead22a038f68",
-        "title":"Services autowiring",
-        "references":[
-
-        ]
-      },
-      {
-        "id":"0ab261a9-99ef-40b6-940e-648657a63f8d",
-        "title":"Configuration parameters",
-        "references":[
-
-        ]
-      },
-      {
-        "id":"4a1c596c-dd84-4283-8591-e841a3e41d47",
-        "title":"Semantic configuration",
-        "references":[
-
-        ]
-      },
-      {
-        "id":"8002d3b9-8dd7-4911-ae23-bbd7c8b90a87",
-        "title":"Compiler passes",
-        "references":[
-
-        ]
-      },
-      {
-        "id":"953e1466-328a-45dd-9114-183bd201b615",
-        "title":"Tags",
-        "references":[
-
-        ]
-      },
-      {
-        "id":"9585232c-660c-446f-9159-c88b7bf3b44d",
-        "title":"Built-in services",
-        "references":[
-
-        ]
-      },
-      {
-        "id":"9cbceda6-e720-487e-9a51-1401e9a50d9f",
-        "title":"Service container",
-        "references":[
-
-        ]
-      },
-      {
-        "id":"a9feefd0-8ace-4b72-a03d-715f0e9a09ee",
-        "title":"Factories",
-        "references":[
-
-        ]
-      },
-      {
-        "id":"aff7453e-c9fe-4d45-bb72-1a857ef63472",
-        "title":"Services registration",
-        "references":[
-
+        "id": "f759d681-f74f-428d-9311-b85742c0bbbf",
+        "title": "Router debugging",
+        "references": [
+          {
+            "id": "7b9f4928-600e-4e9b-b1b2-155f306862b6",
+            "title": "Routing (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/routing.html#debugging-routes"
+          }
         ]
       }
     ]
   },
   {
-    "id":"1e4d4c62-bf0c-49dd-b413-0f6d0d235229",
-    "title":"Security",
-    "slug":"security",
-    "chapters":[
+    "id": "fe81114d-7452-4535-8fee-a7c7ebdef2e0",
+    "title": "Templating with Twig",
+    "slug": "templating-with-twig",
+    "chapters": [
       {
-        "id":"204995c8-d229-49d2-98fe-b259ba370c25",
-        "title":"Roles",
-        "references":[
-
+        "id": "884cf3f9-8bdb-441c-8aca-001e51cc3174",
+        "title": "Twig for Template Designers",
+        "references": [
+          {
+            "id": "6766c68c-13a9-4a4a-bc75-7fadf356524d",
+            "title": "Twig for Template Designers - Documentation - Twig - The flexible, fast, and secure PHP template engine",
+            "url": "https:\/\/twig.symfony.com\/doc\/2.x\/templates.html"
+          }
         ]
       },
       {
-        "id":"42bd8eb0-7c62-49f4-ba3d-f8bef08f3ddd",
-        "title":"Passwords encoders",
-        "references":[
-
+        "id": "3e464286-3d1f-403b-be36-c6494f3a750e",
+        "title": "Twig Internals",
+        "references": [
+          {
+            "id": "4b9ca8bd-ab8f-4718-8e34-2c4383293fc0",
+            "title": "Twig Internals - Documentation - Twig - The flexible, fast, and secure PHP template engine",
+            "url": "https:\/\/twig.symfony.com\/doc\/2.x\/internals.html#twig-internals"
+          },
+          {
+            "id": "86f067c5-9d6e-4646-b017-5329d01a09d8",
+            "title": "Twig Internals - Documentation - Twig - The flexible, fast, and secure PHP template engine",
+            "url": "https:\/\/twig.symfony.com\/doc\/2.x\/internals.html#the-compiler"
+          },
+          {
+            "id": "da510010-8fd1-40eb-82ec-43931af8b95c",
+            "title": "Twig Internals - Documentation - Twig - The flexible, fast, and secure PHP template engine",
+            "url": "https:\/\/twig.symfony.com\/doc\/2.x\/internals.html#the-lexer"
+          },
+          {
+            "id": "e852947a-7341-45ee-9db3-34a41a9a5eac",
+            "title": "Twig Internals - Documentation - Twig - The flexible, fast, and secure PHP template engine",
+            "url": "https:\/\/twig.symfony.com\/doc\/2.x\/internals.html#the-parser"
+          }
         ]
       },
       {
-        "id":"51965e81-a92b-46fd-b9b7-bb48761c05be",
-        "title":"Authentication",
-        "references":[
-
+        "id": "3ce73273-5083-41c4-a8fa-5fde6b419353",
+        "title": "Auto escaping",
+        "references": [
+          {
+            "id": "07556d59-2e08-45f8-8696-49dba245849c",
+            "title": "Twig Configuration Reference (TwigBundle) (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/reference\/configuration\/twig.html#autoescape-service-method"
+          },
+          {
+            "id": "788a1536-6fca-470d-b6c9-8107e7201ad0",
+            "title": "Twig Configuration Reference (TwigBundle) (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/reference\/configuration\/twig.html#autoescape"
+          },
+          {
+            "id": "9327daaa-3deb-4fe5-b2d8-f0526d2506f7",
+            "title": "Twig Configuration Reference (TwigBundle) (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/reference\/configuration\/twig.html#autoescape-service"
+          },
+          {
+            "id": "e02564c3-e2a4-48c6-93a0-75ddac0ae7a2",
+            "title": "Creating and Using Templates (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/templates.html#output-escaping"
+          },
+          {
+            "id": "ee4a0449-868c-4991-8d98-1d1bb638e5cc",
+            "title": "Twig for Developers - Documentation - Twig - The flexible, fast, and secure PHP template engine",
+            "url": "https:\/\/twig.symfony.com\/doc\/2.x\/api.html#escaper-extension"
+          }
         ]
       },
       {
-        "id":"62931974-a73b-4198-9018-ae844bcbf6b3",
-        "title":"Providers",
-        "references":[
-
+        "id": "2933212a-b381-47ff-a6bc-95c9466a2b0a",
+        "title": "Template inheritance",
+        "references": [
+          {
+            "id": "8b4964fe-7f3b-43c9-ba25-ea20cbff8e89",
+            "title": "extends - Documentation - Twig - The flexible, fast, and secure PHP template engine",
+            "url": "https:\/\/twig.symfony.com\/doc\/2.x\/tags\/extends.html"
+          },
+          {
+            "id": "e4950148-f93a-4f5b-8394-bba302a4776f",
+            "title": "Creating and Using Templates (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/templates.html#template-inheritance-and-layouts"
+          }
         ]
       },
       {
-        "id":"6b98408f-e5c3-4cc4-a10b-534bdb91c0d3",
-        "title":"Access Control Rules",
-        "references":[
-
+        "id": "f8ffe1d2-1533-4f6f-8c14-75d3deee446e",
+        "title": "Global variables",
+        "references": [
+          {
+            "id": "1144feec-e39e-452e-bf77-8772b0390837",
+            "title": "How to Inject Variables Automatically into all Templates (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/templating\/global_variables.html"
+          },
+          {
+            "id": "affc59c2-154c-4c54-9e92-1c4cf1a091d7",
+            "title": "Creating and Using Templates (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/templates.html#the-app-global-variable"
+          }
         ]
       },
       {
-        "id":"7fa30908-d1ef-4084-8c03-5b574ccff1b2",
-        "title":"Firewalls",
-        "references":[
-
+        "id": "1bec68ed-c79c-4d7f-98b5-205c960f2176",
+        "title": "Filters and functions",
+        "references": [
+          {
+            "id": "06f2d111-90c9-47d9-9a6d-805c2f706f64",
+            "title": "Tags - Documentation - Twig - The flexible, fast, and secure PHP template engine",
+            "url": "https:\/\/twig.symfony.com\/doc\/2.x\/tags\/index.html"
+          },
+          {
+            "id": "1d19cf4c-83d5-443d-bf40-fef45edb01db",
+            "title": "Twig Extensions Defined by Symfony (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/reference\/twig_reference.html"
+          },
+          {
+            "id": "24dcfc5d-1a84-4ea3-8bd1-33b2902159bb",
+            "title": "Filters - Documentation - Twig - The flexible, fast, and secure PHP template engine",
+            "url": "https:\/\/twig.symfony.com\/doc\/2.x\/filters\/index.html"
+          },
+          {
+            "id": "d256a820-ee43-4e12-86ad-dced3085ab87",
+            "title": "Functions - Documentation - Twig - The flexible, fast, and secure PHP template engine",
+            "url": "https:\/\/twig.symfony.com\/doc\/2.x\/functions\/index.html"
+          },
+          {
+            "id": "fa7ff547-0e66-4d70-be61-b906463d7294",
+            "title": "How to Write a custom Twig Extension (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/templating\/twig_extension.html"
+          }
         ]
       },
       {
-        "id":"9cde4ab1-9d95-490d-b789-68fd51d9c3cd",
-        "title":"Guard authenticators",
-        "references":[
-
+        "id": "5e2cdefd-d226-4671-bbde-5d366d3fe939",
+        "title": "Template includes",
+        "references": [
+          {
+            "id": "26832d45-330f-4b98-827d-88f00989bf66",
+            "title": "Twig for Template Designers - Documentation - Twig - The flexible, fast, and secure PHP template engine",
+            "url": "https:\/\/twig.symfony.com\/doc\/2.x\/templates.html#including-other-templates"
+          },
+          {
+            "id": "2d4e640f-b3bd-4b3b-88dd-1f91c5c68296",
+            "title": "Creating and Using Templates (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/templates.html#embedding-controllers"
+          },
+          {
+            "id": "d850a423-f7f2-4ce9-aa03-e9fe737563bc",
+            "title": "include - Documentation - Twig - The flexible, fast, and secure PHP template engine",
+            "url": "https:\/\/twig.symfony.com\/doc\/2.x\/functions\/include.html"
+          },
+          {
+            "id": "f354cd78-7cd3-4a54-a3af-12b7f4c40653",
+            "title": "Creating and Using Templates (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/templates.html#templates-include"
+          }
         ]
       },
       {
-        "id":"a623c9dd-7729-4b2c-be7c-daed7f1c376d",
-        "title":"Users",
-        "references":[
-
+        "id": "c190759c-0ef0-40f8-99f2-aa1f861d8ad6",
+        "title": "Loops and conditions",
+        "references": [
+          {
+            "id": "0f5d186c-4d7b-4a40-b1ba-968488d2d25d",
+            "title": "for - Documentation - Twig - The flexible, fast, and secure PHP template engine",
+            "url": "https:\/\/twig.symfony.com\/doc\/2.x\/tags\/for.html"
+          },
+          {
+            "id": "6e07390c-993c-4eb5-9c7b-8755b1f7d281",
+            "title": "Twig for Template Designers - Documentation - Twig - The flexible, fast, and secure PHP template engine",
+            "url": "https:\/\/twig.symfony.com\/doc\/2.x\/templates.html#control-structure"
+          },
+          {
+            "id": "7e78a207-8599-4212-a22b-2b729b9c0f12",
+            "title": "if - Documentation - Twig - The flexible, fast, and secure PHP template engine",
+            "url": "https:\/\/twig.symfony.com\/doc\/2.x\/tags\/if.html"
+          }
         ]
       },
       {
-        "id":"ccda067f-476f-4792-bf5d-c2e003baebb9",
-        "title":"Configuration",
-        "references":[
-
+        "id": "698dedc5-d047-4903-9ea2-73efa22bb8a2",
+        "title": "URLs generation",
+        "references": [
+          {
+            "id": "5e8c8156-f57e-4ef8-b2b6-a350250b2226",
+            "title": "Twig Extensions Defined by Symfony (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/reference\/twig_reference.html#absolute-url"
+          },
+          {
+            "id": "930aab66-6222-40d4-9cb1-e23902fd02b1",
+            "title": "Twig Extensions Defined by Symfony (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/reference\/twig_reference.html#url"
+          },
+          {
+            "id": "a6bb7857-6c28-4835-bc95-78a1dbb2a9f1",
+            "title": "Twig Extensions Defined by Symfony (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/reference\/twig_reference.html#path"
+          },
+          {
+            "id": "df32192a-c8a3-4a75-a3fa-9b8ff8328dbe",
+            "title": "Twig Extensions Defined by Symfony (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/reference\/twig_reference.html#relative-path"
+          }
         ]
       },
       {
-        "id":"ce679956-24f9-4127-b2bd-1beb81837e92",
-        "title":"Voters and voting strategies",
-        "references":[
-
+        "id": "28e5cedc-9078-445d-b789-dbc7d49ae688",
+        "title": "Controller rendering",
+        "references": [
+          {
+            "id": "1a4d8032-ec2d-40d9-98d7-9de4f6cc3b95",
+            "title": "Twig Extensions Defined by Symfony (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/reference\/twig_reference.html#controller"
+          },
+          {
+            "id": "67df5a5c-06ac-4276-9d51-1c7875e4ae31",
+            "title": "Twig Extensions Defined by Symfony (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/reference\/twig_reference.html#reference-twig-function-render"
+          },
+          {
+            "id": "d9ac8f05-c279-4e06-906d-64ecc1c0f250",
+            "title": "Twig Extensions Defined by Symfony (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/reference\/twig_reference.html#reference-twig-function-render-esi"
+          },
+          {
+            "id": "f51f9155-4cab-4aa5-9b77-c29325f13865",
+            "title": "Creating and Using Templates (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/templates.html#rendering-templates"
+          }
         ]
       },
       {
-        "id":"ef45e754-c0c9-417c-a3fe-d954c44671e3",
-        "title":"Authorization",
-        "references":[
-
+        "id": "4e3105ab-f2f5-4be6-8ed6-8389a4fa9b39",
+        "title": "Translations and pluralization",
+        "references": [
+          {
+            "id": "8594da4d-d81a-4f81-81ff-f858343e754a",
+            "title": "Using Translation in Templates (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/translation\/templates.html"
+          },
+          {
+            "id": "94624f28-9ba3-47fa-a4ee-a7cf37afa00e",
+            "title": "Twig Extensions Defined by Symfony (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/reference\/twig_reference.html#trans"
+          },
+          {
+            "id": "b37642ca-8b25-427b-9bc8-aa006d9362d9",
+            "title": "How to Translate Messages using the ICU MessageFormat (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/translation\/message_format.html#pluralization"
+          }
+        ]
+      },
+      {
+        "id": "a2fd608e-8d92-483b-a460-5327b00e5e86",
+        "title": "String interpolation",
+        "references": [
+          {
+            "id": "2396fdc1-a7dc-4035-8565-dd0287c31a0c",
+            "title": "Twig for Template Designers - Documentation - Twig - The flexible, fast, and secure PHP template engine",
+            "url": "https:\/\/twig.symfony.com\/doc\/2.x\/templates.html#string-interpolation"
+          }
+        ]
+      },
+      {
+        "id": "f2eec7da-846e-44af-9a07-2d579d06882d",
+        "title": "Assets management",
+        "references": [
+          {
+            "id": "33611001-ddb2-4877-87b8-5a5df4361c1b",
+            "title": "Framework Configuration Reference (FrameworkBundle) (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/reference\/configuration\/framework.html#reference-framework-assets-version"
+          },
+          {
+            "id": "744d1fe7-8dc1-485f-ab59-6606311295bd",
+            "title": "Managing CSS and JavaScript (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/frontend.html"
+          },
+          {
+            "id": "7531f661-4cf5-4718-a856-6219285560c6",
+            "title": "Twig Extensions Defined by Symfony (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/reference\/twig_reference.html#asset"
+          },
+          {
+            "id": "81c3263a-30c2-4b49-9831-08fe8465b95b",
+            "title": "Framework Configuration Reference (FrameworkBundle) (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/reference\/configuration\/framework.html#reference-assets-json-manifest-path"
+          },
+          {
+            "id": "841beaab-8ecc-4f80-9ef8-7d4617db285f",
+            "title": "Creating and Using Templates (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/templates.html#templates-link-to-assets"
+          },
+          {
+            "id": "95d8678c-d924-4a2a-8c67-860210798da8",
+            "title": "Framework Configuration Reference (FrameworkBundle) (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/reference\/configuration\/framework.html#reference-assets-version-strategy"
+          }
+        ]
+      },
+      {
+        "id": "523a8847-7d67-4245-9ef1-71ee586eeb1a",
+        "title": "Debugging variables",
+        "references": [
+          {
+            "id": "4e9a4fb4-c3c9-48d4-8142-0b52fdb05115",
+            "title": "The VarDumper Component (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/components\/var_dumper.html#components-var-dumper-dump"
+          },
+          {
+            "id": "d3a808a8-48da-4d05-8ffe-8fbf561e9ca9",
+            "title": "Creating and Using Templates (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/templates.html#debugging-templates"
+          }
         ]
       }
     ]
   },
   {
-    "id":"54bed74e-975e-4131-b1b6-7c55246ecd51",
-    "title":"HTTP Caching",
-    "slug":"http-caching",
-    "chapters":[
+    "id": "9127d2a6-5e40-45a6-bdf4-3e9635787db8",
+    "title": "Forms",
+    "slug": "forms",
+    "chapters": [
       {
-        "id":"14864a5d-260e-40ae-a8af-b06ef5ad34bd",
-        "title":"Server side caching",
-        "references":[
-
+        "id": "80ad466a-0756-45e5-909e-7877b5286f33",
+        "title": "Forms creation",
+        "references": [
+          {
+            "id": "1b4e16df-cac3-4692-b7b3-acdbb689de15",
+            "title": "Forms (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/forms.html#passing-options-to-forms"
+          },
+          {
+            "id": "44b8cc5c-766d-422d-a81a-39dc3d96e5b0",
+            "title": "Forms (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/forms.html#creating-forms-in-controllers"
+          },
+          {
+            "id": "6012ba27-4b69-44d7-97bc-27ebfa44b6dd",
+            "title": "Forms (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/forms.html#creating-form-classes"
+          }
         ]
       },
       {
-        "id":"539966d0-89cb-4490-bc0b-d8f6d1b05887",
-        "title":"Cache types (browser, proxies and reverse-proxies)",
-        "references":[
-
+        "id": "2037ff5c-0dd0-46aa-8803-e5b343cde8f7",
+        "title": "Forms handling",
+        "references": [
+          {
+            "id": "073e3367-05d0-4ebe-90f0-a670029d1604",
+            "title": "How to Disable the Validation of Submitted Data (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/form\/disabling_validation.html"
+          },
+          {
+            "id": "0c8c1625-cf37-422e-a13b-d49c549adc99",
+            "title": "How to Choose Validation Groups Based on the Clicked Button (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/form\/button_based_validation.html"
+          },
+          {
+            "id": "2f26b010-4d61-48c4-b12f-1628ca96de85",
+            "title": "The Symfony Framework Best Practices (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/best_practices.html#best-practice-handle-form"
+          },
+          {
+            "id": "60654381-2e96-4948-a254-61c708b9b489",
+            "title": "How to Dynamically Configure Form Validation Groups (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/form\/validation_group_service_resolver.html"
+          },
+          {
+            "id": "7c130844-a21e-4b19-ae8f-eb638f44feac",
+            "title": "symfony\/FormInterface.php at 5.0 \u00b7 symfony\/symfony \u00b7 GitHub",
+            "url": "https:\/\/github.com\/symfony\/symfony\/blob\/5.0\/src\/Symfony\/Component\/Form\/FormInterface.php#method_handleRequest"
+          },
+          {
+            "id": "8ab98791-6f73-4c98-9d25-78060ea39a35",
+            "title": "Forms (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/forms.html#validating-forms"
+          },
+          {
+            "id": "9549f763-422c-4e8f-86c8-feddf048d5b8",
+            "title": "How to Define the Validation Groups to Use (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/form\/validation_groups.html"
+          },
+          {
+            "id": "cd486e5d-73e3-487b-96c9-7ebb9e22fad9",
+            "title": "Forms (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/forms.html#processing-forms"
+          }
         ]
       },
       {
-        "id":"8f92e89c-d1dc-4a1b-8cdd-8c9e5ccb143c",
-        "title":"Client side caching",
-        "references":[
-
+        "id": "b49f11d9-6031-4d99-b559-2d6ba274548d",
+        "title": "Form types",
+        "references": [
+          {
+            "id": "ba014a53-a275-4789-8c53-390ba2e3d539",
+            "title": "How to Create a Custom Form Field Type (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/form\/create_custom_field_type.html"
+          },
+          {
+            "id": "ed7a6f05-1912-4ffa-838c-6fbaca247fc1",
+            "title": "Forms (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/forms.html#form-types"
+          }
         ]
       },
       {
-        "id":"b3d57666-8a4c-42a5-9f6c-27a90882806f",
-        "title":"Expiration (Expires, Cache-Control)",
-        "references":[
-
+        "id": "de4dce01-644f-4256-b238-61e402637a62",
+        "title": "Forms rendering with Twig",
+        "references": [
+          {
+            "id": "2d6bf8f1-fead-4398-be59-15f857f2bba0",
+            "title": "Forms (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/forms.html#rendering-forms"
+          },
+          {
+            "id": "ed0adcf0-701c-486d-9ddd-86ca29ac5b71",
+            "title": "How to Customize Form Rendering (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/form\/form_customization.html#reference-forms-twig-form"
+          }
         ]
       },
       {
-        "id":"ba6a9e70-69bc-40af-8b73-f408dc81dba8",
-        "title":"Validation (ETag, Last-Modified)",
-        "references":[
-
+        "id": "15185446-5e55-405a-ac26-9ad09e2340d2",
+        "title": "Forms theming",
+        "references": [
+          {
+            "id": "8948ec1a-19ee-4fc2-8ce4-ddc21b0f817e",
+            "title": "Bootstrap 4 Form Theme (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/form\/bootstrap4.html"
+          },
+          {
+            "id": "d445576d-3a19-4429-aa42-036d04e2c84f",
+            "title": "How to Customize Form Rendering (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/form\/form_customization.html"
+          },
+          {
+            "id": "ffed6298-52e7-404c-8f11-052079dd2bd7",
+            "title": "How to Work with Form Themes (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/form\/form_themes.html"
+          }
         ]
       },
       {
-        "id":"fc9a8231-584c-42bf-9206-040b89cecc9b",
-        "title":"Edge Side Includes",
-        "references":[
-
+        "id": "e278b7da-e96d-4daa-a86f-895578fca58f",
+        "title": "CSRF protection",
+        "references": [
+          {
+            "id": "2d247600-cc2c-4f37-a4b1-b0d0f8e0c6f3",
+            "title": "How to Implement CSRF Protection (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/security\/csrf.html"
+          }
+        ]
+      },
+      {
+        "id": "f5b31739-002c-4db4-b254-288fe74bef8a",
+        "title": "Handling file upload",
+        "references": [
+          {
+            "id": "05def13f-a5ad-448e-86e2-61564f5927d5",
+            "title": "How to Upload Files (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/controller\/upload_file.html"
+          }
+        ]
+      },
+      {
+        "id": "a36f5fd1-d264-4229-b9ca-8164a8d59a07",
+        "title": "Built-in form types",
+        "references": [
+          {
+            "id": "0cacb1fe-71f5-4a7f-8c68-62aeff0a14b3",
+            "title": "ResetType Field (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/reference\/forms\/types\/reset.html"
+          },
+          {
+            "id": "13087179-82d0-469e-a004-961e15844107",
+            "title": "ChoiceType Field (select drop-downs, radio buttons &amp; checkboxes) (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/reference\/forms\/types\/choice.html"
+          },
+          {
+            "id": "177b3e81-df09-41b1-ae70-a6c5b0fc8212",
+            "title": "FileType Field (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/reference\/forms\/types\/file.html"
+          },
+          {
+            "id": "2a1f0a0e-67fe-4095-a957-9bcb487c8791",
+            "title": "CheckboxType Field (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/reference\/forms\/types\/checkbox.html"
+          },
+          {
+            "id": "2f13f340-7a42-4e24-84c0-4e868c7b3d6f",
+            "title": "TimezoneType Field (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/reference\/forms\/types\/timezone.html"
+          },
+          {
+            "id": "369594b0-1e1e-4d3d-919c-419704d0317c",
+            "title": "FormType Field (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/reference\/forms\/types\/form.html"
+          },
+          {
+            "id": "5c6633ab-21f2-42e3-836d-be94ad641b73",
+            "title": "PercentType Field (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/reference\/forms\/types\/percent.html"
+          },
+          {
+            "id": "6445e2ac-bbc3-4797-a680-20fdb498e2ef",
+            "title": "RepeatedType Field (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/reference\/forms\/types\/repeated.html"
+          },
+          {
+            "id": "6498027d-c0cd-48e0-a8af-d45b34b916be",
+            "title": "CurrencyType Field (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/reference\/forms\/types\/currency.html"
+          },
+          {
+            "id": "6ab33b57-9115-4477-91c9-810925e027ee",
+            "title": "WeekType Field (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/reference\/forms\/types\/week.html"
+          },
+          {
+            "id": "6d61d1d4-460f-4990-b6b4-713892d250db",
+            "title": "EntityType Field (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/reference\/forms\/types\/entity.html"
+          },
+          {
+            "id": "6f1e616c-d045-4e9c-9e6a-29209a0a441d",
+            "title": "DateTimeType Field (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/reference\/forms\/types\/datetime.html"
+          },
+          {
+            "id": "70ba78a4-1fb0-4429-a47f-dd927f5abd70",
+            "title": "DateIntervalType Field (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/reference\/forms\/types\/dateinterval.html"
+          },
+          {
+            "id": "7b901c2e-81d7-45ca-8538-4cc18f53ac0d",
+            "title": "NumberType Field (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/reference\/forms\/types\/number.html"
+          },
+          {
+            "id": "8968e186-b962-4d22-abd2-94a3a99f91cc",
+            "title": "TextType Field (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/reference\/forms\/types\/text.html"
+          },
+          {
+            "id": "8c14a147-f9f0-424b-9379-39f7e34f7156",
+            "title": "LocaleType Field (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/reference\/forms\/types\/locale.html"
+          },
+          {
+            "id": "8e3d61db-1ef8-4b28-a550-77dc0feafbd5",
+            "title": "TelType Field (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/reference\/forms\/types\/tel.html"
+          },
+          {
+            "id": "907804cf-5fb7-4463-96d9-9925c6a956fe",
+            "title": "RangeType Field (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/reference\/forms\/types\/range.html"
+          },
+          {
+            "id": "95795aa2-3dbe-4b92-beb5-33c466f3f6b9",
+            "title": "SearchType Field (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/reference\/forms\/types\/search.html"
+          },
+          {
+            "id": "9930ec51-7b0c-4529-8345-4205ed43d364",
+            "title": "UrlType Field (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/reference\/forms\/types\/url.html"
+          },
+          {
+            "id": "a28bfdd5-e714-41e6-a679-bd1f28349f73",
+            "title": "HiddenType Field (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/reference\/forms\/types\/hidden.html"
+          },
+          {
+            "id": "a663181b-d2fa-4dc6-988b-d473bb72db42",
+            "title": "Form Types Reference (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/reference\/forms\/types.html"
+          },
+          {
+            "id": "acd81eb9-fee2-4a84-8c0c-d835a6ddb36c",
+            "title": "ButtonType Field (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/reference\/forms\/types\/button.html"
+          },
+          {
+            "id": "b9cbcc66-ada3-49b0-8dc2-f747c71074ce",
+            "title": "LanguageType Field (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/reference\/forms\/types\/language.html"
+          },
+          {
+            "id": "bbfa9aad-6d0d-4605-acdb-54e9795c875e",
+            "title": "MoneyType Field (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/reference\/forms\/types\/money.html"
+          },
+          {
+            "id": "bff78edf-3194-4ac0-98f6-d6c237eed333",
+            "title": "TimeType Field (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/reference\/forms\/types\/time.html"
+          },
+          {
+            "id": "c374ddc5-9b8c-438f-b1c4-1c51b2c1864b",
+            "title": "CollectionType Field (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/reference\/forms\/types\/collection.html"
+          },
+          {
+            "id": "c4659c1e-d6e7-4790-a6a8-fa87c8e76434",
+            "title": "CountryType Field (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/reference\/forms\/types\/country.html"
+          },
+          {
+            "id": "cefe10af-a442-4e21-b609-56b7ada2a735",
+            "title": "BirthdayType Field (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/reference\/forms\/types\/birthday.html"
+          },
+          {
+            "id": "d2a49636-8286-46ef-a3f1-a863e439f4d5",
+            "title": "SubmitType Field (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/reference\/forms\/types\/submit.html"
+          },
+          {
+            "id": "d5a2604e-865a-4e8a-980a-30194485b088",
+            "title": "ColorType Field (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/reference\/forms\/types\/color.html"
+          },
+          {
+            "id": "d69d1794-3a12-46b3-9ebc-b2dd6f58463e",
+            "title": "RadioType Field (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/reference\/forms\/types\/radio.html"
+          },
+          {
+            "id": "da091f0b-4c38-4743-b9d6-69e6a2be262a",
+            "title": "EmailType Field (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/reference\/forms\/types\/email.html"
+          },
+          {
+            "id": "dad0ac78-4a0d-4904-8720-5b6bf00da341",
+            "title": "PasswordType Field (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/reference\/forms\/types\/password.html"
+          },
+          {
+            "id": "e7b7f21b-3729-44fe-8cea-5aed00e17257",
+            "title": "TextareaType Field (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/reference\/forms\/types\/textarea.html"
+          },
+          {
+            "id": "eed4cafd-0f95-4a65-977a-c5079467b39a",
+            "title": "DateType Field (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/reference\/forms\/types\/date.html"
+          },
+          {
+            "id": "f019babe-04a8-4515-80c4-0e0a034159fc",
+            "title": "IntegerType Field (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/reference\/forms\/types\/integer.html"
+          }
+        ]
+      },
+      {
+        "id": "dd97bb4c-8a93-49b6-b7a0-c838454f4583",
+        "title": "Data transformers",
+        "references": [
+          {
+            "id": "eded0bb0-8859-4a2d-bb7e-374fc7ccbd72",
+            "title": "How to Use Data Transformers (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/form\/data_transformers.html"
+          },
+          {
+            "id": "eee54da5-cd77-455a-b9a1-dbf4915b6b7b",
+            "title": "When and How to Use Data Mappers (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/form\/data_mappers.html"
+          }
+        ]
+      },
+      {
+        "id": "ded7cab7-96a7-4511-b08a-41a6d590971e",
+        "title": "Form events",
+        "references": [
+          {
+            "id": "6693e40a-2962-4411-8f86-24f15161cfa4",
+            "title": "How to Dynamically Modify Forms Using Form Events (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/form\/dynamic_form_modification.html"
+          },
+          {
+            "id": "ff2ddc73-90ba-4bd3-9bd8-cdbefb11b27e",
+            "title": "Form Events (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/form\/events.html"
+          }
+        ]
+      },
+      {
+        "id": "021b1cc1-f83f-45b4-96db-9c82147ef854",
+        "title": "Form type extensions",
+        "references": [
+          {
+            "id": "96f2c8b9-490b-479a-8cbc-f49bc13b53c2",
+            "title": "Creating a custom Type Guesser (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/form\/type_guesser.html"
+          },
+          {
+            "id": "e7c12e0b-c3a0-400d-9668-91d598e9dd30",
+            "title": "How to Create a Form Type Extension (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/form\/create_form_type_extension.html"
+          }
         ]
       }
     ]
   },
   {
-    "id":"79c1f20a-344b-49e0-a45e-380bbf616a8d",
-    "title":"Console",
-    "slug":"console",
-    "chapters":[
+    "id": "d45d8bb6-9798-4387-8577-8d3df6a0e2ad",
+    "title": "Data Validation",
+    "slug": "data-validation",
+    "chapters": [
       {
-        "id":"4486d433-95b3-49ac-8df8-080ee4e122b7",
-        "title":"Console events",
-        "references":[
-
+        "id": "e40cc737-68f1-4292-bdf3-2260550c1aa7",
+        "title": "PHP object validation",
+        "references": []
+      },
+      {
+        "id": "3fc1705d-7385-46ae-b37b-71d16bc4ca7c",
+        "title": "Built-in validation constraints",
+        "references": []
+      },
+      {
+        "id": "bf60cc30-32b2-4726-8eef-dfae28b6f6fd",
+        "title": "Validation scopes",
+        "references": []
+      },
+      {
+        "id": "11485a65-3118-4a4e-8386-7fe11b02498f",
+        "title": "Validation groups",
+        "references": []
+      },
+      {
+        "id": "089aa90a-f776-486a-90a6-9a57f6b4dfcd",
+        "title": "Group sequence",
+        "references": []
+      },
+      {
+        "id": "be0eee8a-3ce5-4da8-957a-ebe663430d51",
+        "title": "Custom callback validators",
+        "references": []
+      },
+      {
+        "id": "09de430b-3f76-4c58-8a8a-22dc801d983a",
+        "title": "Violations builder",
+        "references": []
+      }
+    ]
+  },
+  {
+    "id": "a050041c-e4dd-44f1-86fd-f1a0d340545b",
+    "title": "Dependency Injection",
+    "slug": "dependency-injection",
+    "chapters": [
+      {
+        "id": "5e580435-565c-4253-bde0-9947a2e34c6c",
+        "title": "Service container",
+        "references": []
+      },
+      {
+        "id": "f92f9f8e-b80a-4d65-bce3-2cad1927b486",
+        "title": "Built-in services",
+        "references": []
+      },
+      {
+        "id": "2e2bc206-e11f-4dff-91d0-68afc19bdbd6",
+        "title": "Configuration parameters",
+        "references": []
+      },
+      {
+        "id": "4c747e7c-c1d7-466c-9650-8077ca677445",
+        "title": "Services registration",
+        "references": []
+      },
+      {
+        "id": "8bd04d6c-b8f8-4cd8-b2e1-2dbb8e400b39",
+        "title": "Tags",
+        "references": []
+      },
+      {
+        "id": "39b3db26-ed92-4845-8e00-5ee413a3e4a6",
+        "title": "Semantic configuration",
+        "references": []
+      },
+      {
+        "id": "7637d04f-5b6d-4a19-9b27-a7987494d101",
+        "title": "Factories",
+        "references": []
+      },
+      {
+        "id": "3bf453c7-1dbb-4723-acb7-ae4abbc4f077",
+        "title": "Compiler passes",
+        "references": []
+      },
+      {
+        "id": "1ac9c9a2-86f4-4b9b-858b-2ce062bd5673",
+        "title": "Services autowiring",
+        "references": []
+      }
+    ]
+  },
+  {
+    "id": "24d2e688-ce14-4016-a3c7-76a9e62ed703",
+    "title": "Security",
+    "slug": "security",
+    "chapters": [
+      {
+        "id": "054cec99-5836-43f2-9d71-eb12e5cf9bca",
+        "title": "Authentication",
+        "references": []
+      },
+      {
+        "id": "9ce9e9ae-f3d1-4b18-b806-76a5a09f5fc5",
+        "title": "Authorization",
+        "references": []
+      },
+      {
+        "id": "125a8645-7b21-4c25-957a-15d9a0eb4a30",
+        "title": "Configuration",
+        "references": []
+      },
+      {
+        "id": "3bc33905-ec60-4bd6-b5e8-3c4fef488b75",
+        "title": "Providers",
+        "references": []
+      },
+      {
+        "id": "11cc8ec2-9b2b-4b2f-9ff8-ebd7fee551a6",
+        "title": "Firewalls",
+        "references": []
+      },
+      {
+        "id": "5f3ee16a-0ca7-455b-bae0-b045beb91c1a",
+        "title": "Users",
+        "references": []
+      },
+      {
+        "id": "dc1e6789-9048-4927-89db-eac6066a835c",
+        "title": "Passwords encoders",
+        "references": []
+      },
+      {
+        "id": "5089243a-fb60-4eb1-90b7-d3d3ce8d0b08",
+        "title": "Roles",
+        "references": []
+      },
+      {
+        "id": "7bd2321e-f3b0-49e3-be27-34172fa1e1aa",
+        "title": "Access Control Rules",
+        "references": []
+      },
+      {
+        "id": "ceec7058-dbc6-4f52-b2de-1d13e5b75a72",
+        "title": "Guard authenticators",
+        "references": []
+      },
+      {
+        "id": "fb743550-8247-463f-8772-6bc8436a0e83",
+        "title": "Voters and voting strategies",
+        "references": []
+      }
+    ]
+  },
+  {
+    "id": "327dab7e-dd1d-4cfc-b687-f0ffa9858b1a",
+    "title": "HTTP Caching",
+    "slug": "http-caching",
+    "chapters": [
+      {
+        "id": "de005710-6afa-4ee9-b504-00bd14839414",
+        "title": "Cache types (browser, proxies and reverse-proxies)",
+        "references": [
+          {
+            "id": "742ecd4c-4369-437e-9329-c5f634cc65bd",
+            "title": "HTTP Cache (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/http_cache.html"
+          },
+          {
+            "id": "d5ee1a77-af25-41be-9153-3eedf3eeab91",
+            "title": "HTTP caching - HTTP | MDN",
+            "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/HTTP\/Caching"
+          },
+          {
+            "id": "fbce5a35-1ac2-4e03-965b-c72320dc5c0b",
+            "title": "Caching Tutorial for Web Authors and Webmasters",
+            "url": "https:\/\/www.mnot.net\/cache_docs\/"
+          }
         ]
       },
       {
-        "id":"5ed5760c-079d-4d35-9455-f28621d0028d",
-        "title":"Built-in helpers",
-        "references":[
-
+        "id": "9617810e-80fa-4fab-af0e-9068a532f695",
+        "title": "Expiration (Expires, Cache-Control)",
+        "references": [
+          {
+            "id": "e25415c1-0aed-48b3-9133-7a9ab290c187",
+            "title": "HTTP Cache Expiration (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/http_cache\/expiration.html"
+          },
+          {
+            "id": "ee953328-47cf-4397-ae9a-7c6f03ef635c",
+            "title": "Things Caches Do",
+            "url": "https:\/\/tomayko.com\/blog\/2008\/things-caches-do#expiration"
+          }
         ]
       },
       {
-        "id":"6738c2cc-a9a9-45cf-8b44-da7d98bc5018",
-        "title":"Configuration",
-        "references":[
-
+        "id": "515cc6de-2cb0-4e0c-9868-70dc98d1f947",
+        "title": "Validation (ETag, Last-Modified)",
+        "references": []
+      },
+      {
+        "id": "8d61dae5-e61a-4a98-ac1e-6bcca98de9c7",
+        "title": "Client side caching",
+        "references": [
+          {
+            "id": "d5ee1a77-af25-41be-9153-3eedf3eeab91",
+            "title": "HTTP caching - HTTP | MDN",
+            "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/HTTP\/Caching"
+          },
+          {
+            "id": "fbce5a35-1ac2-4e03-965b-c72320dc5c0b",
+            "title": "Caching Tutorial for Web Authors and Webmasters",
+            "url": "https:\/\/www.mnot.net\/cache_docs\/"
+          },
+          {
+            "id": "fbdf8a65-1ee2-4506-93e0-b291a0ce4602",
+            "title": "Varying the Response for HTTP Cache (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/http_cache\/cache_vary.html"
+          }
         ]
       },
       {
-        "id":"768866c5-dbff-40a3-9359-d12fdf2e0cea",
-        "title":"Verbosity levels",
-        "references":[
-
+        "id": "442a72da-e190-411c-9b51-3c16c0db8476",
+        "title": "Server side caching",
+        "references": [
+          {
+            "id": "8c6e4b17-8c48-4854-b3d1-8af845ea0c9e",
+            "title": "Caching Tutorial for Web Authors and Webmasters",
+            "url": "https:\/\/www.mnot.net\/cache_docs\/#GATEWAY"
+          },
+          {
+            "id": "c50b9506-90a8-4cee-8fef-afa79209395c",
+            "title": "Working with Server Side Includes (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/http_cache\/ssi.html"
+          }
         ]
       },
       {
-        "id":"8dfa823f-854c-4467-9c86-09aa6ce6c09d",
-        "title":"Input and Output objects",
-        "references":[
-
-        ]
-      },
-      {
-        "id":"9ca03b52-42eb-45cf-8930-6adc5a2676d7",
-        "title":"Options and arguments",
-        "references":[
-
-        ]
-      },
-      {
-        "id":"a641760a-7153-491e-813d-248721c66e43",
-        "title":"Custom commands",
-        "references":[
-
-        ]
-      },
-      {
-        "id":"bc070ef8-da6f-4dbe-b32a-db20d7ff2fc8",
-        "title":"Built-in commands",
-        "references":[
-
+        "id": "3f51b857-7600-48dc-bd44-7b412119fa31",
+        "title": "Edge Side Includes",
+        "references": [
+          {
+            "id": "798125d6-53a3-4995-8993-c122060a7da2",
+            "title": "How to Use Varnish to Speed up my Website (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/http_cache\/varnish.html"
+          },
+          {
+            "id": "a05a916d-4e6d-4474-802f-1b6ec00d81cb",
+            "title": "Working with Edge Side Includes (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/http_cache\/esi.html"
+          }
         ]
       }
     ]
   },
   {
-    "id":"a965bb32-088d-4aba-b6ad-74a3fcced1b5",
-    "title":"Automated Tests",
-    "slug":"automated-tests",
-    "chapters":[
+    "id": "1ea4a90b-0ae9-45f6-b2d8-72c2b93a09f6",
+    "title": "Console",
+    "slug": "console",
+    "chapters": [
       {
-        "id":"1f697243-f8c5-43b8-8e70-2b3c5b810644",
-        "title":"Handling legacy deprecated code",
-        "references":[
-
-        ]
+        "id": "bf1e20c7-22d0-4399-8147-d94ba68fabf8",
+        "title": "Built-in commands",
+        "references": []
       },
       {
-        "id":"2178ed81-9ad0-4724-8518-fcb9faa84519",
-        "title":"Request and response objects introspection",
-        "references":[
-
-        ]
+        "id": "88cb6a31-3e73-41ae-ae0e-ed2bc9003f4f",
+        "title": "Custom commands",
+        "references": []
       },
       {
-        "id":"48cc12f1-ddb6-41b0-a397-444a0eb959e1",
-        "title":"PHPUnit bridge",
-        "references":[
-
-        ]
+        "id": "51149e3a-154a-4628-abb8-1c4067cd3c1b",
+        "title": "Configuration",
+        "references": []
       },
       {
-        "id":"59ad6cfa-f123-4480-8ba7-d31fb91d55c5",
-        "title":"Unit tests with PHPUnit",
-        "references":[
-
-        ]
+        "id": "31e23c40-957d-4243-9266-f15eea8da668",
+        "title": "Options and arguments",
+        "references": []
       },
       {
-        "id":"5a9c6b1b-9997-485e-afb6-8f39258a5d9a",
-        "title":"Framework objects access",
-        "references":[
-
-        ]
+        "id": "391712fd-9c91-4e61-b1e1-e27357e3bcd5",
+        "title": "Input and Output objects",
+        "references": []
       },
       {
-        "id":"5bfe87e6-6b12-4773-946b-f826922dbca4",
-        "title":"Profile object",
-        "references":[
-
-        ]
+        "id": "7f6e9f9d-fa37-464e-ba95-e1b54236eaa9",
+        "title": "Built-in helpers",
+        "references": []
       },
       {
-        "id":"771d9251-fd20-4d34-8ccb-049a465ff2b6",
-        "title":"Functional tests with PHPUnit",
-        "references":[
-
-        ]
+        "id": "f29650f9-a8a7-4d80-842f-a7b21605dba3",
+        "title": "Console events",
+        "references": []
       },
       {
-        "id":"8654689f-30d2-4e59-81ed-41fc60e726fc",
-        "title":"Crawler object",
-        "references":[
-
-        ]
-      },
-      {
-        "id":"b2a86b3b-162d-460b-a4a0-b24348d323a6",
-        "title":"Client object",
-        "references":[
-
-        ]
-      },
-      {
-        "id":"c0f68810-3c47-492a-bc6a-0d0c25d251df",
-        "title":"Client configuration",
-        "references":[
-
-        ]
+        "id": "a8342451-e7e9-4b21-8968-9134e35b1521",
+        "title": "Verbosity levels",
+        "references": []
       }
     ]
   },
   {
-    "id":"af11b179-729d-4e03-a57c-963e947dea5e",
-    "title":"Miscellaneous",
-    "slug":"miscellaneous",
-    "chapters":[
+    "id": "f4a1b0dc-fea8-43ce-aff7-e98dcf84aba8",
+    "title": "Automated Tests",
+    "slug": "automated-tests",
+    "chapters": [
       {
-        "id":"2931c8f4-14af-4285-b074-3ed042f0e482",
-        "title":"Error handling",
-        "references":[
-
+        "id": "764fd9dc-5e05-4fe3-b66f-6bc049664462",
+        "title": "Unit tests with PHPUnit",
+        "references": []
+      },
+      {
+        "id": "cc82140b-a0b2-48d7-aad7-79683bb9396d",
+        "title": "Functional tests with PHPUnit",
+        "references": []
+      },
+      {
+        "id": "a32d3295-60ff-4312-9633-2e9caa0b6b4e",
+        "title": "Client object",
+        "references": []
+      },
+      {
+        "id": "68e34091-7ab5-42bd-b71f-b8c03e735e4c",
+        "title": "Crawler object",
+        "references": []
+      },
+      {
+        "id": "9d0fe14a-48d1-442e-a1be-bd926bdf4ef6",
+        "title": "Profile object",
+        "references": []
+      },
+      {
+        "id": "0fb43a82-6f2c-45c5-893e-e2669600d377",
+        "title": "Framework objects access",
+        "references": []
+      },
+      {
+        "id": "4f36d865-c3f6-48dc-b269-e4308dd35843",
+        "title": "Client configuration",
+        "references": []
+      },
+      {
+        "id": "b4943907-4e6d-4acf-904a-8084083c5ec0",
+        "title": "Request and response objects introspection",
+        "references": []
+      },
+      {
+        "id": "939748de-3aba-4626-93e2-afdcfcf2cd99",
+        "title": "PHPUnit bridge",
+        "references": []
+      },
+      {
+        "id": "4022a4fe-073e-49d7-b230-98d7a5e1946b",
+        "title": "Handling legacy deprecated code",
+        "references": []
+      }
+    ]
+  },
+  {
+    "id": "22895b4e-8f54-44e4-9580-1f94ac4a84b1",
+    "title": "Miscellaneous",
+    "slug": "miscellaneous",
+    "chapters": [
+      {
+        "id": "f7329bfe-76a1-4861-b798-bf631867d344",
+        "title": "Configuration (including DotEnv and ExpressionLanguage components)",
+        "references": []
+      },
+      {
+        "id": "d4be751a-819b-4d54-bf33-c4b48d980f03",
+        "title": "Error handling",
+        "references": [
+          {
+            "id": "78a24d04-4126-42bd-8f54-70d479c6d352",
+            "title": "How to Customize Error Pages (Symfony 5.0 Docs)",
+            "url": "https:\/\/symfony.com\/doc\/5.0\/controller\/error_pages.html"
+          }
         ]
       },
       {
-        "id":"2940e53d-a7f2-4607-bf2e-eb2ec08b6d2f",
-        "title":"Filesystem and Finder components",
-        "references":[
-
-        ]
+        "id": "9f04872e-4645-4e01-949c-8c8fd1126b11",
+        "title": "Code debugging",
+        "references": []
       },
       {
-        "id":"2e821efc-c93d-4df0-8d4c-6cbd650ff2c4",
-        "title":"Messenger component",
-        "references":[
-
-        ]
+        "id": "d8dad764-64e5-4dd1-a88d-4b91eae2f89b",
+        "title": "Deployment best practices",
+        "references": []
       },
       {
-        "id":"4f801184-700a-4509-93b3-796939f78f0c",
-        "title":"Code debugging",
-        "references":[
-
-        ]
+        "id": "f479e19e-6997-4556-91e7-a51739d9e18a",
+        "title": "Process and Serializer components",
+        "references": []
       },
       {
-        "id":"5410b6b4-470f-46de-961d-c1e2a364e1d2",
-        "title":"Web Profiler, Web Debug Toolbar and Data collectors",
-        "references":[
-
-        ]
+        "id": "773de5ed-4723-424f-97cf-4843a7ed8c4a",
+        "title": "Messenger component",
+        "references": []
       },
       {
-        "id":"78e93602-dc46-4a11-9738-f72e899781f1",
-        "title":"Process and Serializer components",
-        "references":[
-
-        ]
+        "id": "8daf600a-d30a-4a4b-8a13-e7cf7e5f4d41",
+        "title": "Mime and Mailer components",
+        "references": []
       },
       {
-        "id":"ba800c87-10da-4395-830b-4469847cb65c",
-        "title":"Configuration (including DotEnv and ExpressionLanguage components)",
-        "references":[
-
-        ]
+        "id": "416c0601-7504-4576-a620-5049767459cc",
+        "title": "Filesystem and Finder components",
+        "references": []
       },
       {
-        "id":"bcef74cb-fc3d-419d-8512-bcdf1b64c5da",
-        "title":"Internationalization and localization (and Intl component)",
-        "references":[
-
-        ]
+        "id": "725cb823-920a-4dbd-b4fc-8810e6d1a894",
+        "title": "Lock component",
+        "references": []
       },
       {
-        "id":"c56e1d02-cdf5-4b29-8f62-2e68f46437f5",
-        "title":"Mime and Mailer components",
-        "references":[
-
-        ]
+        "id": "31766f57-0c1e-4758-ad22-f974b5193651",
+        "title": "Web Profiler, Web Debug Toolbar and Data collectors",
+        "references": []
       },
       {
-        "id":"d4895889-2190-48a4-a0e7-1b5673a05f4c",
-        "title":"Deployment best practices",
-        "references":[
-
-        ]
-      },
-      {
-        "id":"fa4f7132-b1aa-4eeb-9594-9576c67f0847",
-        "title":"Lock component",
-        "references":[
-
-        ]
+        "id": "203e6363-1fa9-493e-afee-8c0af4d7cb22",
+        "title": "Internationalization and localization (and Intl component)",
+        "references": []
       }
     ]
   }
