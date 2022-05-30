@@ -20,7 +20,7 @@ export const topicSlice = createSlice({
 
 export const { setTopics } = topicSlice.actions;
 
-export const selectTopicById = (id) => state => state.topic.data[id];
+export const selectTopicById = (id) => state => state.topic.data[id] || {};
 export const selectTopicIds = state => state.topic.ids;
 
 export default topicSlice.reducer;

@@ -1,10 +1,11 @@
 import React, {useEffect} from "react";
-import {Switch, Route, HashRouter} from 'react-router-dom'
+import {Routes, Route, HashRouter} from 'react-router-dom'
 import TopicMenu from "../topic/TopicMenu";
 import Topic from "../topic/Topic";
 import {selectTopicIds, setTopics} from "../topic/topicSlice";
 import {data} from "../../data";
 import {useDispatch, useSelector} from "react-redux";
+import Welcome from "./Welcome";
 
 export default function Dashboard () {
     const dispatch = useDispatch();
@@ -22,16 +23,10 @@ export default function Dashboard () {
                 <TopicMenu />
             </div>
             <div className="col-9">
-                <Switch>
-                    <Route exact path="/">
-                        <h3>
-                            This is a simple todo app to help you learn<br/> <a href="https://certification.symfony.com/">Symfony 5.0 certification topics</a>
-                        </h3>
-                    </Route>
-                    <Route path="/:id">
-                        <Topic />
-                    </Route>
-                </Switch>
+                <Routes>
+                    <Route exact path="/" element={Welcome} />
+                    <Route path="/:id" element={<Topic />} />
+                </Routes>
             </div>
         </div> : null}
     </HashRouter>;

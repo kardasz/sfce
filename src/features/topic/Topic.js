@@ -8,6 +8,10 @@ function Topic() {
     const { id } = useParams();
     const {title, chapters} = useSelector(selectTopicById(id));
 
+    if (!id) {
+        return  null;
+    }
+
     return <div className="container">
         <h2># {title}</h2>
         <hr />
