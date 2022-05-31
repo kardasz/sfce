@@ -13,7 +13,7 @@ function Reference({id}) {
         dispatch(setReferenceReviewed(id, ref.current.checked));
     }
 
-    return <div className="form-group">
+    return <div className="form-group px-2">
         <input type="checkbox" ref={ref} className="form-check-input" onChange={handleOnReview} checked={reviewed} />
         <label className="form-check-label">
             <a href={url} rel="noopener noreferrer"  target="_blank">{title}</a>
