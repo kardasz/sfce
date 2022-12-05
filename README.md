@@ -26,6 +26,11 @@ Visit app at [kardasz.github.io/sfce](https://kardasz.github.io/sfce)
 - [Migrating from PHP 5.6.x to PHP 7.0.x](https://www.php.net/manual/en/migration70.php)
 - [Migrating from PHP 7.0.x to PHP 7.1.x](https://www.php.net/manual/en/migration71.php)
 - [Migrating from PHP 7.1.x to PHP 7.2.x](https://www.php.net/manual/en/migration72.php)
+- [Migrating from PHP 7.2.x to PHP 7.3.x](https://www.php.net/manual/en/migration73.php)
+- [Migrating from PHP 7.3.x to PHP 7.4.x](https://www.php.net/manual/en/migration74.php)
+- [Migrating from PHP 7.4.x to PHP 8.0.x](https://www.php.net/manual/en/migration80.php)
+- [Migrating from PHP 8.0.x to PHP 8.1.x](https://www.php.net/manual/en/migration81.php)
+- [Migrating from PHP 8.1.x to PHP 8.2.x](https://www.php.net/manual/en/migration82.php)
 - [Changelog](https://www.php.net/manual/en/doc.changelog.php)
 - [Security](https://www.php.net/manual/en/security.php)
 - [PHP The Right Way](https://phptherightway.com/)
@@ -150,7 +155,7 @@ Visit app at [kardasz.github.io/sfce](https://kardasz.github.io/sfce)
 - [Working with Edge Side Includes](https://symfony.com/doc/6.0/http_cache/esi.html)
 - [How to Use Varnish to Speed up my Website](https://symfony.com/doc/6.0/http_cache/varnish.html)
 - [Working with Server Side Includes](https://symfony.com/doc/6.0/http_cache/ssi.html)
-- [HttpCache.php](https://github.com/symfony/symfony/blob/5.2/src/Symfony/Component/HttpKernel/HttpCache/HttpCache.php)
+- [HttpCache.php](https://github.com/symfony/symfony/blob/6.0/src/Symfony/Component/HttpKernel/HttpCache/HttpCache.php)
 
 ### Content negotiation
 
@@ -171,7 +176,7 @@ Visit app at [kardasz.github.io/sfce](https://kardasz.github.io/sfce)
 
 ### Symfony Flex
 
-- [Symfony 5.0 Documentation](https://symfony.com/doc/6.0/index.html)
+- [Symfony 6.0 Documentation](https://symfony.com/doc/6.0/index.html)
 - [Upgrading Existing Applications to Symfony Flex](https://symfony.com/doc/6.0/setup/flex.html)
 - [Flex Compose your Application](https://symfony.com/doc/6.0/quick_tour/flex_recipes.html)
 
@@ -187,6 +192,7 @@ Visit app at [kardasz.github.io/sfce](https://kardasz.github.io/sfce)
 - [The BrowserKit Component](https://symfony.com/doc/6.0/components/browser_kit.html)
 - [The Cache Component](https://symfony.com/doc/6.0/components/cache.html)
 - [The Config Component](https://symfony.com/doc/6.0/components/config.html)
+- [Configuring Symfony](https://symfony.com/doc/6.0/configuration.html)
 - [The Console Component](https://symfony.com/doc/6.0/components/console.html)
 - [The Contracts Component](https://symfony.com/doc/6.0/components/contracts.html)
 - [The CssSelector Component](https://symfony.com/doc/6.0/components/css_selector.html)
@@ -203,24 +209,35 @@ Visit app at [kardasz.github.io/sfce](https://kardasz.github.io/sfce)
 - [The Intl Component](https://symfony.com/doc/6.0/components/intl.html)
 - [The Ldap Component](https://symfony.com/doc/6.0/components/ldap.html)
 - [The Lock Component](https://symfony.com/doc/6.0/components/lock.html)
+- [Logging](https://symfony.com/doc/current/logging.html)
 - [The Mailer Component](https://symfony.com/doc/6.0/components/mailer.html)
+- [Pushing Data to Clients Using the Mercure Protocol](https://symfony.com/doc/6.0/mercure.html)
 - [The Messenger Component](https://symfony.com/doc/6.0/components/messenger.html)
 - [The Mime Component](https://symfony.com/doc/6.0/components/mime.html)
+- [Creating and Sending Notifications](https://symfony.com/doc/6.0/notifier.html)
 - [The OptionsResolver Component](https://symfony.com/doc/6.0/components/options_resolver.html)
+- [Panther](https://github.com/symfony/panther)
 - [The PHPUnit Bridge](https://symfony.com/doc/6.0/components/phpunit_bridge.html)
 - [The Process Component](https://symfony.com/doc/6.0/components/process.html)
 - [The PropertyAccess Component](https://symfony.com/doc/6.0/components/property_access.html)
 - [The PropertyInfo Component](https://symfony.com/doc/6.0/components/property_info.html)
 - [The PSR-7 Bridge](https://symfony.com/doc/6.0/components/psr7.html)
+- [Rate Limiter](https://symfony.com/doc/6.0/rate_limiter.html)
+- [The Runtime Component](https://symfony.com/doc/6.0/components/runtime.html)
 - [The Security Component](https://symfony.com/doc/6.0/components/security.html)
+- [The Semaphore Component](https://symfony.com/doc/6.0/components/semaphore.html)
 - [The Serializer Component](https://symfony.com/doc/6.0/components/serializer.html)
 - [The Stopwatch Component](https://symfony.com/doc/6.0/components/stopwatch.html)
 - [The String Component](https://symfony.com/doc/6.0/components/string.html)
+- [Templating Component](https://github.com/symfony/templating/tree/6.0)
+- [Translations](https://symfony.com/doc/6.0/translation.html)
+- [The UID Component](https://symfony.com/doc/6.0/components/uid.html)
 - [The Validator Component](https://symfony.com/doc/6.0/components/validator.html)
 - [Metadata](https://symfony.com/doc/6.0/components/validator/metadata.html)
 - [Loading Resources](https://symfony.com/doc/6.0/components/validator/resources.html)
 - [The VarDumper Component](https://symfony.com/doc/6.0/components/var_dumper.html)
 - [The VarExporter Component](https://symfony.com/doc/6.0/components/var_exporter.html)
+- [WebLink](https://symfony.com/doc/6.0/web_link.html)
 - [The Workflow Component](https://symfony.com/doc/6.0/components/workflow.html)
 - [The Yaml Component](https://symfony.com/doc/6.0/components/yaml.html)
 
@@ -323,13 +340,13 @@ Visit app at [kardasz.github.io/sfce](https://kardasz.github.io/sfce)
 
 - [The HttpKernel Component](https://symfony.com/doc/6.0/components/http_kernel.html)
 - [Controller the request and response object](https://symfony.com/doc/6.0/controller.html#the-request-and-response-object)
-- [Request.php](https://github.com/symfony/http-foundation/blob/5.0/Request.php)
+- [Request.php](https://github.com/symfony/http-foundation/blob/6.0/Request.php)
 - [ControllerResolverInterface.php](https://github.com/symfony/symfony/blob/6.0/src/Symfony/Component/HttpKernel/Controller/ControllerResolverInterface.php)
 - [ArgumentResolverInterface.php](https://github.com/symfony/symfony/blob/6.0/src/Symfony/Component/HttpKernel/Controller/ArgumentResolverInterface.php)
 
 ### The response
 
-- [Response.php](https://github.com/symfony/http-foundation/blob/5.0/Response.php)
+- [Response.php](https://github.com/symfony/http-foundation/blob/6.0/Response.php)
 
 ### The cookies
 
@@ -434,11 +451,11 @@ Visit app at [kardasz.github.io/sfce](https://kardasz.github.io/sfce)
 
 ### Twig syntax up to 3.3 version
 
-- [Twig for Template Designers](https://twig.symfony.com/doc/2.x/templates.html)
-- [Twig Internals - twig internals](https://twig.symfony.com/doc/2.x/internals.html#twig-internals)
-- [Twig Internals - the lexer](https://twig.symfony.com/doc/2.x/internals.html#the-lexer)
-- [Twig Internals - the parser](https://twig.symfony.com/doc/2.x/internals.html#the-parser)
-- [Twig Internals - the compiler](https://twig.symfony.com/doc/2.x/internals.html#the-compiler)
+- [Twig for Template Designers](https://twig.symfony.com/doc/3.x/templates.html)
+- [Twig Internals - twig internals](https://twig.symfony.com/doc/3.x/internals.html#twig-internals)
+- [Twig Internals - the lexer](https://twig.symfony.com/doc/3.x/internals.html#the-lexer)
+- [Twig Internals - the parser](https://twig.symfony.com/doc/3.x/internals.html#the-parser)
+- [Twig Internals - the compiler](https://twig.symfony.com/doc/3.x/internals.html#the-compiler)
 
 ### Configuration
 
@@ -449,7 +466,7 @@ Visit app at [kardasz.github.io/sfce](https://kardasz.github.io/sfce)
 ### Auto escaping
 
 - [Creating and Using Templates output escaping](https://symfony.com/doc/6.0/templates.html#output-escaping)
-- [Twig for Developers - escaper extension](https://twig.symfony.com/doc/2.x/api.html#escaper-extension)
+- [Twig for Developers - escaper extension](https://twig.symfony.com/doc/3.x/api.html#escaper-extension)
 - [Twig Configuration - autoescape](https://symfony.com/doc/6.0/reference/configuration/twig.html#autoescape)
 - [Twig Configuration - autoescape service](https://symfony.com/doc/6.0/reference/configuration/twig.html#autoescape-service)
 - [Twig Configuration - autoescape service method](https://symfony.com/doc/6.0/reference/configuration/twig.html#autoescape-service-method)
@@ -457,7 +474,7 @@ Visit app at [kardasz.github.io/sfce](https://kardasz.github.io/sfce)
 ### Template inheritance
 
 - [Creating and Using Templates template inheritance and layouts](https://symfony.com/doc/6.0/templates.html#template-inheritance-and-layouts)
-- [Twig tags - extends](https://twig.symfony.com/doc/2.x/tags/extends.html)
+- [Twig tags - extends](https://twig.symfony.com/doc/3.x/tags/extends.html)
 
 ### Global variables
 
@@ -466,9 +483,9 @@ Visit app at [kardasz.github.io/sfce](https://kardasz.github.io/sfce)
 
 ### Filters and functions
 
-- [Twig tags](https://twig.symfony.com/doc/2.x/tags/index.html)
-- [Filters - Documentation - Twig - The flexible, fast, and secure PHP template engine](https://twig.symfony.com/doc/2.x/filters/index.html)
-- [Functions - Documentation - Twig - The flexible, fast, and secure PHP template engine](https://twig.symfony.com/doc/2.x/functions/index.html)
+- [Twig tags](https://twig.symfony.com/doc/3.x/tags/index.html)
+- [Filters - Documentation - Twig - The flexible, fast, and secure PHP template engine](https://twig.symfony.com/doc/3.x/filters/index.html)
+- [Functions - Documentation - Twig - The flexible, fast, and secure PHP template engine](https://twig.symfony.com/doc/3.x/functions/index.html)
 - [Twig Extensions Defined by Symfony](https://symfony.com/doc/6.0/reference/twig_reference.html)
 - [How to Write a custom Twig Extension](https://symfony.com/doc/6.0/templating/twig_extension.html)
 
@@ -476,14 +493,14 @@ Visit app at [kardasz.github.io/sfce](https://kardasz.github.io/sfce)
 
 - [Creating and Using Templates templates include](https://symfony.com/doc/6.0/templates.html#templates-include)
 - [Creating and Using Templates embedding controllers](https://symfony.com/doc/6.0/templates.html#embedding-controllers)
-- [include - Documentation - Twig - The flexible, fast, and secure PHP template engine](https://twig.symfony.com/doc/2.x/functions/include.html)
-- [Twig for Template Designers - including other templates](https://twig.symfony.com/doc/2.x/templates.html#including-other-templates)
+- [include - Documentation - Twig - The flexible, fast, and secure PHP template engine](https://twig.symfony.com/doc/3.x/functions/include.html)
+- [Twig for Template Designers - including other templates](https://twig.symfony.com/doc/3.x/templates.html#including-other-templates)
 
 ### Loops and conditions
 
-- [Twig for Template Designers - control structure](https://twig.symfony.com/doc/2.x/templates.html#control-structure)
-- [Twig tags - for](https://twig.symfony.com/doc/2.x/tags/for.html)
-- [Twig tags - if](https://twig.symfony.com/doc/2.x/tags/if.html)
+- [Twig for Template Designers - control structure](https://twig.symfony.com/doc/3.x/templates.html#control-structure)
+- [Twig tags - for](https://twig.symfony.com/doc/3.x/tags/for.html)
+- [Twig tags - if](https://twig.symfony.com/doc/3.x/tags/if.html)
 
 ### URLs generation
 
@@ -507,7 +524,7 @@ Visit app at [kardasz.github.io/sfce](https://kardasz.github.io/sfce)
 
 ### String interpolation
 
-- [Twig for Template Designers - string interpolation](https://twig.symfony.com/doc/2.x/templates.html#string-interpolation)
+- [Twig for Template Designers - string interpolation](https://twig.symfony.com/doc/3.x/templates.html#string-interpolation)
 
 ### Assets management
 
@@ -644,14 +661,18 @@ Visit app at [kardasz.github.io/sfce](https://kardasz.github.io/sfce)
 - [IsFalse](https://symfony.com/doc/6.0/reference/constraints/IsFalse.html)
 - [Type](https://symfony.com/doc/6.0/reference/constraints/Type.html)
 - [Email](https://symfony.com/doc/6.0/reference/constraints/Email.html)
+- [ExpressionLanguageSyntax](https://symfony.com/doc/6.0/reference/constraints/ExpressionLanguageSyntax.html)
 - [Length](https://symfony.com/doc/6.0/reference/constraints/Length.html)
 - [Url](https://symfony.com/doc/6.0/reference/constraints/Url.html)
 - [Regex](https://symfony.com/doc/6.0/reference/constraints/Regex.html)
+- [Hostname](https://symfony.com/doc/6.0/reference/constraints/Hostname.html)
 - [Ip](https://symfony.com/doc/6.0/reference/constraints/Ip.html)
+- [Cidr](https://symfony.com/doc/6.0/reference/constraints/Cidr.html)
 - [Json](https://symfony.com/doc/6.0/reference/constraints/Json.html)
 - [UUID](https://symfony.com/doc/6.0/reference/constraints/Uuid.html)
 - [UserPassword](https://symfony.com/doc/6.0/reference/constraints/UserPassword.html)
 - [NotCompromisedPassword](https://symfony.com/doc/6.0/reference/constraints/NotCompromisedPassword.html)
+- [CssColor](https://symfony.com/doc/6.0/reference/constraints/CssColor.html)
 - [EqualTo](https://symfony.com/doc/6.0/reference/constraints/EqualTo.html)
 - [NotEqualTo](https://symfony.com/doc/6.0/reference/constraints/NotEqualTo.html)
 - [IdenticalTo](https://symfony.com/doc/6.0/reference/constraints/IdenticalTo.html)
@@ -684,6 +705,10 @@ Visit app at [kardasz.github.io/sfce](https://kardasz.github.io/sfce)
 - [IBAN](https://symfony.com/doc/6.0/reference/constraints/Iban.html)
 - [Isbn](https://symfony.com/doc/6.0/reference/constraints/Isbn.html)
 - [Issn](https://symfony.com/doc/6.0/reference/constraints/Issn.html)
+- [Isin](https://symfony.com/doc/6.0/reference/constraints/Isin.html)
+- [AtLeastOneOf](https://symfony.com/doc/6.0/reference/constraints/AtLeastOneOf.html)
+- [Sequentially](https://symfony.com/doc/6.0/reference/constraints/Sequentially.html)
+- [Compound](https://symfony.com/doc/6.0/reference/constraints/Compound.html)
 - [Callback](https://symfony.com/doc/6.0/reference/constraints/Callback.html)
 - [Expression](https://symfony.com/doc/6.0/reference/constraints/Expression.html)
 - [All](https://symfony.com/doc/6.0/reference/constraints/All.html)
@@ -937,11 +962,13 @@ Visit app at [kardasz.github.io/sfce](https://kardasz.github.io/sfce)
 ### Built-in helpers
 
 - [The Console Helpers](https://symfony.com/doc/6.0/components/console/helpers/index.html)
-- [Question Helper](https://symfony.com/doc/6.0/components/console/helpers/questionhelper.html)
 - [Formatter Helper](https://symfony.com/doc/6.0/components/console/helpers/formatterhelper.html)
+- [Process Helper](https://symfony.com/doc/6.0/components/console/helpers/processhelper.html)
 - [Progress Bar](https://symfony.com/doc/6.0/components/console/helpers/progressbar.html)
+- [Question Helper](https://symfony.com/doc/6.0/components/console/helpers/questionhelper.html)
 - [Table](https://symfony.com/doc/6.0/components/console/helpers/table.html)
 - [Debug Formatter Helper](https://symfony.com/doc/6.0/components/console/helpers/debug_formatter.html)
+- [Cursor Helper](https://symfony.com/doc/6.0/components/console/helpers/cursor.html)
 
 ### Console events
 
@@ -1014,8 +1041,8 @@ Visit app at [kardasz.github.io/sfce](https://kardasz.github.io/sfce)
 ### Configuration (including DotEnv and ExpressionLanguage components)
 
 - [The Config Component](https://symfony.com/doc/6.0/components/config.html)
-- [The ExpressionLanguage Component](https://symfony.com/doc/6.0/components/expression_language.html)
 - [Configuring Symfony](https://symfony.com/doc/6.0/configuration.html)
+- [The ExpressionLanguage Component](https://symfony.com/doc/6.0/components/expression_language.html)
 - [Nov 2018 Changes to .env and How to Update](https://symfony.com/doc/6.0/configuration/dot-env-changes.html)
 - [GitHub - symfony/dotenv: Symfony Dotenv parses .env files to make environment variables stored in them accessible via getenv(), $_ENV, or $_SERVER.](https://github.com/symfony/dotenv)
 - [How to Keep Sensitive Information Secret](https://symfony.com/doc/6.0/configuration/secrets.html)
@@ -1108,9 +1135,9 @@ Visit app at [kardasz.github.io/sfce](https://kardasz.github.io/sfce)
 ### Internationalization and localization (and Intl component)
 
 - [The Intl Component](https://symfony.com/doc/6.0/components/intl.html)
+- [Translations](https://symfony.com/doc/6.0/translation.html)
 - [Using Translation in Templates](https://symfony.com/doc/6.0/translation/templates.html)
 - [How to Find Missing or Unused Translation Messages](https://symfony.com/doc/6.0/translation/debug.html)
-- [Translations](https://symfony.com/doc/6.0/translation.html)
 - [How to Translate Messages using the ICU MessageFormat](https://symfony.com/doc/6.0/translation/message_format.html)
 - [How to Work with the User's Locale](https://symfony.com/doc/6.0/translation/locale.html)
 - [How to Find Errors in Translation Files](https://symfony.com/doc/6.0/translation/lint.html)
@@ -1120,3 +1147,4 @@ Visit app at [kardasz.github.io/sfce](https://kardasz.github.io/sfce)
 
 ### Runtime component
 
+- [The Runtime Component](https://symfony.com/doc/6.0/components/runtime.html)
