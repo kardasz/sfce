@@ -5,11 +5,11 @@ export const chapterSlice = createSlice({
     initialState: {
         data: []
     },
-    extraReducers: {
-        'topic/setTopics': (state, action) => {
-            const {entities: {chapters}} = action.payload
-            state.data = chapters
-        }
+    extraReducers: (builder) => {
+        builder.addCase('topic/setTopics', (state, action) => {
+            const { entities: { chapters } } = action.payload;
+            state.data = chapters;
+        });
     }
 });
 

@@ -1,5 +1,5 @@
 import { configureStore } from '@reduxjs/toolkit';
-import thunk from "redux-thunk";
+import {thunk} from "redux-thunk";
 import logger from "redux-logger";
 
 import topicReducer from '../features/topic/topicSlice';
@@ -12,5 +12,8 @@ export default configureStore({
     reference: referenceReducer,
     chapter: chapterReducer
   },
-  middleware: [thunk, logger]
+  middleware: getDefaultMiddleware =>
+      getDefaultMiddleware({
+        thunk, logger
+      })
 });

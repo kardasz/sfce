@@ -1,5 +1,5 @@
 import React, {useEffect} from "react";
-import {Routes, Route, HashRouter} from 'react-router-dom'
+import {Routes, Route, HashRouter} from 'react-router'
 import TopicMenu from "../topic/TopicMenu";
 import Topic from "../topic/Topic";
 import {selectTopicIds, setTopics} from "../topic/topicSlice";
