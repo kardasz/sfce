@@ -11,11 +11,11 @@ export const referenceSlice = createSlice({
             state.data[id].reviewed = reviewed
         }
     },
-    extraReducers: {
-        'topic/setTopics': (state, action) => {
-            const {entities: {references}} = action.payload
-            state.data = references
-        }
+    extraReducers: (builder) => {
+        builder.addCase('topic/setTopics', (state, action) => {
+            const { entities: { references } } = action.payload;
+            state.data = references;
+        });
     }
 });
 

@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import {useSelector} from "react-redux";
 import {selectTopicById} from "./topicSlice";
-import {Link} from "react-router-dom";
+import {Link} from "react-router";
 
 function TopicLink({id}) {
     const {title} = useSelector(selectTopicById(id));
