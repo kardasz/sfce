@@ -1,0 +1,116 @@
+---
+import '../styles/global.css';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import Sidebar from '../components/Sidebar.astro';
+import topics from '../data/topics.json';
+import type { Topic } from '../types';
+
+interface Props {
+  title: string;
+  currentSlug?: string;
+}
+
+const { title, currentSlug } = Astro.props;
+const typedTopics = topics as Topic[];
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Study materials for the Symfony Framework Certification Exam (SFCE) 7.0" />
+    <link rel="icon" type="image/svg+xml" href={`${import.meta.env.BASE_URL}favicon.svg`} />
+    <title>{title}</title>
+
+    <!-- Theme init (inline, blocking to prevent flash) -->
+    <script is:inline>
+      (function() {
+        var stored = localStorage.getItem('theme') || 'system';
+        var dark = stored === 'dark' ||
+          (stored === 'system' && window.matchMedia('(prefers-color-scheme: dark)').matches);
+        if (dark) document.documentElement.classList.add('dark');
+      })();
+    </script>
+  </head>
+  <body class="min-h-screen flex flex-col">
+    <Header />
+
+    <div class="flex flex-1">
+      <Sidebar topics={typedTopics} currentSlug={currentSlug} />
+
+      <main class="flex-1 min-w-0 lg:ml-0">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 py-6">
+          <slot />
+        </div>
+        <Footer />
+      </main>
+    </div>
+
+    <!-- Theme toggle script -->
+    <script>
+      function applyTheme(theme: string) {
+        const dark = theme === 'dark' ||
+          (theme === 'system' && window.matchMedia('(prefers-color-scheme: dark)').matches);
+        document.documentElement.classList.toggle('dark', dark);
+      }
+
+      function updateIcons(theme: string) {
+        document.getElementById('theme-icon-system')?.classList.toggle('hidden', theme !== 'system');
+        document.getElementById('theme-icon-light')?.classList.toggle('hidden', theme !== 'light');
+        document.getElementById('theme-icon-dark')?.classList.toggle('hidden', theme !== 'dark');
+      }
+
+      const cycle = ['system', 'light', 'dark'];
+      let current = localStorage.getItem('theme') || 'system';
+      updateIcons(current);
+
+      document.getElementById('theme-toggle')?.addEventListener('click', () => {
+        const idx = (cycle.indexOf(current) + 1) % cycle.length;
+        current = cycle[idx];
+        localStorage.setItem('theme', current);
+        applyTheme(current);
+        updateIcons(current);
+      });
+
+      window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
+        if ((localStorage.getItem('theme') || 'system') === 'system') {
+          applyTheme('system');
+        }
+      });
+    </script>
+
+    <!-- Mobile menu script -->
+    <script>
+      const menuBtn = document.getElementById('mobile-menu-btn');
+      const sidebar = document.getElementById('sidebar');
+      const overlay = document.getElementById('sidebar-overlay');
+
+      function openMenu() {
+        sidebar?.classList.remove('-translate-x-full');
+        sidebar?.classList.add('translate-x-0');
+        overlay?.classList.remove('hidden');
+      }
+
+      function closeMenu() {
+        sidebar?.classList.add('-translate-x-full');
+        sidebar?.classList.remove('translate-x-0');
+        overlay?.classList.add('hidden');
+      }
+
+      menuBtn?.addEventListener('click', openMenu);
+      overlay?.addEventListener('click', closeMenu);
+
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') closeMenu();
+      });
+
+      sidebar?.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', () => {
+          if (window.innerWidth < 1024) closeMenu();
+        });
+      });
+    </script>
+  </body>
+</html>

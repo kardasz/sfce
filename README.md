@@ -1,11 +1,16 @@
-# Symfony 7.0 Certification Preparation Todo App
+# Symfony 7.0 Certification Study Guide
 
-This is a simple todo app to help you learn [Symfony 7.0 certification topics](https://certification.symfony.com/)
+A static study guide for the [Symfony 7.0 certification exam](https://certification.symfony.com/), built with Astro and Tailwind CSS.
 
-Visit app at [kardasz.github.io/sfce](https://kardasz.github.io/sfce)
+Visit the app at [kardasz.github.io/sfce](https://kardasz.github.io/sfce)
 
-* `yarn install` - install dependencies
-* `yarn start` - start the app
+## Getting Started
+
+```bash
+npm install    # install dependencies
+npm run dev    # start dev server
+npm run build  # production build
+```
 
 ---
 

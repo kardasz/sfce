@@ -1,0 +1,31 @@
+---
+import ThemeToggle from './ThemeToggle.astro';
+---
+
+<header class="sticky top-0 z-30 border-b border-border dark:border-dark-border bg-surface/80 dark:bg-dark-surface/80 backdrop-blur-sm">
+  <div class="flex items-center justify-between h-14 px-4">
+    <div class="flex items-center gap-3">
+      <!-- Mobile menu button -->
+      <button
+        id="mobile-menu-btn"
+        type="button"
+        class="lg:hidden p-2 -ml-2 rounded-lg text-text-secondary dark:text-dark-text-secondary hover:bg-surface-hover dark:hover:bg-dark-surface-hover transition-colors"
+        aria-label="Open menu"
+      >
+        <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+      </button>
+
+      <a href={import.meta.env.BASE_URL} class="flex items-center gap-2 font-semibold text-text-primary dark:text-dark-text-primary no-underline hover:no-underline">
+        <span class="text-accent dark:text-dark-accent font-bold">SFCE</span>
+        <span class="hidden sm:inline text-sm font-normal text-text-secondary dark:text-dark-text-secondary">Prepare for Symfony Certification</span>
+      </a>
+    </div>
+
+    <div class="flex items-center gap-2">
+      <span id="global-progress" class="text-xs text-text-muted dark:text-dark-text-muted hidden sm:inline"></span>
+      <ThemeToggle />
+    </div>
+  </div>
+</header>

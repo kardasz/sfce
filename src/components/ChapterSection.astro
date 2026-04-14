@@ -1,0 +1,38 @@
+---
+import type { Chapter } from '../types';
+import ReferenceItem from './ReferenceItem.astro';
+
+interface Props {
+  chapter: Chapter;
+  index: number;
+}
+
+const { chapter, index } = Astro.props;
+const refIds = chapter.references.map(r => r.id);
+---
+
+<details class="group border border-border dark:border-dark-border rounded-lg overflow-hidden">
+  <summary class="flex items-center justify-between gap-3 px-4 py-3 cursor-pointer select-none bg-surface-alt dark:bg-dark-surface-alt hover:bg-surface-hover dark:hover:bg-dark-surface-hover transition-colors list-none [&::-webkit-details-marker]:hidden">
+    <div class="flex items-center gap-3 min-w-0">
+      <span class="text-xs text-text-muted dark:text-dark-text-muted w-6 text-right shrink-0">{index + 1}.</span>
+      <span class="text-sm font-medium text-text-primary dark:text-dark-text-primary truncate">{chapter.title}</span>
+    </div>
+    <div class="flex items-center gap-3 shrink-0">
+      <span
+        class="text-xs text-text-muted dark:text-dark-text-muted"
+        data-chapter-progress={chapter.id}
+        data-reference-ids={JSON.stringify(refIds)}
+      >
+        0/{chapter.references.length}
+      </span>
+      <svg class="w-4 h-4 text-text-muted dark:text-dark-text-muted transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+      </svg>
+    </div>
+  </summary>
+  <div class="px-4 py-2 space-y-0.5 border-t border-border dark:border-dark-border">
+    {chapter.references.map(ref => (
+      <ReferenceItem reference={ref} />
+    ))}
+  </div>
+</details>
