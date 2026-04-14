@@ -1,12 +1,14 @@
 ---
-import type { Topic } from '../types';
+import type { Topic, SymfonyVersion } from '../types';
+import { VERSIONS } from '../types';
 
 interface Props {
   topics: Topic[];
   currentSlug?: string;
+  version: SymfonyVersion;
 }
 
-const { topics, currentSlug } = Astro.props;
+const { topics, currentSlug, version } = Astro.props;
 const base = import.meta.env.BASE_URL;
 ---
 
@@ -23,47 +25,74 @@ const base = import.meta.env.BASE_URL;
   <div id="sidebar-overlay" class="fixed inset-0 bg-black/30 z-[-1] lg:hidden hidden"></div>
 
   <div class="p-4">
-    <h2 class="text-xs font-semibold uppercase tracking-wider text-text-muted dark:text-dark-text-muted mb-3">
-      Topics
-    </h2>
-    <ul class="space-y-1">
-      {topics.map((topic, index) => {
-        const isActive = topic.slug === currentSlug;
-        const refCount = topic.chapters.reduce((sum, ch) => sum + ch.references.length, 0);
-        const refIds = topic.chapters.flatMap(ch => ch.references.map(r => r.id));
-        return (
-          <li>
+    <!-- Version switcher -->
+    <div class="mb-4">
+      <h2 class="text-xs font-semibold uppercase tracking-wider text-text-muted dark:text-dark-text-muted mb-2">
+        Symfony Version
+      </h2>
+      <div class="flex gap-1.5">
+        {VERSIONS.map(v => {
+          const isActive = v === version;
+          return (
             <a
-              href={`${base}topics/${topic.slug}/`}
+              href={`${base}${v}/`}
               class:list={[
-                'group flex flex-col gap-1 px-3 py-2.5 rounded-lg text-sm transition-colors no-underline',
+                'px-3 py-1 rounded-md text-sm font-medium transition-colors no-underline',
                 isActive
-                  ? 'bg-accent-light dark:bg-dark-accent-light text-accent dark:text-dark-accent font-medium'
-                  : 'text-text-primary dark:text-dark-text-primary hover:bg-surface-hover dark:hover:bg-dark-surface-hover'
+                  ? 'bg-accent dark:bg-dark-accent text-white'
+                  : 'bg-surface-hover dark:bg-dark-surface-hover text-text-secondary dark:text-dark-text-secondary hover:text-text-primary dark:hover:text-dark-text-primary'
               ]}
-              data-topic-slug={topic.slug}
             >
-              <span class="flex items-center gap-2">
-                <span class="text-text-muted dark:text-dark-text-muted text-xs w-5 text-right shrink-0">{index + 1}.</span>
-                <span class="truncate">{topic.title}</span>
-              </span>
-              <span class="flex items-center gap-2 ml-7">
-                <span class="flex-1 h-1 rounded-full bg-progress-bg dark:bg-dark-progress-bg overflow-hidden">
-                  <span
-                    class="block h-full rounded-full bg-progress transition-all duration-300"
-                    data-progress-bar={topic.slug}
-                    data-reference-ids={JSON.stringify(refIds)}
-                    style="width: 0%"
-                  ></span>
-                </span>
-                <span class="text-xs text-text-muted dark:text-dark-text-muted whitespace-nowrap" data-progress-text={topic.slug}>
-                  0/{refCount}
-                </span>
-              </span>
+              {v}
             </a>
-          </li>
-        );
-      })}
-    </ul>
+          );
+        })}
+      </div>
+    </div>
+
+    <div class="border-t border-border dark:border-dark-border pt-3">
+      <h2 class="text-xs font-semibold uppercase tracking-wider text-text-muted dark:text-dark-text-muted mb-3">
+        Topics
+      </h2>
+      <ul class="space-y-1">
+        {topics.map((topic, index) => {
+          const isActive = topic.slug === currentSlug;
+          const refCount = topic.chapters.reduce((sum, ch) => sum + ch.references.length, 0);
+          const refIds = topic.chapters.flatMap(ch => ch.references.map(r => r.id));
+          return (
+            <li>
+              <a
+                href={`${base}${version}/topics/${topic.slug}/`}
+                class:list={[
+                  'group flex flex-col gap-1 px-3 py-2.5 rounded-lg text-sm transition-colors no-underline',
+                  isActive
+                    ? 'bg-accent-light dark:bg-dark-accent-light text-accent dark:text-dark-accent font-medium'
+                    : 'text-text-primary dark:text-dark-text-primary hover:bg-surface-hover dark:hover:bg-dark-surface-hover'
+                ]}
+                data-topic-slug={topic.slug}
+              >
+                <span class="flex items-center gap-2">
+                  <span class="text-text-muted dark:text-dark-text-muted text-xs w-5 text-right shrink-0">{index + 1}.</span>
+                  <span class="truncate">{topic.title}</span>
+                </span>
+                <span class="flex items-center gap-2 ml-7">
+                  <span class="flex-1 h-1 rounded-full bg-progress-bg dark:bg-dark-progress-bg overflow-hidden">
+                    <span
+                      class="block h-full rounded-full bg-progress transition-all duration-300"
+                      data-progress-bar={topic.slug}
+                      data-reference-ids={JSON.stringify(refIds)}
+                      style="width: 0%"
+                    ></span>
+                  </span>
+                  <span class="text-xs text-text-muted dark:text-dark-text-muted whitespace-nowrap" data-progress-text={topic.slug}>
+                    0/{refCount}
+                  </span>
+                </span>
+              </a>
+            </li>
+          );
+        })}
+      </ul>
+    </div>
   </div>
 </nav>

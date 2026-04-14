@@ -1,30 +1,34 @@
 ---
 import type { GetStaticPaths } from 'astro';
-import Layout from '../../layouts/Layout.astro';
-import ChapterSection from '../../components/ChapterSection.astro';
-import topics from '../../data/topics.json';
-import type { Topic } from '../../types';
+import Layout from '../../../layouts/Layout.astro';
+import ChapterSection from '../../../components/ChapterSection.astro';
+import { getTopics } from '../../../data/versions';
+import type { Topic, SymfonyVersion } from '../../../types';
+import { VERSIONS } from '../../../types';
 
 export const getStaticPaths: GetStaticPaths = () => {
-  return (topics as Topic[]).map(topic => ({
-    params: { slug: topic.slug },
-    props: { topic }
-  }));
+  return VERSIONS.flatMap(version =>
+    getTopics(version).map(topic => ({
+      params: { version, slug: topic.slug },
+      props: { topic, version }
+    }))
+  );
 };
 
 interface Props {
   topic: Topic;
+  version: SymfonyVersion;
 }
 
-const { topic } = Astro.props;
+const { topic, version } = Astro.props;
 const totalRefs = topic.chapters.reduce((sum, ch) => sum + ch.references.length, 0);
 const allRefIds = topic.chapters.flatMap(ch => ch.references.map(r => r.id));
 ---
 
-<Layout title={`${topic.title} — SFCE`} currentSlug={topic.slug}>
+<Layout title={`${topic.title} — SFCE ${version}`} currentSlug={topic.slug} version={version}>
   <div class="mb-6">
     <a
-      href={import.meta.env.BASE_URL}
+      href={`${import.meta.env.BASE_URL}${version}/`}
       class="inline-flex items-center gap-1 text-sm text-text-muted dark:text-dark-text-muted hover:text-accent dark:hover:text-dark-accent transition-colors mb-3"
     >
       <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
@@ -58,13 +62,17 @@ const allRefIds = topic.chapters.flatMap(ch => ch.references.map(r => r.id));
 
 <script>
   function updateAllProgress() {
+    const versionEl = document.querySelector<HTMLElement>('[data-version]');
+    const version = versionEl?.dataset.version || '8.0';
+    const prefix = `sfce:${version}:`;
+
     // Restore checkbox states
     document.querySelectorAll<HTMLInputElement>('[data-reference-id]').forEach(checkbox => {
       const id = checkbox.dataset.referenceId!;
-      checkbox.checked = localStorage.getItem(id) === 'true';
+      checkbox.checked = localStorage.getItem(prefix + id) === 'true';
 
       checkbox.addEventListener('change', () => {
-        localStorage.setItem(id, String(checkbox.checked));
+        localStorage.setItem(prefix + id, String(checkbox.checked));
         updateAllProgress();
       });
     });
@@ -72,7 +80,7 @@ const allRefIds = topic.chapters.flatMap(ch => ch.references.map(r => r.id));
     // Update chapter progress
     document.querySelectorAll<HTMLElement>('[data-chapter-progress]').forEach(el => {
       const ids: string[] = JSON.parse(el.dataset.referenceIds || '[]');
-      const checked = ids.filter(id => localStorage.getItem(id) === 'true').length;
+      const checked = ids.filter(id => localStorage.getItem(prefix + id) === 'true').length;
       el.textContent = `${checked}/${ids.length}`;
     });
 
@@ -81,7 +89,7 @@ const allRefIds = topic.chapters.flatMap(ch => ch.references.map(r => r.id));
     const barEl = document.querySelector<HTMLElement>('[data-topic-detail-bar]');
     if (progressEl) {
       const ids: string[] = JSON.parse(progressEl.dataset.referenceIds || '[]');
-      const checked = ids.filter(id => localStorage.getItem(id) === 'true').length;
+      const checked = ids.filter(id => localStorage.getItem(prefix + id) === 'true').length;
       const pct = ids.length > 0 ? Math.round((checked / ids.length) * 100) : 0;
       progressEl.textContent = `${checked}/${ids.length}`;
       if (barEl) barEl.style.width = `${pct}%`;
@@ -91,7 +99,7 @@ const allRefIds = topic.chapters.flatMap(ch => ch.references.map(r => r.id));
     document.querySelectorAll<HTMLElement>('[data-progress-bar]').forEach(bar => {
       const slug = bar.dataset.progressBar!;
       const ids: string[] = JSON.parse(bar.dataset.referenceIds || '[]');
-      const checked = ids.filter(id => localStorage.getItem(id) === 'true').length;
+      const checked = ids.filter(id => localStorage.getItem(prefix + id) === 'true').length;
       const pct = ids.length > 0 ? Math.round((checked / ids.length) * 100) : 0;
       bar.style.width = `${pct}%`;
 
@@ -105,7 +113,7 @@ const allRefIds = topic.chapters.flatMap(ch => ch.references.map(r => r.id));
     document.querySelectorAll<HTMLElement>('[data-progress-bar]').forEach(bar => {
       const ids: string[] = JSON.parse(bar.dataset.referenceIds || '[]');
       totalRefs += ids.length;
-      totalChecked += ids.filter(id => localStorage.getItem(id) === 'true').length;
+      totalChecked += ids.filter(id => localStorage.getItem(prefix + id) === 'true').length;
     });
     const globalEl = document.getElementById('global-progress');
     if (globalEl && totalRefs > 0) {

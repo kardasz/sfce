@@ -1,0 +1,89 @@
+---
+import type { GetStaticPaths } from 'astro';
+import Layout from '../../layouts/Layout.astro';
+import TopicCard from '../../components/TopicCard.astro';
+import { getTopics } from '../../data/versions';
+import type { Topic, SymfonyVersion } from '../../types';
+import { VERSIONS } from '../../types';
+
+export const getStaticPaths: GetStaticPaths = () => {
+  return VERSIONS.map(version => ({
+    params: { version },
+    props: { version }
+  }));
+};
+
+interface Props {
+  version: SymfonyVersion;
+}
+
+const { version } = Astro.props;
+const typedTopics = getTopics(version);
+const totalChapters = typedTopics.reduce((sum, t) => sum + t.chapters.length, 0);
+const totalRefs = typedTopics.reduce((sum, t) => sum + t.chapters.reduce((s, c) => s + c.references.length, 0), 0);
+---
+
+<Layout title={`SFCE — Symfony ${version} Certification Exam Study Guide`} version={version}>
+  <div class="mb-8">
+    <h1 class="text-2xl sm:text-3xl font-bold text-text-primary dark:text-dark-text-primary mb-2">
+      Prepare for Symfony Certification
+    </h1>
+    <p class="text-text-secondary dark:text-dark-text-secondary text-sm sm:text-base">
+      Study guide for the <a href="https://certification.symfony.com/exams/symfony.html" target="_blank" rel="noopener noreferrer" class="text-accent dark:text-dark-accent hover:underline">Symfony {version} Certification Exam</a>.
+      Track your progress through {typedTopics.length} topics, {totalChapters} chapters, and {totalRefs} references.
+    </p>
+  </div>
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+    {typedTopics.map((topic, index) => (
+      <TopicCard topic={topic} index={index} version={version} />
+    ))}
+  </div>
+</Layout>
+
+<script>
+  function updateProgress() {
+    const versionEl = document.querySelector<HTMLElement>('[data-version]');
+    const version = versionEl?.dataset.version || '8.0';
+    const prefix = `sfce:${version}:`;
+
+    document.querySelectorAll<HTMLElement>('[data-card-progress-bar]').forEach(bar => {
+      const slug = bar.dataset.cardProgressBar!;
+      const ids: string[] = JSON.parse(bar.dataset.referenceIds || '[]');
+      const checked = ids.filter(id => localStorage.getItem(prefix + id) === 'true').length;
+      const pct = ids.length > 0 ? Math.round((checked / ids.length) * 100) : 0;
+      bar.style.width = `${pct}%`;
+
+      const textEl = document.querySelector<HTMLElement>(`[data-card-progress-text="${slug}"]`);
+      if (textEl) textEl.textContent = `${checked}/${ids.length}`;
+    });
+
+    // Update sidebar progress
+    document.querySelectorAll<HTMLElement>('[data-progress-bar]').forEach(bar => {
+      const slug = bar.dataset.progressBar!;
+      const ids: string[] = JSON.parse(bar.dataset.referenceIds || '[]');
+      const checked = ids.filter(id => localStorage.getItem(prefix + id) === 'true').length;
+      const pct = ids.length > 0 ? Math.round((checked / ids.length) * 100) : 0;
+      bar.style.width = `${pct}%`;
+
+      const textEl = document.querySelector<HTMLElement>(`[data-progress-text="${slug}"]`);
+      if (textEl) textEl.textContent = `${checked}/${ids.length}`;
+    });
+
+    // Update global progress
+    let totalChecked = 0;
+    let totalRefs = 0;
+    document.querySelectorAll<HTMLElement>('[data-card-progress-bar]').forEach(bar => {
+      const ids: string[] = JSON.parse(bar.dataset.referenceIds || '[]');
+      totalRefs += ids.length;
+      totalChecked += ids.filter(id => localStorage.getItem(prefix + id) === 'true').length;
+    });
+    const globalEl = document.getElementById('global-progress');
+    if (globalEl && totalRefs > 0) {
+      const pct = Math.round((totalChecked / totalRefs) * 100);
+      globalEl.textContent = `${totalChecked}/${totalRefs} (${pct}%)`;
+    }
+  }
+
+  updateProgress();
+</script>

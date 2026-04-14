@@ -1,19 +1,20 @@
 ---
-import type { Topic } from '../types';
+import type { Topic, SymfonyVersion } from '../types';
 
 interface Props {
   topic: Topic;
   index: number;
+  version: SymfonyVersion;
 }
 
-const { topic, index } = Astro.props;
+const { topic, index, version } = Astro.props;
 const base = import.meta.env.BASE_URL;
 const refCount = topic.chapters.reduce((sum, ch) => sum + ch.references.length, 0);
 const refIds = topic.chapters.flatMap(ch => ch.references.map(r => r.id));
 ---
 
 <a
-  href={`${base}topics/${topic.slug}/`}
+  href={`${base}${version}/topics/${topic.slug}/`}
   class="block p-4 rounded-lg border border-border dark:border-dark-border hover:border-accent dark:hover:border-dark-accent bg-surface dark:bg-dark-surface hover:bg-surface-alt dark:hover:bg-dark-surface-alt transition-all no-underline group"
   data-topic-card={topic.slug}
 >

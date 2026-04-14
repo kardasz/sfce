@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-SFCE (Symfony Framework Certification Exam) is a static study guide for the Symfony 7.0 certification exam. It's an Astro 6 site styled with Tailwind CSS 4, deployed to GitHub Pages at `kardasz.github.io/sfce`.
+SFCE (Symfony Framework Certification Exam) is a static study guide for the Symfony 8.0 certification exam. It's an Astro 6 site styled with Tailwind CSS 4, deployed to GitHub Pages with custom domain `kardasz.eu`.
 
 ## Commands
 
@@ -24,4 +24,4 @@ No test runner or linter is configured.
 
 **Layout**: Single `Layout.astro` wrapping all pages with `Header`, `Sidebar` (topic nav with per-topic progress), and `Footer`. Dark mode via `dark` class on `<html>`, cycled through system/light/dark.
 
-**Deployment**: GitHub Actions workflow (`.github/workflows/pages.yml`) triggers on `v*` tags, builds with `npm ci && npm run build`, deploys to GitHub Pages. Base path is `/sfce` (configured in `astro.config.mjs`).
+**Deployment**: GitHub Actions workflow (`.github/workflows/pages.yml`) triggers on `v*` tags, builds with `npm ci && npm run build`, deploys to GitHub Pages. Base path is `/` (configured in `astro.config.mjs`; custom domain handles routing without repo-name prefix).
