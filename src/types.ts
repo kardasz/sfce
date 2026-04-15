@@ -17,7 +17,7 @@ export interface Topic {
   chapters: Chapter[];
 }
 
-export type SymfonyVersion = '7.0' | '8.0';
+export type SymfonyVersion = '6.0' | '7.0' | '8.0';
 
-export const VERSIONS: SymfonyVersion[] = ['8.0', '7.0'];
+export const VERSIONS: SymfonyVersion[] = ['8.0', '7.0', '6.0'];
 export const DEFAULT_VERSION: SymfonyVersion = '8.0';
