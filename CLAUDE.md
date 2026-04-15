@@ -19,6 +19,7 @@ No test runner or linter is configured.
 **Data-driven static site**: Certification content lives in versioned JSON files — `src/data/topics-6.json`, `src/data/topics-7.json`, `src/data/topics-8.json` — each a flat array of `Topic` objects (defined in `src/types.ts`), containing chapters with references (links to Symfony/PHP docs). `src/data/versions.ts` exports a `getTopics(version)` helper. `src/types.ts` also exports `SymfonyVersion`, `VERSIONS`, and `DEFAULT_VERSION`. Pages are statically generated from this data at build time.
 
 **Routing**: Four page files:
+
 - `src/pages/index.astro` — landing page with version cards and stats
 - `src/pages/privacy.astro` — privacy policy
 - `src/pages/[version]/index.astro` — version-specific topic grid
@@ -29,3 +30,7 @@ No test runner or linter is configured.
 **Layouts and components**: Two layouts — `BaseLayout.astro` (landing/static pages) and `Layout.astro` (study pages with `Header`, `Sidebar`, and `Footer`). Seven components: `Header`, `Footer`, `Sidebar` (topic nav with version switcher and per-topic progress), `ThemeToggle`, `TopicCard`, `ChapterSection`, `ReferenceItem`. Dark mode via `dark` class on `<html>`, cycled through system/light/dark.
 
 **Deployment**: GitHub Actions workflow (`.github/workflows/pages.yml`) triggers on `v*` tags or manual `workflow_dispatch`, builds with Node 24 (`npm ci && npm run build`), deploys to GitHub Pages. Base path is `/` (configured in `astro.config.mjs`; custom domain handles routing without repo-name prefix).
+
+## Formatting
+
+If you change Markdown documentation, format Markdown files with `npx prettier --write "*.md"` before finishing.
