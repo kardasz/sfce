@@ -1081,12 +1081,7 @@
           {
             "id": "019d8dc3-82bc-70c1-beeb-4cd8ce4637a0",
             "title": "The Symfony Framework Best Practices",
-            "url": "https://symfony.com/doc/8.0/best_practices.html#business-logic"
-          },
-          {
-            "id": "019d8dc3-82bc-7b7a-b1a9-8f44498107f8",
-            "title": "The Symfony Framework Best Practices",
-            "url": "https://symfony.com/doc/8.0/best_practices.html#use-the-default-directory-structure"
+            "url": "https://symfony.com/doc/8.0/best_practices.html"
           }
         ],
         "hash": "139f4c9d34186a60ad274232d3ab6cc1f5a3d888"
@@ -1840,22 +1835,7 @@
           {
             "id": "019d8dc3-82be-754a-9310-8c1effc9c38d",
             "title": "Twig Internals - twig internals",
-            "url": "https://twig.symfony.com/doc/3.x/internals.html#twig-internals"
-          },
-          {
-            "id": "019d8dc3-82be-7c09-aff5-0529028fe530",
-            "title": "Twig Internals - the lexer",
-            "url": "https://twig.symfony.com/doc/3.x/internals.html#the-lexer"
-          },
-          {
-            "id": "019d8dc3-82be-77f8-a36f-ac068ee36860",
-            "title": "Twig Internals - the parser",
-            "url": "https://twig.symfony.com/doc/3.x/internals.html#the-parser"
-          },
-          {
-            "id": "019d8dc3-82be-7b7a-b909-6b08e503a713",
-            "title": "Twig Internals - the compiler",
-            "url": "https://twig.symfony.com/doc/3.x/internals.html#the-compiler"
+            "url": "https://twig.symfony.com/doc/3.x/internals.html"
           }
         ],
         "hash": "8371e1f6ef6b0a4fbbedc183945bfe5824a70fe5"
@@ -1877,17 +1857,7 @@
           {
             "id": "019d8dc3-82be-7cf0-8487-27079d398f14",
             "title": "Twig Configuration Reference (TwigBundle)",
-            "url": "https://symfony.com/doc/8.0/reference/configuration/twig.html#autoescape"
-          },
-          {
-            "id": "019d8dc3-82be-72f7-b142-697a4e9a4954",
-            "title": "Twig Configuration Reference (TwigBundle)",
-            "url": "https://symfony.com/doc/8.0/reference/configuration/twig.html#autoescape-service"
-          },
-          {
-            "id": "019d8dc3-82be-71a0-ba78-1f5c505cbffa",
-            "title": "Twig Configuration Reference (TwigBundle)",
-            "url": "https://symfony.com/doc/8.0/reference/configuration/twig.html#autoescape-service-method"
+            "url": "https://symfony.com/doc/8.0/reference/configuration/twig.html"
           }
         ],
         "hash": "831d76bce499534625276e642190ff1d05fb2b7f"
@@ -1965,12 +1935,7 @@
           {
             "id": "019d8dc3-82be-7eef-a118-5ea288e4e1ed",
             "title": "Creating and Using Templates",
-            "url": "https://symfony.com/doc/8.0/templates.html#templates-include"
-          },
-          {
-            "id": "019d8dc3-82be-720b-bc34-91d4af9cb12b",
-            "title": "Creating and Using Templates",
-            "url": "https://symfony.com/doc/8.0/templates.html#embedding-controllers"
+            "url": "https://symfony.com/doc/8.0/templates.html"
           },
           {
             "id": "019d8dc3-82be-77f1-aa2b-88d289451176",
@@ -2014,22 +1979,7 @@
           {
             "id": "019d8dc3-82be-79cb-aca9-20b105331a83",
             "title": "Twig Extensions Defined by Symfony",
-            "url": "https://symfony.com/doc/8.0/reference/twig_reference.html#path"
-          },
-          {
-            "id": "019d8dc3-82be-7021-86e5-86672e22971c",
-            "title": "Twig Extensions Defined by Symfony",
-            "url": "https://symfony.com/doc/8.0/reference/twig_reference.html#url"
-          },
-          {
-            "id": "019d8dc3-82be-7e85-b834-f47985d65090",
-            "title": "Twig Extensions Defined by Symfony",
-            "url": "https://symfony.com/doc/8.0/reference/twig_reference.html#absolute-url"
-          },
-          {
-            "id": "019d8dc3-82be-79b2-b682-a47032bf6031",
-            "title": "Twig Extensions Defined by Symfony",
-            "url": "https://symfony.com/doc/8.0/reference/twig_reference.html#relative-path"
+            "url": "https://symfony.com/doc/8.0/reference/twig_reference.html"
           }
         ],
         "hash": "95da3c0d0d61aafaebc816eedeb6226c22efa0e4"
@@ -2046,17 +1996,7 @@
           {
             "id": "019d8dc3-82be-7b6b-ae69-be7cc0d87a09",
             "title": "Twig Extensions Defined by Symfony",
-            "url": "https://symfony.com/doc/8.0/reference/twig_reference.html#controller"
-          },
-          {
-            "id": "019d8dc3-82be-7994-9ded-b89799555f2b",
-            "title": "Twig Extensions Defined by Symfony",
-            "url": "https://symfony.com/doc/8.0/reference/twig_reference.html#reference-twig-function-render"
-          },
-          {
-            "id": "019d8dc3-82be-711e-bc45-dea99c63d3b3",
-            "title": "Twig Extensions Defined by Symfony",
-            "url": "https://symfony.com/doc/8.0/reference/twig_reference.html#reference-twig-function-render-esi"
+            "url": "https://symfony.com/doc/8.0/reference/twig_reference.html"
           }
         ],
         "hash": "9f8fe2a37ce394269d9820626bec30150437a6dd"
@@ -2090,11 +2030,6 @@
           {
             "id": "019d8dc3-82be-75f0-b445-a8bf9ce2e9ad",
             "title": "Twig for Template Designers - string interpolation",
-            "url": "https://twig.symfony.com/doc/3.x/templates.html#string-interpolation"
-          },
-          {
-            "id": "019d8dc3-82be-762a-9e07-cc1b2cb2b532",
-            "title": "Twig Templates",
             "url": "https://twig.symfony.com/doc/3.x/templates.html"
           }
         ],
@@ -2112,17 +2047,7 @@
           {
             "id": "019d8dc3-82be-74cd-a697-d27fd1538ad5",
             "title": "Framework Configuration Reference (FrameworkBundle)",
-            "url": "https://symfony.com/doc/8.0/reference/configuration/framework.html#reference-framework-assets-version"
-          },
-          {
-            "id": "019d8dc3-82be-79cd-a31e-07bf2268d7df",
-            "title": "Framework Configuration Reference (FrameworkBundle)",
-            "url": "https://symfony.com/doc/8.0/reference/configuration/framework.html#reference-assets-version-strategy"
-          },
-          {
-            "id": "019d8dc3-82be-7885-bdd8-c120925b805d",
-            "title": "Framework Configuration Reference (FrameworkBundle)",
-            "url": "https://symfony.com/doc/8.0/reference/configuration/framework.html#reference-assets-json-manifest-path"
+            "url": "https://symfony.com/doc/8.0/reference/configuration/framework.html"
           },
           {
             "id": "019d8dc3-82be-70f8-b960-3e517fdccbb9",
@@ -2185,17 +2110,7 @@
           {
             "id": "019d8dc3-82be-746b-9b2e-3c097ac1506c",
             "title": "Forms",
-            "url": "https://symfony.com/doc/8.0/forms.html#creating-forms-in-controllers"
-          },
-          {
-            "id": "019d8dc3-82be-7a56-8ddf-d579933578b7",
-            "title": "Forms",
-            "url": "https://symfony.com/doc/8.0/forms.html#creating-form-classes"
-          },
-          {
-            "id": "019d8dc3-82be-7d2f-9883-4ee065899d0a",
-            "title": "Forms",
-            "url": "https://symfony.com/doc/8.0/forms.html#passing-options-to-forms"
+            "url": "https://symfony.com/doc/8.0/forms.html"
           },
           {
             "id": "019d8dc3-82bf-7032-bf48-4a3ef0694379",
@@ -2212,7 +2127,7 @@
           {
             "id": "019d8dc3-82bf-71ce-9b52-5c0d0ec5e416",
             "title": "Forms",
-            "url": "https://symfony.com/doc/8.0/forms.html#processing-forms"
+            "url": "https://symfony.com/doc/8.0/forms.html"
           },
           {
             "id": "019d8dc3-82bf-7070-9338-9defc5ac1aea",
@@ -2223,11 +2138,6 @@
             "id": "019d8dc3-82bf-7446-b05a-238018cde440",
             "title": "FormInterface.php",
             "url": "https://github.com/symfony/symfony/blob/7.0/src/Symfony/Component/Form/FormInterface.php#method_handleRequest"
-          },
-          {
-            "id": "019d8dc3-82bf-7670-9697-274fd2192ce5",
-            "title": "Forms",
-            "url": "https://symfony.com/doc/8.0/forms.html#validating-forms"
           },
           {
             "id": "019d8dc3-82bf-7891-b9bc-9849afa5e898",
@@ -2688,21 +2598,6 @@
             "id": "019d8dc3-82bf-7e20-8d84-ac636c688adf",
             "title": "Validation",
             "url": "https://symfony.com/doc/8.0/validation.html"
-          },
-          {
-            "id": "019d8dc3-82bf-7ff9-9fe8-b4ca87ca56a7",
-            "title": "Validation",
-            "url": "https://symfony.com/doc/8.0/validation.html#the-basics-of-validation"
-          },
-          {
-            "id": "019d8dc3-82bf-75db-aa75-78b11f6105c8",
-            "title": "Validation",
-            "url": "https://symfony.com/doc/8.0/validation.html#using-the-validator-service"
-          },
-          {
-            "id": "019d8dc3-82bf-70c1-b82a-35893b513afe",
-            "title": "Validation",
-            "url": "https://symfony.com/doc/8.0/validation.html#configuration"
           }
         ],
         "hash": "2bbf7089fe6d6cb6bc6af3b583e64bbab6c71280"
@@ -3319,12 +3214,7 @@
           {
             "id": "019d8dc3-82c3-7852-b7e7-a723636a6fee",
             "title": "Service Container",
-            "url": "https://symfony.com/doc/8.0/service_container.html#service-parameters"
-          },
-          {
-            "id": "019d8dc3-82c3-7257-bec4-3580ef7cc6d3",
-            "title": "Service Container",
-            "url": "https://symfony.com/doc/8.0/service_container.html#explicitly-configuring-services-and-arguments"
+            "url": "https://symfony.com/doc/8.0/service_container.html"
           },
           {
             "id": "019d8dc3-82c3-7f1c-b992-6d4decf26cc9",
@@ -3576,12 +3466,7 @@
           {
             "id": "019d8dc3-82c4-7315-ae51-472b36e52411",
             "title": "Security",
-            "url": "https://symfony.com/doc/8.0/security.html#3a-authentication-firewalls"
-          },
-          {
-            "id": "019d8dc3-82c4-788b-bbb3-cc97a5db32cc",
-            "title": "Security",
-            "url": "https://symfony.com/doc/8.0/security.html#authentication-identifying-logging-in-the-user"
+            "url": "https://symfony.com/doc/8.0/security.html"
           },
           {
             "id": "019d8dc3-82c4-7efe-b182-999eb30a770f",
@@ -3716,12 +3601,7 @@
           {
             "id": "019d8dc3-82c4-7b6e-9054-5cb1c550fed9",
             "title": "Security",
-            "url": "https://symfony.com/doc/8.0/security.html#2a-create-your-user-class"
-          },
-          {
-            "id": "019d8dc3-82c4-7422-81de-7ca978bf952a",
-            "title": "Security",
-            "url": "https://symfony.com/doc/8.0/security.html#2b-the-user-provider"
+            "url": "https://symfony.com/doc/8.0/security.html"
           },
           {
             "id": "019d8dd2-0de2-72a0-8f39-8d771207297e",
@@ -3764,16 +3644,6 @@
         "references": [
           {
             "id": "019d8dc3-82c4-7e18-8bf6-d0d0b342ba2b",
-            "title": "Security",
-            "url": "https://symfony.com/doc/8.0/security.html#roles"
-          },
-          {
-            "id": "019d8dc3-82c4-74cb-a2d0-dc3ae29fe889",
-            "title": "Security",
-            "url": "https://symfony.com/doc/8.0/security.html#hierarchical-roles"
-          },
-          {
-            "id": "019d8dd2-0de2-760a-9fe2-031e0b5bc453",
             "title": "Security",
             "url": "https://symfony.com/doc/8.0/security.html"
           }
@@ -4027,26 +3897,6 @@
             "url": "https://symfony.com/doc/8.0/console.html"
           },
           {
-            "id": "019d8dc3-82c4-7d28-ab5c-311cbb936d35",
-            "title": "Console Commands",
-            "url": "https://symfony.com/doc/8.0/console.html#getting-services-from-the-service-container"
-          },
-          {
-            "id": "019d8dc3-82c4-73af-879f-ba6d1da81cd4",
-            "title": "Console Commands",
-            "url": "https://symfony.com/doc/8.0/console.html#command-lifecycle"
-          },
-          {
-            "id": "019d8dc3-82c4-765f-8cce-7e03bfed8274",
-            "title": "Console Commands",
-            "url": "https://symfony.com/doc/8.0/console.html#testing-commands"
-          },
-          {
-            "id": "019d8dc3-82c4-7892-a956-46c96044b236",
-            "title": "Console Commands",
-            "url": "https://symfony.com/doc/8.0/console.html#logging-command-errors"
-          },
-          {
             "id": "019d8dc3-82c4-7ef5-aa49-fd789c72d4dc",
             "title": "How to Call Other Commands",
             "url": "https://symfony.com/doc/8.0/console/calling_commands.html"
@@ -4086,12 +3936,7 @@
           {
             "id": "019d8dc3-82c4-7de0-a6cf-224ee0d0f923",
             "title": "Console Commands",
-            "url": "https://symfony.com/doc/8.0/console.html#configuring-the-command"
-          },
-          {
-            "id": "019d8dc3-82c4-7687-acf0-5981d23bd93b",
-            "title": "Console Commands",
-            "url": "https://symfony.com/doc/8.0/console.html#registering-the-command"
+            "url": "https://symfony.com/doc/8.0/console.html"
           },
           {
             "id": "019d8dc3-82c4-75ea-8aff-8d3762c7a417",
@@ -4135,12 +3980,7 @@
           {
             "id": "019d8dc3-82c4-7e7c-8ddf-f3711346b5fb",
             "title": "Console Commands",
-            "url": "https://symfony.com/doc/8.0/console.html#console-input"
-          },
-          {
-            "id": "019d8dc3-82c4-7205-89e7-c68b6f5a7cad",
-            "title": "Console Commands",
-            "url": "https://symfony.com/doc/8.0/console.html#console-output"
+            "url": "https://symfony.com/doc/8.0/console.html"
           },
           {
             "id": "019d8dc3-82c4-7fa5-a04d-7d23fd76b901",
@@ -4269,11 +4109,6 @@
             "url": "https://symfony.com/doc/8.0/testing.html"
           },
           {
-            "id": "019d8dc3-82c4-7f3d-8fd2-dcd9bf925894",
-            "title": "Testing",
-            "url": "https://symfony.com/doc/8.0/testing.html#unit-tests"
-          },
-          {
             "id": "019d8dc3-82c4-703b-a2f0-052952fedccd",
             "title": "Testing with a Bite Video Tutorial Screencast",
             "url": "https://symfonycasts.com/screencast/phpunit"
@@ -4315,17 +4150,12 @@
           {
             "id": "019d8dc3-82c4-77eb-b8ea-f211a2028557",
             "title": "Testing",
-            "url": "https://symfony.com/doc/8.0/testing.html#working-with-the-test-client"
+            "url": "https://symfony.com/doc/8.0/testing.html"
           },
           {
             "id": "019d8dc3-82c4-7161-a33b-448b53ee57c0",
             "title": "How to Test the Interaction of several Clients",
             "url": "https://symfony.com/doc/8.0/testing/insulating_clients.html"
-          },
-          {
-            "id": "019d8dc3-82c4-7319-a4a2-6d7f6e94dd45",
-            "title": "Testing",
-            "url": "https://symfony.com/doc/8.0/testing.html"
           }
         ],
         "hash": "60e67ace5173de0f42837579163c67fe2b383aa5"
@@ -4386,16 +4216,6 @@
           {
             "id": "019d8dc3-82c4-70d7-97c2-893ddcee3667",
             "title": "Testing",
-            "url": "https://symfony.com/doc/8.0/testing.html#accessing-internal-objects"
-          },
-          {
-            "id": "019d8dc3-82c4-72cf-93f3-7607342729a3",
-            "title": "Testing",
-            "url": "https://symfony.com/doc/8.0/testing.html#accessing-the-container"
-          },
-          {
-            "id": "019d8dc3-82c4-7319-a4a2-6d7f6e94dd45",
-            "title": "Testing",
             "url": "https://symfony.com/doc/8.0/testing.html"
           }
         ],
@@ -4408,12 +4228,7 @@
           {
             "id": "019d8dc3-82c4-775c-891b-16e8d8782eb1",
             "title": "Testing",
-            "url": "https://symfony.com/doc/8.0/testing.html#testing-configuration"
-          },
-          {
-            "id": "019d8dc3-82c4-7629-a5bf-3f9d3d473d15",
-            "title": "Testing",
-            "url": "https://symfony.com/doc/8.0/testing.html#phpunit-configuration"
+            "url": "https://symfony.com/doc/8.0/testing.html"
           },
           {
             "id": "019d8dc3-82c4-7422-aee9-801d9aa8d1d1",
@@ -4430,12 +4245,7 @@
           {
             "id": "019d8dc3-82c4-79c8-b35a-10df3055d1df",
             "title": "Testing",
-            "url": "https://symfony.com/doc/8.0/testing.html#testing-request-method-sidebar"
-          },
-          {
-            "id": "019d8dc3-82c4-79cb-b7d0-1cefbb174323",
-            "title": "Testing",
-            "url": "https://symfony.com/doc/8.0/testing/functional_tests_assertions.html"
+            "url": "https://symfony.com/doc/8.0/testing.html"
           },
           {
             "id": "019d8dd2-0de3-74e7-a5b1-28ffbc44ad79",
@@ -4452,17 +4262,7 @@
           {
             "id": "019d8dc3-82c4-7dc6-9580-ebf17e2c6686",
             "title": "The PHPUnit Bridge",
-            "url": "https://symfony.com/doc/8.0/components/phpunit_bridge.html#trigger-deprecation-notices"
-          },
-          {
-            "id": "019d8dc3-82c4-7bc0-bedf-f0f045ccb19c",
-            "title": "The PHPUnit Bridge",
-            "url": "https://symfony.com/doc/8.0/components/phpunit_bridge.html#deprecation-notices-at-autoloading-time"
-          },
-          {
-            "id": "019d8dc3-82c4-70e1-8aed-e76536056019",
-            "title": "The PHPUnit Bridge",
-            "url": "https://symfony.com/doc/8.0/components/phpunit_bridge.html#write-assertions-about-deprecations"
+            "url": "https://symfony.com/doc/8.0/components/phpunit_bridge.html"
           }
         ],
         "hash": "6174171c361cfe87da41767920f40e2392779b47"
@@ -4616,12 +4416,7 @@
           {
             "id": "019d8dc3-82c5-7a4e-94c0-7fcb07858aca",
             "title": "Sending Emails with Mailer",
-            "url": "https://symfony.com/doc/8.0/mailer.html#development-debugging"
-          },
-          {
-            "id": "019d8dc3-82c5-7509-90e7-da2e09b18089",
-            "title": "Sending Emails with Mailer",
-            "url": "https://symfony.com/doc/8.0/mailer.html#debugging-emails"
+            "url": "https://symfony.com/doc/8.0/mailer.html"
           },
           {
             "id": "019d8dc3-82c5-7099-87eb-f38c2e2862a1",
