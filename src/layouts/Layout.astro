@@ -57,6 +57,7 @@ const canonicalURL = `${SITE_URL}${Astro.url.pathname}`;
 
     <div class="flex flex-1">
       <Sidebar topics={typedTopics} currentSlug={currentSlug} version={version} />
+      <div id="sidebar-overlay" class="fixed inset-0 bg-black/30 z-30 lg:hidden hidden"></div>
 
       <main class="flex-1 min-w-0 lg:ml-0">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 py-6">
