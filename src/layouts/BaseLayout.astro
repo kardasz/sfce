@@ -1,22 +1,16 @@
 ---
 import '../styles/global.css';
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
-import Sidebar from '../components/Sidebar.astro';
-import { getTopics } from '../data/versions';
-import type { SymfonyVersion } from '../types';
-import { DEFAULT_VERSION } from '../types';
+import ThemeToggle from '../components/ThemeToggle.astro';
 
 interface Props {
   title: string;
-  currentSlug?: string;
-  version?: SymfonyVersion;
+  description: string;
+  canonicalPath?: string;
 }
 
 const SITE_URL = 'https://sfcelearning.com';
-const { title, currentSlug, version = DEFAULT_VERSION } = Astro.props;
-const typedTopics = getTopics(version);
-const canonicalURL = `${SITE_URL}${Astro.url.pathname}`;
+const { title, description, canonicalPath = '' } = Astro.props;
+const canonicalURL = `${SITE_URL}${canonicalPath}`;
 ---
 
 <!doctype html>
@@ -24,25 +18,24 @@ const canonicalURL = `${SITE_URL}${Astro.url.pathname}`;
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content={`Study materials for the Symfony Framework Certification Exam (SFCE) ${version}`} />
+    <meta name="description" content={description} />
     <link rel="canonical" href={canonicalURL} />
 
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="SFCE Learning" />
     <meta property="og:title" content={title} />
-    <meta property="og:description" content={`Study materials for the Symfony Framework Certification Exam (SFCE) ${version}`} />
+    <meta property="og:description" content={description} />
     <meta property="og:url" content={canonicalURL} />
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content={title} />
-    <meta name="twitter:description" content={`Study materials for the Symfony Framework Certification Exam (SFCE) ${version}`} />
+    <meta name="twitter:description" content={description} />
 
     <link rel="icon" type="image/svg+xml" href={`${import.meta.env.BASE_URL}favicon.svg`} />
     <title>{title}</title>
 
-    <!-- Theme init (inline, blocking to prevent flash) -->
     <script is:inline>
       (function() {
         var stored = localStorage.getItem('theme') || 'system';
@@ -52,19 +45,28 @@ const canonicalURL = `${SITE_URL}${Astro.url.pathname}`;
       })();
     </script>
   </head>
-  <body class="min-h-screen flex flex-col" data-version={version}>
-    <Header version={version} />
+  <body class="min-h-screen flex flex-col">
+    <header class="sticky top-0 z-30 border-b border-border dark:border-dark-border bg-surface/80 dark:bg-dark-surface/80 backdrop-blur-sm">
+      <div class="flex items-center justify-between h-14 px-4 max-w-5xl mx-auto">
+        <a href={`${import.meta.env.BASE_URL}`} class="flex items-center gap-2 font-semibold text-text-primary dark:text-dark-text-primary no-underline hover:no-underline">
+          <span class="text-accent dark:text-dark-accent font-bold">SFCE</span>
+          <span class="text-sm font-normal text-text-secondary dark:text-dark-text-secondary">Learning</span>
+        </a>
+        <ThemeToggle />
+      </div>
+    </header>
 
-    <div class="flex flex-1">
-      <Sidebar topics={typedTopics} currentSlug={currentSlug} version={version} />
+    <main class="flex-1">
+      <slot />
+    </main>
 
-      <main class="flex-1 min-w-0 lg:ml-0">
-        <div class="max-w-4xl mx-auto px-4 sm:px-6 py-6">
-          <slot />
-        </div>
-        <Footer />
-      </main>
-    </div>
+    <footer class="border-t border-border dark:border-dark-border py-6 px-4 text-center text-sm text-text-secondary dark:text-dark-text-secondary">
+      <div class="flex items-center justify-center gap-4">
+        <p>&copy; 2026 Krzysztof Kardasz</p>
+        <span class="text-text-muted dark:text-dark-text-muted">&middot;</span>
+        <a href={`${import.meta.env.BASE_URL}privacy/`} class="text-text-secondary dark:text-dark-text-secondary hover:text-accent dark:hover:text-dark-accent transition-colors">Privacy Policy</a>
+      </div>
+    </footer>
 
     <!-- Theme toggle script -->
     <script>
@@ -96,38 +98,6 @@ const canonicalURL = `${SITE_URL}${Astro.url.pathname}`;
         if ((localStorage.getItem('theme') || 'system') === 'system') {
           applyTheme('system');
         }
-      });
-    </script>
-
-    <!-- Mobile menu script -->
-    <script>
-      const menuBtn = document.getElementById('mobile-menu-btn');
-      const sidebar = document.getElementById('sidebar');
-      const overlay = document.getElementById('sidebar-overlay');
-
-      function openMenu() {
-        sidebar?.classList.remove('-translate-x-full');
-        sidebar?.classList.add('translate-x-0');
-        overlay?.classList.remove('hidden');
-      }
-
-      function closeMenu() {
-        sidebar?.classList.add('-translate-x-full');
-        sidebar?.classList.remove('translate-x-0');
-        overlay?.classList.add('hidden');
-      }
-
-      menuBtn?.addEventListener('click', openMenu);
-      overlay?.addEventListener('click', closeMenu);
-
-      document.addEventListener('keydown', (e) => {
-        if (e.key === 'Escape') closeMenu();
-      });
-
-      sidebar?.querySelectorAll('a').forEach(link => {
-        link.addEventListener('click', () => {
-          if (window.innerWidth < 1024) closeMenu();
-        });
       });
     </script>
   </body>
