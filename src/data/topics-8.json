@@ -113,8 +113,7 @@
             "title": "PHP The Right Way",
             "url": "https://phptherightway.com/"
           }
-        ],
-        "hash": "ded176d1d669036a8c44603ffb6442df6b0c8427"
+        ]
       },
       {
         "id": "019d8dc3-82c5-7819-a140-fd84937648bd",
@@ -235,8 +234,7 @@
             "title": "OOP Changelog",
             "url": "https://www.php.net/manual/en/language.oop5.changelog.php"
           }
-        ],
-        "hash": "77f8cbbbac78dfd53720de36e93414738eedc64c"
+        ]
       },
       {
         "id": "019d8dc3-82c5-7ec5-ba43-3652a5cf0238",
@@ -272,8 +270,7 @@
             "title": "Declaring Attribute classes",
             "url": "https://www.php.net/manual/en/language.attributes.classes.php"
           }
-        ],
-        "hash": "3a061ff34727880c8e21d3a807ca727e665a692a"
+        ]
       },
       {
         "id": "019d8dc3-82c5-7102-bd44-aad317719ed8",
@@ -299,8 +296,7 @@
             "title": "Type Operators",
             "url": "https://www.php.net/manual/en/language.operators.type.php"
           }
-        ],
-        "hash": "b6d76dcbe7c24d2c45869579d3903ddac41aac39"
+        ]
       },
       {
         "id": "019d8dc3-82c5-736e-b92e-f0cf977c202f",
@@ -316,8 +312,7 @@
             "title": "Closure",
             "url": "https://www.php.net/manual/en/class.closure.php"
           }
-        ],
-        "hash": "830d72b5df5c6f6cf307a10262470e749b0e2ed3"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7239-a48f-e57143269851",
@@ -328,8 +323,7 @@
             "title": "Class Abstraction",
             "url": "https://www.php.net/manual/en/language.oop5.abstract.php"
           }
-        ],
-        "hash": "344df64f15710bc0838d613f551b74956973eaeb"
+        ]
       },
       {
         "id": "019d8dc3-82c6-778d-9f74-ae62b3ca79cd",
@@ -350,8 +344,7 @@
             "title": "Class Exception",
             "url": "https://www.php.net/manual/en/class.exception.php"
           }
-        ],
-        "hash": "0b49b645f5b62f84118d33a7f282c8dd5cd994e3"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7516-b6f5-d34796f07b46",
@@ -362,8 +355,7 @@
             "title": "Traits",
             "url": "https://www.php.net/manual/en/language.oop5.traits.php"
           }
-        ],
-        "hash": "2ed71c49f4efb35711a475b793df22ca756fcb73"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7c5d-9cf7-e31471f532f1",
@@ -416,8 +408,7 @@
           }
         ]
       }
-    ],
-    "hash": "7daf403c7589f4927632ed3b6af762a992f09b78"
+    ]
   },
   {
     "id": "019d8dc3-82c6-7f67-b6c1-421ceb2a0609",
@@ -448,8 +439,7 @@
             "title": "Header Field Definitions",
             "url": "https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html"
           }
-        ],
-        "hash": "015e39a832a28457eff285044f32a4232b1c9d4d"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7073-b299-e657bc826a40",
@@ -470,8 +460,7 @@
             "title": "HTTP Status Codes (IANA)",
             "url": "https://www.iana.org/assignments/http-status-codes/http-status-codes.xhtml"
           }
-        ],
-        "hash": "bbbc97ec8f8f545fd732ab53af0756a9afeb8226"
+        ]
       },
       {
         "id": "019d8dc3-82c6-70be-b133-96dd8c7525f0",
@@ -492,8 +481,7 @@
             "title": "HTTP Messages (MDN)",
             "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages"
           }
-        ],
-        "hash": "bce251169a7f1db36d0cdf6b2463c3d8bd73e3fe"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7adc-b702-add6d66ccd0f",
@@ -514,8 +502,7 @@
             "title": "HTTP Response (Symfony HttpFoundation)",
             "url": "https://symfony.com/doc/8.0/components/http_foundation.html"
           }
-        ],
-        "hash": "0e32034a34ac184a16b2f76d1ae9db40ae0938f1"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7827-b0f6-7e9acd2d182d",
@@ -531,8 +518,7 @@
             "title": "HTTP request methods (MDN)",
             "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods"
           }
-        ],
-        "hash": "25d7de1534c44e2e1abc1b168bfaa1031868464c"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7649-8d6a-83e3b93094ee",
@@ -553,8 +539,7 @@
             "title": "The HttpFoundation Component",
             "url": "https://symfony.com/doc/8.0/components/http_foundation.html#setting-cookies"
           }
-        ],
-        "hash": "0c8e630c73fc65fe9e983907fc121a9878e254c0"
+        ]
       },
       {
         "id": "019d8dc3-82c6-700c-9e06-a4872865f865",
@@ -625,8 +610,7 @@
             "title": "HttpCache.php",
             "url": "https://github.com/symfony/symfony/blob/7.0/src/Symfony/Component/HttpKernel/HttpCache/HttpCache.php"
           }
-        ],
-        "hash": "fe63f87c1d39ecb7d09a81cbe0c235e819bd4e80"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7378-9ab8-a75887ba5997",
@@ -647,8 +631,7 @@
             "title": "Header Accept-Encoding",
             "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept-Encoding"
           }
-        ],
-        "hash": "5cc4b06fc984fb9149cb97cf11426ad4af4c107b"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7685-a66c-4717fb018184",
@@ -664,8 +647,7 @@
             "title": "Accept-Language used for locale setting",
             "url": "https://www.w3.org/International/questions/qa-accept-lang-locales"
           }
-        ],
-        "hash": "9c20a37183f4c1a5903807c41a2b5ba1fc991b2f"
+        ]
       },
       {
         "id": "019d8dc3-82c6-79bf-9ff3-17456dc530d8",
@@ -681,11 +663,9 @@
             "title": "HTTP Client (Symfony)",
             "url": "https://symfony.com/doc/8.0/http_client.html"
           }
-        ],
-        "hash": "ea3ce5ee0953d0e6452c00d990490ad66806bb3e"
+        ]
       }
-    ],
-    "hash": "f40b27d6b8b9a4fc3827264c1da16a04ecf4d094"
+    ]
   },
   {
     "id": "019d8dc3-82c6-77ed-8ea4-a0b9fa5db295",
@@ -732,8 +712,7 @@
             "title": "Flex: Compose your Application",
             "url": "https://symfony.com/doc/8.0/quick_tour/flex_recipes.html"
           }
-        ],
-        "hash": "b38ca1e7aaf99d78b3f77e422e33c75c52362f1b"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7b95-9739-44c26ef5b3f8",
@@ -744,8 +723,7 @@
             "title": "Symfony Code License",
             "url": "https://symfony.com/doc/8.0/contributing/code/license.html"
           }
-        ],
-        "hash": "d2e8a998362e67502c1391a96d117ca78fbc21b1"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7025-8a9a-cfa80b91a2c9",
@@ -1051,8 +1029,7 @@
             "title": "What are symfony bridges, bundles and vendor? - Stack Overflow",
             "url": "https://stackoverflow.com/questions/11888522/what-are-symfony-bridges-bundles-and-vendor"
           }
-        ],
-        "hash": "24b678d6ff010cdb6eaa945e694a841ff0c280c1"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7e5c-91ce-60eddef6e511",
@@ -1083,8 +1060,7 @@
             "title": "The Symfony Framework Best Practices",
             "url": "https://symfony.com/doc/8.0/best_practices.html"
           }
-        ],
-        "hash": "139f4c9d34186a60ad274232d3ab6cc1f5a3d888"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7b48-a9e8-606a4e522933",
@@ -1100,8 +1076,7 @@
             "title": "The HttpKernel Component",
             "url": "https://symfony.com/doc/8.0/components/http_kernel.html"
           }
-        ],
-        "hash": "092f4ffb103aa04fc95bd75c1a9dc204d0b63688"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7a42-b0a0-aa3d895ce3c1",
@@ -1127,8 +1102,7 @@
             "title": "ExceptionEvent.php",
             "url": "https://github.com/symfony/symfony/blob/7.0/src/Symfony/Component/HttpKernel/Event/ExceptionEvent.php"
           }
-        ],
-        "hash": "e29e2a1c1c27e06f31dce66706dc917987975e79"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7bb1-b2b6-238715ca5128",
@@ -1164,8 +1138,7 @@
             "title": "The Traceable Event Dispatcher",
             "url": "https://symfony.com/doc/8.0/components/event_dispatcher/traceable_dispatcher.html"
           }
-        ],
-        "hash": "70a7bca042ab3e3339dc6415636b8a2515d7b09a"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7dbd-a169-bc2ce7e6243c",
@@ -1176,8 +1149,7 @@
             "title": "The Symfony Framework Best Practices",
             "url": "https://symfony.com/doc/8.0/best_practices.html"
           }
-        ],
-        "hash": "55ee01517070b2bff9f1689da94e341bde7615dc"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7971-aa37-0a5c291074e2",
@@ -1188,8 +1160,7 @@
             "title": "Our Backward Compatibility Promise",
             "url": "https://symfony.com/doc/8.0/contributing/code/bc.html"
           }
-        ],
-        "hash": "dc6a062659502b8c4ef84dd8b3523b75aa18bedd"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7452-bbde-531ee6500cbd",
@@ -1200,8 +1171,7 @@
             "title": "Conventions",
             "url": "https://symfony.com/doc/8.0/contributing/code/conventions.html#deprecating-code"
           }
-        ],
-        "hash": "4a0d943d6ea42f5c8f307352fcf84828e06ae918"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7d4c-9d2c-a0a0f0ea5727",
@@ -1212,8 +1182,7 @@
             "title": "How to Override any Part of a Bundle",
             "url": "https://symfony.com/doc/8.0/bundles/override.html"
           }
-        ],
-        "hash": "dee265c24080e5e8f7955da77ddc2c6bdbfb94d8"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7bee-baa4-fa009f3b4e00",
@@ -1234,8 +1203,7 @@
             "title": "Semantic Versioning 2.0.0 | Semantic Versioning",
             "url": "https://semver.org/"
           }
-        ],
-        "hash": "1e7b835e2cde27f1b7d92ca0caa423c515f9253b"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7a12-a233-58d8f9faaf4d",
@@ -1291,8 +1259,7 @@
             "title": "HTTP Client",
             "url": "https://symfony.com/doc/8.0/components/http_client.html#interoperability"
           }
-        ],
-        "hash": "5593883f99fa57c86caa0ac6163cb17856b5b0ac"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7cab-9666-a488df054233",
@@ -1303,11 +1270,9 @@
             "title": "Conventions",
             "url": "https://symfony.com/doc/8.0/contributing/code/conventions.html#method-names"
           }
-        ],
-        "hash": "03d640f4202f1bd91daf1caa9fa80c798b30c3d3"
+        ]
       }
-    ],
-    "hash": "648b91048149acdde821eb5725793d7dfa5e0c4a"
+    ]
   },
   {
     "id": "019d8dc3-82c6-7cd4-85ea-a385b7cd3b67",
@@ -1333,8 +1298,7 @@
             "title": "Controllers as Services",
             "url": "https://symfony.com/doc/8.0/controller/service.html"
           }
-        ],
-        "hash": "c28f9617fb24f0731a94bfe04401d299ae386f9d"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7ec5-bc27-a44a1e164a85",
@@ -1345,8 +1309,7 @@
             "title": "Routing",
             "url": "https://symfony.com/doc/8.0/routing.html#controller-naming-pattern"
           }
-        ],
-        "hash": "e5dbfb027724168627bc5a1e91d4a924598a1d15"
+        ]
       },
       {
         "id": "019d8dc3-82c6-73be-aa5e-3b3172e80775",
@@ -1362,8 +1325,7 @@
             "title": "Controller",
             "url": "https://symfony.com/doc/8.0/controller.html"
           }
-        ],
-        "hash": "aa74478c9f41ac49d4f5a6a037ce14b177985644"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7e1a-8e76-511085f08e6a",
@@ -1394,8 +1356,7 @@
             "title": "ArgumentResolverInterface.php",
             "url": "https://github.com/symfony/symfony/blob/7.0/src/Symfony/Component/HttpKernel/Controller/ArgumentResolverInterface.php"
           }
-        ],
-        "hash": "98202f5d1cf1f40ffc82243524ce75cf99ef3a1d"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7127-aa60-cf6bb5b6c604",
@@ -1416,8 +1377,7 @@
             "title": "Controller",
             "url": "https://symfony.com/doc/8.0/controller.html"
           }
-        ],
-        "hash": "c4fc53e1293870af029caaa124718cd1c46b2e36"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7a37-b993-6afc03745b35",
@@ -1433,8 +1393,7 @@
             "title": "HTTP Cookies (MDN)",
             "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies"
           }
-        ],
-        "hash": "237f65eb54c03cc0d6f2e0aa4db19f33ff6020ed"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7129-a057-d00720a4ffe5",
@@ -1485,8 +1444,7 @@
             "title": "SessionInterface.php",
             "url": "https://github.com/symfony/symfony/blob/7.0/src/Symfony/Component/HttpFoundation/Session/SessionInterface.php"
           }
-        ],
-        "hash": "dc590c1f247a383186d787725ea56e46a644e5d0"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7a09-9eb6-e28642726823",
@@ -1517,8 +1475,7 @@
             "title": "symfony/FlashBag.php",
             "url": "https://github.com/symfony/symfony/blob/7.0/src/Symfony/Component/HttpFoundation/Session/Flash/FlashBag.php"
           }
-        ],
-        "hash": "eca5052ddb87fde0b1480ba3a608fc3b036fc10e"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7437-91de-da62ef0c2d5f",
@@ -1544,8 +1501,7 @@
             "title": "Unvalidated Redirects and Forwards - OWASP Cheat Sheet Series",
             "url": "https://cheatsheetseries.owasp.org/cheatsheets/Unvalidated_Redirects_and_Forwards_Cheat_Sheet.html"
           }
-        ],
-        "hash": "b75a0361cee24821715fee3324378580e06386a9"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7753-9166-592b8ecb3e90",
@@ -1556,8 +1512,7 @@
             "title": "How to Forward Requests to another Controller",
             "url": "https://symfony.com/doc/8.0/controller/forwarding.html#how-to-forward-requests-to-another-controller"
           }
-        ],
-        "hash": "31170cef015185d1d9764e9455684888f25029c3"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7b85-ab93-bd8b655bdbf5",
@@ -1573,8 +1528,7 @@
             "title": "Framework Configuration Reference (FrameworkBundle)",
             "url": "https://symfony.com/doc/8.0/reference/configuration/framework.html#config-framework-error_controller"
           }
-        ],
-        "hash": "89e424181172716f56b7915052c0133b62ee88be"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7d83-931e-c8c8522acb22",
@@ -1590,8 +1544,7 @@
             "title": "The HttpFoundation Component",
             "url": "https://symfony.com/doc/8.0/components/http_foundation.html"
           }
-        ],
-        "hash": "0bd4741f157fe844017aa382101e231a032fd059"
+        ]
       },
       {
         "id": "019d8dc3-82c6-746b-bc55-676332b0e0e9",
@@ -1607,8 +1560,7 @@
             "title": "Routing",
             "url": "https://symfony.com/doc/8.0/routing.html#redirecting-to-urls-and-routes-directly-from-a-route"
           }
-        ],
-        "hash": "79f6a556f94d1e19385150e7c270660487f30d27"
+        ]
       },
       {
         "id": "019d8dc3-82c6-72c8-9c6b-2717019cb90c",
@@ -1629,11 +1581,9 @@
             "title": "Controller",
             "url": "https://symfony.com/doc/8.0/controller.html"
           }
-        ],
-        "hash": "4a1c9e30b9f89c432d09421eed4e228d89d3a2db"
+        ]
       }
-    ],
-    "hash": "fd28161568c4e8e181bf8b34d2eb64190067fd07"
+    ]
   },
   {
     "id": "019d8dc3-82c6-7de8-a1f3-d72ae48c53ff",
@@ -1659,8 +1609,7 @@
             "title": "Custom Route Loader",
             "url": "https://symfony.com/doc/8.0/routing/custom_route_loader.html"
           }
-        ],
-        "hash": "2fc75bae6def67c0c690ab55d2fcae9186004730"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7fa4-bb1e-360c052a4739",
@@ -1671,8 +1620,7 @@
             "title": "Routing",
             "url": "https://symfony.com/doc/8.0/routing.html#creating-routes"
           }
-        ],
-        "hash": "40619652bd9a8ec4840290b0836fa60c2f776e32"
+        ]
       },
       {
         "id": "019d8dc3-82c6-75ed-88d4-86ea4eb41c63",
@@ -1683,8 +1631,7 @@
             "title": "Routing",
             "url": "https://symfony.com/doc/8.0/routing.html#route-parameters"
           }
-        ],
-        "hash": "a9ac06316d4bb17a7b656c527633e4e5e86ecb59"
+        ]
       },
       {
         "id": "019d8dc3-82c6-71be-ac06-c72f04c9fb06",
@@ -1695,8 +1642,7 @@
             "title": "Routing",
             "url": "https://symfony.com/doc/8.0/routing.html#optional-parameters"
           }
-        ],
-        "hash": "5c8f279ea391b697a53fcf39f7a201c5545058a3"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7251-96e7-a529b16db081",
@@ -1707,8 +1653,7 @@
             "title": "Routing",
             "url": "https://symfony.com/doc/8.0/routing.html#generating-urls"
           }
-        ],
-        "hash": "3fae3acc0cecb062eeaffe06fcf4e31c7385cfba"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7ac1-8e26-2aaca84f1086",
@@ -1719,8 +1664,7 @@
             "title": "Routing",
             "url": "https://symfony.com/doc/8.0/routing.html#redirecting-to-urls-and-routes-directly-from-a-route"
           }
-        ],
-        "hash": "e969d8564bc5d53dfa3cd9f50c41847fbc0132a9"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7dda-8c92-df1159d54507",
@@ -1731,8 +1675,7 @@
             "title": "Routing",
             "url": "https://symfony.com/doc/8.0/routing.html#special-parameters"
           }
-        ],
-        "hash": "05eb4da3a0d50eb9e4da9fabccef09dcb1cbc91c"
+        ]
       },
       {
         "id": "019d8dc3-82c6-78ef-94b5-431708c05879",
@@ -1743,8 +1686,7 @@
             "title": "Routing",
             "url": "https://symfony.com/doc/8.0/routing.html#sub-domain-routing"
           }
-        ],
-        "hash": "b26deb543232d860b34c3f326cbd1e42cd8abd1d"
+        ]
       },
       {
         "id": "019d8dc3-82c6-778a-abfa-98c56e73db9b",
@@ -1755,8 +1697,7 @@
             "title": "Routing",
             "url": "https://symfony.com/doc/8.0/routing.html#matching-expressions"
           }
-        ],
-        "hash": "b49cc3072dd5033095d30318b9ddf94fea3d7f5b"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7e99-a2e5-4904e6c146e9",
@@ -1767,8 +1708,7 @@
             "title": "Routing",
             "url": "https://symfony.com/doc/8.0/routing.html#matching-http-methods"
           }
-        ],
-        "hash": "9c2b7fdc6ec834d0afe7dc5c788880577adad05b"
+        ]
       },
       {
         "id": "019d8dc3-82c6-76be-a593-bb6520486c5e",
@@ -1779,8 +1719,7 @@
             "title": "Routing",
             "url": "https://symfony.com/doc/8.0/routing.html#localized-routes-i18n"
           }
-        ],
-        "hash": "7ebd448dc7254410eed69e57f42c93b23a411326"
+        ]
       },
       {
         "id": "019d8dc3-82c6-720c-9561-212ca8db85d4",
@@ -1791,11 +1730,9 @@
             "title": "Routing",
             "url": "https://symfony.com/doc/8.0/routing.html#debugging-routes"
           }
-        ],
-        "hash": "2fba4791c925c8217f4107e118e030be5f79081f"
+        ]
       }
-    ],
-    "hash": "7d15dd1bec2e055c5b177c9f869305ae6c54c9bb"
+    ]
   },
   {
     "id": "019d8dc3-82c6-751c-9c2f-0d5db5eb234a",
@@ -1837,8 +1774,7 @@
             "title": "Twig Internals - twig internals",
             "url": "https://twig.symfony.com/doc/3.x/internals.html"
           }
-        ],
-        "hash": "8371e1f6ef6b0a4fbbedc183945bfe5824a70fe5"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7488-9010-053a6cb38278",
@@ -1859,8 +1795,7 @@
             "title": "Twig Configuration Reference (TwigBundle)",
             "url": "https://symfony.com/doc/8.0/reference/configuration/twig.html"
           }
-        ],
-        "hash": "831d76bce499534625276e642190ff1d05fb2b7f"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7f54-a10d-b03058a2c00c",
@@ -1876,8 +1811,7 @@
             "title": "Twig tags - extends",
             "url": "https://twig.symfony.com/doc/3.x/tags/extends.html"
           }
-        ],
-        "hash": "144398bdc9a1ef2eb612560b168b03751d98834a"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7d23-a4f6-2a1f329278e6",
@@ -1893,8 +1827,7 @@
             "title": "Creating and Using Templates",
             "url": "https://symfony.com/doc/8.0/templating/global_variables.html"
           }
-        ],
-        "hash": "de33473f706b6fdfd539fc7596e71477e0ddde51"
+        ]
       },
       {
         "id": "019d8dc3-82c6-79cf-88c1-4f3988fc98e1",
@@ -1925,8 +1858,7 @@
             "title": "Creating and Using Templates",
             "url": "https://symfony.com/doc/8.0/templating/twig_extension.html"
           }
-        ],
-        "hash": "6dbbd5e886b230c065d2375c4105a93b7622f7b9"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7d17-bd28-a1c9d816a363",
@@ -1947,8 +1879,7 @@
             "title": "Twig for Template Designers - including other templates",
             "url": "https://twig.symfony.com/doc/3.x/templates.html#including-other-templates"
           }
-        ],
-        "hash": "516c2a3ccdd7c502e3964fc7230b50338f71a19f"
+        ]
       },
       {
         "id": "019d8dc3-82c6-76c7-915e-3a8b2dbeb757",
@@ -1969,8 +1900,7 @@
             "title": "Twig tags - if",
             "url": "https://twig.symfony.com/doc/3.x/tags/if.html"
           }
-        ],
-        "hash": "17effc97de815266799065b1eaeb8f4eb4aa6b0d"
+        ]
       },
       {
         "id": "019d8dc3-82c6-760b-976e-019fa28b5691",
@@ -1981,8 +1911,7 @@
             "title": "Twig Extensions Defined by Symfony",
             "url": "https://symfony.com/doc/8.0/reference/twig_reference.html"
           }
-        ],
-        "hash": "95da3c0d0d61aafaebc816eedeb6226c22efa0e4"
+        ]
       },
       {
         "id": "019d8dc3-82c6-72e8-a999-e289569d43f2",
@@ -1998,8 +1927,7 @@
             "title": "Twig Extensions Defined by Symfony",
             "url": "https://symfony.com/doc/8.0/reference/twig_reference.html"
           }
-        ],
-        "hash": "9f8fe2a37ce394269d9820626bec30150437a6dd"
+        ]
       },
       {
         "id": "019d8dc3-82c6-717b-80f9-8f8263a18978",
@@ -2020,8 +1948,7 @@
             "title": "Translations",
             "url": "https://symfony.com/doc/8.0/translation/templates.html"
           }
-        ],
-        "hash": "5c580c965375ce2ffb94f33417b67efc9a8758ac"
+        ]
       },
       {
         "id": "019d8dc3-82c6-78df-afd5-d2f4cf59a8fb",
@@ -2032,8 +1959,7 @@
             "title": "Twig for Template Designers - string interpolation",
             "url": "https://twig.symfony.com/doc/3.x/templates.html"
           }
-        ],
-        "hash": "96e7589d4c86e57dc47344b4e00928aa2fd9231c"
+        ]
       },
       {
         "id": "019d8dc3-82c6-731a-9a85-3d081b6aa9ba",
@@ -2059,8 +1985,7 @@
             "title": "Front-end Tools: Handling CSS & JavaScript",
             "url": "https://symfony.com/doc/8.0/frontend.html"
           }
-        ],
-        "hash": "0d92a0facdd37fb1a647b27e54077627162bb376"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7d98-b0f0-a64df243a448",
@@ -2076,11 +2001,9 @@
             "title": "The VarDumper Component",
             "url": "https://symfony.com/doc/8.0/components/var_dumper.html#components-var-dumper-dump"
           }
-        ],
-        "hash": "624d149ea4645a23174b73ac4fddafd2bdb1fae9"
+        ]
       }
-    ],
-    "hash": "4a8da3a7d202ca83b91a2c2b40e3d6dbe0473d9f"
+    ]
   },
   {
     "id": "019d8dc3-82c6-78ee-aed3-54ee591d56d6",
@@ -2117,8 +2040,7 @@
             "title": "The Symfony Framework Best Practices",
             "url": "https://symfony.com/doc/8.0/best_practices.html#forms"
           }
-        ],
-        "hash": "1f8eed40957f296399826d01a46a8d29bcc8feab"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7388-85a7-eac7d4bb8303",
@@ -2159,8 +2081,7 @@
             "title": "Forms",
             "url": "https://symfony.com/doc/8.0/form/disabling_validation.html"
           }
-        ],
-        "hash": "95299d78565de8996d9b74eff4627d93c07362a5"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7204-a563-4227949dbc05",
@@ -2191,8 +2112,7 @@
             "title": "Form Collections",
             "url": "https://symfony.com/doc/8.0/form/form_collections.html"
           }
-        ],
-        "hash": "d8c472accee164d5760987dd14cb57a58ff46769"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7e43-92e2-15df30ffa301",
@@ -2213,8 +2133,7 @@
             "title": "Twig Reference",
             "url": "https://symfony.com/doc/8.0/reference/twig_reference.html"
           }
-        ],
-        "hash": "1b0cec0928f349d0e4e7ca1115ed22c3f36d2f8d"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7ddb-abc5-e4ec7cb245f9",
@@ -2240,8 +2159,7 @@
             "title": "Fragment Naming for Individual Fields",
             "url": "https://symfony.com/doc/current/form/form_themes.html#custom-fragment-naming-for-individual-fields"
           }
-        ],
-        "hash": "179f12c6a070a1c51e69aa57d74bd9594731ed10"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7183-8e9d-f76689bcc98f",
@@ -2252,8 +2170,7 @@
             "title": "How to Implement CSRF Protection",
             "url": "https://symfony.com/doc/8.0/security/csrf.html"
           }
-        ],
-        "hash": "ccece70a512449cfc219c78f95d26859672af228"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7b02-aaf0-75e549dbf803",
@@ -2264,8 +2181,7 @@
             "title": "How to Upload Files",
             "url": "https://symfony.com/doc/8.0/controller/upload_file.html"
           }
-        ],
-        "hash": "3d051a7c7fec7f4668d2f4beda15bdd2f11adcca"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7af8-9404-8b8ce9585f79",
@@ -2471,8 +2387,7 @@
             "title": "UuidType",
             "url": "https://symfony.com/doc/8.0/reference/forms/types/uuid.html"
           }
-        ],
-        "hash": "25979dafd1e387b9237a24744397f9ce8591c76e"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7955-8b64-d164ba62c19d",
@@ -2493,8 +2408,7 @@
             "title": "Use empty_data Option",
             "url": "https://symfony.com/doc/8.0/form/use_empty_data.html"
           }
-        ],
-        "hash": "8e88486abd4a5eb2ff98f004d4c36b9745bd7b4e"
+        ]
       },
       {
         "id": "019d8dc3-82c6-76fe-a54a-1c7f8f9f6496",
@@ -2515,8 +2429,7 @@
             "title": "Form Collections",
             "url": "https://symfony.com/doc/8.0/form/form_collections.html"
           }
-        ],
-        "hash": "27699f7909deae5170952cf77639fcf439a8de5c"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7cb4-8234-503a9c12dcfd",
@@ -2537,8 +2450,7 @@
             "title": "Unit Testing Forms",
             "url": "https://symfony.com/doc/8.0/form/unit_testing.html"
           }
-        ],
-        "hash": "1a346b6e91f2df5ac31e86e724fbaddc1c862a0a"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7153-8bb6-123d4a031fe4",
@@ -2556,8 +2468,7 @@
           }
         ]
       }
-    ],
-    "hash": "4bec9575721b2739ed1e7c56eb6c8471084fcbcf"
+    ]
   },
   {
     "id": "019d8dc3-82c6-7f85-a17c-a5c9a5815042",
@@ -2599,8 +2510,7 @@
             "title": "Validation",
             "url": "https://symfony.com/doc/8.0/validation.html"
           }
-        ],
-        "hash": "2bbf7089fe6d6cb6bc6af3b583e64bbab6c71280"
+        ]
       },
       {
         "id": "019d8dc3-82c6-76c6-9fdf-bcb0b858c19d",
@@ -3006,8 +2916,7 @@
             "title": "Yaml",
             "url": "https://symfony.com/doc/8.0/reference/constraints/Yaml.html"
           }
-        ],
-        "hash": "0f66bdb9577af407d0ffab3e992fd03d12966f15"
+        ]
       },
       {
         "id": "019d8dc3-82c6-74ec-b5e5-6983f259389c",
@@ -3033,8 +2942,7 @@
             "title": "Validating Raw Values",
             "url": "https://symfony.com/doc/8.0/validation/raw_values.html"
           }
-        ],
-        "hash": "cf2dbd5e0f54d75819788b44b494040c3419b462"
+        ]
       },
       {
         "id": "019d8dc3-82c6-753d-867f-00896611009d",
@@ -3050,8 +2958,7 @@
             "title": "How to Apply only a Subset of all Your Validation Constraints (Validation Groups)",
             "url": "https://symfony.com/doc/8.0/validation/groups.html"
           }
-        ],
-        "hash": "f6bcebf0fa96e1185eb4c0d7397729ca471584e7"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7ebe-9290-96381bb09058",
@@ -3062,8 +2969,7 @@
             "title": "How to Sequentially Apply Validation Groups",
             "url": "https://symfony.com/doc/8.0/validation/sequence_provider.html"
           }
-        ],
-        "hash": "a9204f2af565f29e4d6b685b92b891661a36c978"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7697-a2f6-9fd3ea6ea246",
@@ -3089,8 +2995,7 @@
             "title": "How to Handle Different Error Levels",
             "url": "https://symfony.com/doc/8.0/validation/severity.html"
           }
-        ],
-        "hash": "1e5617cb4059d8ee68020a5974fbf5de6db044fd"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7243-af2d-e522b9297620",
@@ -3111,11 +3016,9 @@
             "title": "ConstraintViolationBuilderInterface.php",
             "url": "https://github.com/symfony/symfony/blob/7.0/src/Symfony/Component/Validator/Violation/ConstraintViolationBuilderInterface.php"
           }
-        ],
-        "hash": "5b81b6ff9cf7d073dc71bb6c490d09691ceaca98"
+        ]
       }
-    ],
-    "hash": "ee5b465252267a8a402131b213b9c19327e6cfa4"
+    ]
   },
   {
     "id": "019d8dc3-82c6-7e19-aaa9-ceb611f82e29",
@@ -3182,8 +3085,7 @@
             "title": "Container Building Workflow",
             "url": "https://symfony.com/doc/8.0/components/dependency_injection/workflow.html"
           }
-        ],
-        "hash": "869b736995c0a4c4f4867cfb33ea06a17d75dc14"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7515-8bef-6765f5afdcae",
@@ -3204,8 +3106,7 @@
             "title": "How to Retrieve the Request from the Service Container",
             "url": "https://symfony.com/doc/8.0/service_container/request.html"
           }
-        ],
-        "hash": "a314d10b30bacc53cdf2049076b0974bc4f05771"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7206-b825-b5eff4d6895c",
@@ -3231,8 +3132,7 @@
             "title": "Using Parameters within a Dependency Injection Class",
             "url": "https://symfony.com/doc/8.0/configuration/using_parameters_in_dic.html"
           }
-        ],
-        "hash": "049e16165571792af823588e4234fa6229402b41"
+        ]
       },
       {
         "id": "019d8dc3-82c6-70fb-84c5-dfc578c5c77f",
@@ -3293,8 +3193,7 @@
             "title": "How to Import Configuration Files/Resources",
             "url": "https://symfony.com/doc/8.0/service_container/import.html"
           }
-        ],
-        "hash": "b01d3e5232b378539e856d3e36844e37fb8c032b"
+        ]
       },
       {
         "id": "019d8dc3-82c6-786b-9118-b5a213c20592",
@@ -3310,8 +3209,7 @@
             "title": "Service Closures",
             "url": "https://symfony.com/doc/8.0/service_container/service_closures.html"
           }
-        ],
-        "hash": "5ff49def6464c9195a2aec568b63f3b57e657e83"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7a46-b6ca-2310b9baa993",
@@ -3327,8 +3225,7 @@
             "title": "Built-in Symfony Service Tags",
             "url": "https://symfony.com/doc/8.0/reference/dic_tags.html"
           }
-        ],
-        "hash": "c07b5fb93c73531e56363650498d9ea145ac2750"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7583-a99e-07176fce85ab",
@@ -3354,8 +3251,7 @@
             "title": "Prepend Extension",
             "url": "https://symfony.com/doc/8.0/bundles/prepend_extension.html"
           }
-        ],
-        "hash": "d255335c6c993de5360e65ee1646ccb5cc36f771"
+        ]
       },
       {
         "id": "019d8dc3-82c6-764e-aef0-b68251c97b48",
@@ -3371,8 +3267,7 @@
             "title": "Service Configurators",
             "url": "https://symfony.com/doc/8.0/service_container/configurators.html"
           }
-        ],
-        "hash": "fd390696eb7dbb8493dff5b6fbb974b4f119afcf"
+        ]
       },
       {
         "id": "019d8dc3-82c6-712e-9def-ad33f3e7b65b",
@@ -3388,8 +3283,7 @@
             "title": "Compiling the Container",
             "url": "https://symfony.com/doc/8.0/components/dependency_injection/compilation.html"
           }
-        ],
-        "hash": "05f493e85450aba28b7ff7c2e8be9d9c3211e952"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7cfe-a1a5-f0bb1202df4e",
@@ -3410,8 +3304,7 @@
             "title": "Lazy Services",
             "url": "https://symfony.com/doc/8.0/service_container/lazy_services.html"
           }
-        ],
-        "hash": "81ab746e84d03ae86b01d43ba05fd17eb05d04af"
+        ]
       },
       {
         "id": "019d8dc3-82c6-79ca-b442-640be0749db5",
@@ -3427,11 +3320,9 @@
             "title": "Service Closures",
             "url": "https://symfony.com/doc/8.0/service_container/service_closures.html"
           }
-        ],
-        "hash": "f77ae109c92f990f9a984eefb7397b2c44a1d3af"
+        ]
       }
-    ],
-    "hash": "3aefbe2f210572802298b2ad0347dc9e423d2690"
+    ]
   },
   {
     "id": "019d8dc3-82c6-7357-89de-7d5353a35efa",
@@ -3478,8 +3369,7 @@
             "title": "Password Hashing and Verification",
             "url": "https://symfony.com/doc/8.0/security/reset_password.html"
           }
-        ],
-        "hash": "f4a0a1e9571b0f51b85ef354b165fb74df8d61a5"
+        ]
       },
       {
         "id": "019d8dc3-82c6-762a-9451-26f1df83168d",
@@ -3505,8 +3395,7 @@
             "title": "Voters",
             "url": "https://symfony.com/doc/8.0/security/voters.html"
           }
-        ],
-        "hash": "61f82956e00a9fc542cbc6119804f7f0fd6ee6af"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7f11-954b-c9b303941340",
@@ -3527,8 +3416,7 @@
             "title": "Security Configuration Reference",
             "url": "https://symfony.com/doc/8.0/reference/configuration/security.html"
           }
-        ],
-        "hash": "2c6a69b99f349a6d4afc509dc796f2da557cfe7e"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7f7c-95ed-ea921a94da52",
@@ -3554,8 +3442,7 @@
             "title": "Authenticating against an LDAP server",
             "url": "https://symfony.com/doc/8.0/security/ldap.html"
           }
-        ],
-        "hash": "9aa2fac887930ef5534a8a616d0abfcd8daaef88"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7f45-a6a8-b5c5401e9e68",
@@ -3591,8 +3478,7 @@
             "title": "How to Restrict Firewalls to a Request",
             "url": "https://symfony.com/doc/8.0/security/firewall_restriction.html"
           }
-        ],
-        "hash": "e9cf631fa58e1c5796a2aa209be554f4550a0070"
+        ]
       },
       {
         "id": "019d8dc3-82c6-74cc-9232-bbcb1a8311cf",
@@ -3608,8 +3494,7 @@
             "title": "User Providers",
             "url": "https://symfony.com/doc/8.0/security/user_providers.html"
           }
-        ],
-        "hash": "10364843a172a40bc808e8c2c520d988344bd9cb"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7d5a-9bbb-6e8bceb48d39",
@@ -3635,8 +3520,7 @@
             "title": "UserPasswordEncoderInterface.php",
             "url": "https://github.com/symfony/security-core/blob/5.0/Encoder/UserPasswordEncoderInterface.php"
           }
-        ],
-        "hash": "a66165ecc8b614d9ef01464223919f16f621311a"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7e67-ae03-7162bbb2189e",
@@ -3647,8 +3531,7 @@
             "title": "Security",
             "url": "https://symfony.com/doc/8.0/security.html"
           }
-        ],
-        "hash": "cc63bf346bd89ca48df8a3df21c1a6c23749ff50"
+        ]
       },
       {
         "id": "019d8dc3-82c6-799e-adaa-c3879e4872b8",
@@ -3679,8 +3562,7 @@
             "title": "acl-bundle/src/Resources/doc/index.rst at main · symfony/acl-bundle · GitHub",
             "url": "https://symfony.com/doc/8.0/security/acl.html"
           }
-        ],
-        "hash": "292d2758ca8bb71c8c7bfbae9397144d02fb40ec"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7825-b465-1135b9db7e5b",
@@ -3716,8 +3598,7 @@
             "title": "Login Link",
             "url": "https://symfony.com/doc/8.0/security/login_link.html"
           }
-        ],
-        "hash": "7e58f30b64d30d1429aa07f1cdc02f2a5be3bff1"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7d06-9235-21efef92b8c4",
@@ -3738,11 +3619,9 @@
             "title": "Access Control",
             "url": "https://symfony.com/doc/8.0/security/access_control.html"
           }
-        ],
-        "hash": "b9acd981f39b1e5d6498a9048c6ce14af14defac"
+        ]
       }
-    ],
-    "hash": "f25ce1b8a399bd8621a57427a20039b4b13935db"
+    ]
   },
   {
     "id": "019d8dc3-82c6-7edf-b766-c5f2aea33e85",
@@ -3857,8 +3736,7 @@
             "title": "Console Commands",
             "url": "https://symfony.com/doc/8.0/console.html"
           }
-        ],
-        "hash": "ea76d8a72c5597841d6bf8de1302d6580433175a"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7cf9-8134-a26494f592af",
@@ -3884,8 +3762,7 @@
             "title": "Single Command Tool",
             "url": "https://symfony.com/doc/8.0/components/console/single_command_tool.html"
           }
-        ],
-        "hash": "8c7e817c576c5333d2c2c14cfc78c92be792b1e5"
+        ]
       },
       {
         "id": "019d8dc3-82c6-79a3-abd1-366489495416",
@@ -3926,8 +3803,7 @@
             "title": "Prevent Running the Same Console Command Multiple Times",
             "url": "https://symfony.com/doc/8.0/console/lockable_trait.html"
           }
-        ],
-        "hash": "e23d1a0e4bfaacf18e471563adfbe5dfa86043b7"
+        ]
       },
       {
         "id": "019d8dc3-82c6-75a5-8444-7953bf480665",
@@ -3948,8 +3824,7 @@
             "title": "Lazy Loading Commands",
             "url": "https://symfony.com/doc/8.0/console/lazy_commands.html"
           }
-        ],
-        "hash": "19e5a95ddd6c2f6ffed1f575006413d623632a3d"
+        ]
       },
       {
         "id": "019d8dc3-82c6-76ea-90aa-6f3d3eaea725",
@@ -3965,8 +3840,7 @@
             "title": "Console Input",
             "url": "https://symfony.com/doc/8.0/console/input.html"
           }
-        ],
-        "hash": "d969be9f288974e5058d67b622e54b77ae1ff68c"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7dc9-a967-a9b36c118474",
@@ -3992,8 +3866,7 @@
             "title": "How to Style a Console Command",
             "url": "https://symfony.com/doc/8.0/console/coloring.html"
           }
-        ],
-        "hash": "91293e48df66816da5c7a582b87dcd7029b9a958"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7bab-8be7-2b97823736c9",
@@ -4049,8 +3922,7 @@
             "title": "Tree Helper",
             "url": "https://symfony.com/doc/8.0/components/console/helpers/tree.html"
           }
-        ],
-        "hash": "13e6d04537b03f39f0287da923a1175808c39be6"
+        ]
       },
       {
         "id": "019d8dc3-82c6-76f1-bbd8-170df1942d69",
@@ -4066,8 +3938,7 @@
             "title": "Console Logger",
             "url": "https://symfony.com/doc/8.0/components/console/logger.html"
           }
-        ],
-        "hash": "22895722287a975654775d88a7389c34380500c2"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7e3f-b4e2-701e6fe3f9a8",
@@ -4088,11 +3959,9 @@
             "title": "Console Coloring",
             "url": "https://symfony.com/doc/8.0/console/coloring.html"
           }
-        ],
-        "hash": "0f0f9754a5b4397447d5a54863000eeefc2b2c67"
+        ]
       }
-    ],
-    "hash": "9f3341d3710b74c1bace9f7d9d287f157faea4f4"
+    ]
   },
   {
     "id": "019d8dc3-82c6-779e-a0ed-ce5cc0b0de73",
@@ -4113,8 +3982,7 @@
             "title": "Testing with a Bite Video Tutorial Screencast",
             "url": "https://symfonycasts.com/screencast/phpunit"
           }
-        ],
-        "hash": "573211d63d2b3984dd8db798f10447610f75388c"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7f8d-8370-b31dbe32bf0c",
@@ -4140,8 +4008,7 @@
             "title": "End-to-End Testing",
             "url": "https://symfony.com/doc/8.0/testing/end_to_end.html"
           }
-        ],
-        "hash": "bd88f38c01d1f503cb917401f1d8906d8abb436f"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7338-80b2-b5041067a7bd",
@@ -4157,8 +4024,7 @@
             "title": "How to Test the Interaction of several Clients",
             "url": "https://symfony.com/doc/8.0/testing/insulating_clients.html"
           }
-        ],
-        "hash": "60e67ace5173de0f42837579163c67fe2b383aa5"
+        ]
       },
       {
         "id": "019d8dc3-82c6-792e-b2d2-18351a8f6954",
@@ -4184,8 +4050,7 @@
             "title": "Crawler.php",
             "url": "https://github.com/symfony/symfony/blob/7.0/src/Symfony/Component/DomCrawler/Crawler.php"
           }
-        ],
-        "hash": "d297d123c46188e4264b8ff542a41adcf857cba3"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7eb6-91ca-8be45d0a46e1",
@@ -4206,8 +4071,7 @@
             "title": "Testing",
             "url": "https://symfony.com/doc/8.0/testing.html"
           }
-        ],
-        "hash": "cad93639dc863633f0608be3f9bd6b502fa7b048"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7d1b-9296-26b908b4df37",
@@ -4218,8 +4082,7 @@
             "title": "Testing",
             "url": "https://symfony.com/doc/8.0/testing.html"
           }
-        ],
-        "hash": "598feab8cdf123dc22dd5abbdd5039e9a42b0d8c"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7ab1-9ebd-3c35e9b59d8d",
@@ -4235,8 +4098,7 @@
             "title": "How to Customize the Bootstrap Process before Running Tests",
             "url": "https://symfony.com/doc/8.0/testing/bootstrap.html"
           }
-        ],
-        "hash": "b0bccbc75d8ada7997517c9d61e8c5a1397fbe06"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7084-ac7f-830be7ed68fc",
@@ -4252,8 +4114,7 @@
             "title": "DOM Crawler",
             "url": "https://symfony.com/doc/8.0/testing/dom_crawler.html"
           }
-        ],
-        "hash": "3c3fea8589539686e2796bda0735347b45ed7b35"
+        ]
       },
       {
         "id": "019d8dc3-82c6-7c49-ab7d-5d3470f30165",
@@ -4264,11 +4125,9 @@
             "title": "The PHPUnit Bridge",
             "url": "https://symfony.com/doc/8.0/components/phpunit_bridge.html"
           }
-        ],
-        "hash": "6174171c361cfe87da41767920f40e2392779b47"
+        ]
       }
-    ],
-    "hash": "da3b129348fd06d065eea4d154e5d1fe57f1a1c6"
+    ]
   },
   {
     "id": "019d8dc3-82c7-7063-818f-8dfb461b90dc",
@@ -4359,8 +4218,7 @@
             "title": "The Symfony Framework Best Practices",
             "url": "https://symfony.com/doc/8.0/best_practices.html#configuration"
           }
-        ],
-        "hash": "03c2270f6d1392ae8cce1018ea8d9782b78dfa30"
+        ]
       },
       {
         "id": "019d8dc3-82c7-766c-8746-7f0f887b5c0d",
@@ -4386,8 +4244,7 @@
             "title": "Logging Channels and Handlers",
             "url": "https://symfony.com/doc/8.0/logging/channels_handlers.html"
           }
-        ],
-        "hash": "e2ffb2551bb0ceeecb6440e61056630258396aa9"
+        ]
       },
       {
         "id": "019d8dc3-82c7-71aa-82b9-d977958d9170",
@@ -4428,8 +4285,7 @@
             "title": "Create your First Page in Symfony",
             "url": "https://symfony.com/doc/8.0/page_creation.html#the-web-debug-toolbar-debugging-dream"
           }
-        ],
-        "hash": "1f6b7084bfdc090a64c367e8db57a8bcbe262690"
+        ]
       },
       {
         "id": "019d8dc3-82c7-7a52-a8a8-71b8f34eb537",
@@ -4455,8 +4311,7 @@
             "title": "Platform.sh, the Official Symfony PaaS",
             "url": "https://symfony.com/doc/current/cloud/intro.html"
           }
-        ],
-        "hash": "cb212e4509aaa3faec329f1c480c2120a5a618a2"
+        ]
       },
       {
         "id": "019d8dc3-82c7-77bc-918b-97ffdedbe7f4",
@@ -4477,8 +4332,7 @@
             "title": "Performance",
             "url": "https://symfony.com/doc/8.0/performance.html"
           }
-        ],
-        "hash": "fa4ee01cc10f4d1c896bcc3a57b734c556807b60"
+        ]
       },
       {
         "id": "019d8dc3-82c7-7608-929b-4772717528f0",
@@ -4774,7 +4628,6 @@
           }
         ]
       }
-    ],
-    "hash": "5f2cbd107037ed23248e5058a7a64cd6bae05468"
+    ]
   }
 ]
