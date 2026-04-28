@@ -34,7 +34,12 @@ const canonicalURL = `${SITE_URL}${canonicalPath}`;
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
 
+    <link rel="icon" type="image/png" href={`${import.meta.env.BASE_URL}favicon-96x96.png`} sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href={`${import.meta.env.BASE_URL}favicon.svg`} />
+    <link rel="shortcut icon" href={`${import.meta.env.BASE_URL}favicon.ico`} />
+    <link rel="apple-touch-icon" sizes="180x180" href={`${import.meta.env.BASE_URL}apple-touch-icon.png`} />
+    <meta name="apple-mobile-web-app-title" content="SFCE" />
+    <link rel="manifest" href={`${import.meta.env.BASE_URL}site.webmanifest`} />
     <title>{title}</title>
 
     <script is:inline>
@@ -50,6 +55,7 @@ const canonicalURL = `${SITE_URL}${canonicalPath}`;
     <header class="sticky top-0 z-30 border-b border-border dark:border-dark-border bg-surface/80 dark:bg-dark-surface/80 backdrop-blur-sm">
       <div class="flex items-center justify-between h-14 px-4 max-w-5xl mx-auto">
         <a href={`${import.meta.env.BASE_URL}`} class="flex items-center gap-2 font-semibold text-text-primary dark:text-dark-text-primary no-underline hover:no-underline">
+          <img src={`${import.meta.env.BASE_URL}favicon.svg`} alt="" width="24" height="24" class="w-6 h-6" />
           <span class="text-accent dark:text-dark-accent font-bold">SFCE</span>
           <span class="text-sm font-normal text-text-secondary dark:text-dark-text-secondary">Learning</span>
         </a>

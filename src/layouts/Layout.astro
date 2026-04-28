@@ -39,7 +39,12 @@ const canonicalURL = `${SITE_URL}${Astro.url.pathname}`;
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={`Study materials for the Symfony Framework Certification Exam (SFCE) ${version}`} />
 
+    <link rel="icon" type="image/png" href={`${import.meta.env.BASE_URL}favicon-96x96.png`} sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href={`${import.meta.env.BASE_URL}favicon.svg`} />
+    <link rel="shortcut icon" href={`${import.meta.env.BASE_URL}favicon.ico`} />
+    <link rel="apple-touch-icon" sizes="180x180" href={`${import.meta.env.BASE_URL}apple-touch-icon.png`} />
+    <meta name="apple-mobile-web-app-title" content="SFCE" />
+    <link rel="manifest" href={`${import.meta.env.BASE_URL}site.webmanifest`} />
     <title>{title}</title>
 
     <!-- Theme init (inline, blocking to prevent flash) -->
