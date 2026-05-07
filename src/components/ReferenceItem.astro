@@ -18,6 +18,7 @@ const { reference } = Astro.props;
     href={reference.url}
     target="_blank"
     rel="noopener noreferrer"
+    title={reference.summary}
     class="text-sm text-text-primary dark:text-dark-text-primary hover:text-accent dark:hover:text-dark-accent transition-colors break-words"
     onclick="event.stopPropagation()"
   >

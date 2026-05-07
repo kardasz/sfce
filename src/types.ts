@@ -2,6 +2,7 @@ export interface Reference {
   id: string;
   title: string;
   url: string;
+  summary?: string;
 }
 
 export interface Chapter {
