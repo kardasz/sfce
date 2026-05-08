@@ -14,6 +14,8 @@ const { variant = 'web' } = Astro.props;
       <>
         <a href={`${import.meta.env.BASE_URL}app/privacy-policy/`} class="text-text-secondary dark:text-dark-text-secondary hover:text-accent dark:hover:text-dark-accent transition-colors">Privacy Policy</a>
         <span class="hidden sm:inline text-text-muted dark:text-dark-text-muted">&middot;</span>
+        <a href={`${import.meta.env.BASE_URL}app/content-rights/`} class="text-text-secondary dark:text-dark-text-secondary hover:text-accent dark:hover:text-dark-accent transition-colors">Content Rights</a>
+        <span class="hidden sm:inline text-text-muted dark:text-dark-text-muted">&middot;</span>
         <a href={`${import.meta.env.BASE_URL}app/support/`} class="text-text-secondary dark:text-dark-text-secondary hover:text-accent dark:hover:text-dark-accent transition-colors">Support</a>
         <span class="hidden sm:inline text-text-muted dark:text-dark-text-muted">&middot;</span>
         <a href="#" data-contact class="text-text-secondary dark:text-dark-text-secondary hover:text-accent dark:hover:text-dark-accent transition-colors"></a>
@@ -21,6 +23,8 @@ const { variant = 'web' } = Astro.props;
     ) : (
       <>
         <a href={`${import.meta.env.BASE_URL}privacy/`} class="text-text-secondary dark:text-dark-text-secondary hover:text-accent dark:hover:text-dark-accent transition-colors">Privacy Policy</a>
+        <span class="hidden sm:inline text-text-muted dark:text-dark-text-muted">&middot;</span>
+        <a href={`${import.meta.env.BASE_URL}content-rights/`} class="text-text-secondary dark:text-dark-text-secondary hover:text-accent dark:hover:text-dark-accent transition-colors">Content Rights</a>
         <span class="hidden sm:inline text-text-muted dark:text-dark-text-muted">&middot;</span>
         <a href="#" data-contact class="text-text-secondary dark:text-dark-text-secondary hover:text-accent dark:hover:text-dark-accent transition-colors"></a>
         <span class="hidden sm:inline text-text-muted dark:text-dark-text-muted">&middot;</span>
