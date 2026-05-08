@@ -6,6 +6,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
   title="SFCE Learning App — Symfony Certification Study Guide for iPhone, iPad & Mac"
   description="Native Apple app for the Symfony Framework Certification Exam. Browse topics, chapters, and references; track progress offline with iCloud sync, Calendar, and Reminders integration."
   canonicalPath="/app/"
+  footerVariant="app"
 >
   <!-- Hero -->
   <section class="py-16 sm:py-24 px-4">
@@ -37,6 +38,12 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
           class="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-lg border border-border dark:border-dark-border text-text-primary dark:text-dark-text-primary hover:bg-surface-hover dark:hover:bg-dark-surface-hover font-medium transition-colors text-base"
         >
           Privacy Policy
+        </a>
+        <a
+          href={`${import.meta.env.BASE_URL}app/support/`}
+          class="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-lg border border-border dark:border-dark-border text-text-primary dark:text-dark-text-primary hover:bg-surface-hover dark:hover:bg-dark-surface-hover font-medium transition-colors text-base"
+        >
+          Support
         </a>
       </div>
 

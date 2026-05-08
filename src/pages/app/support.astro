@@ -1,0 +1,39 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Support — SFCE Learning App"
+  description="Support and contact information for the SFCE Learning native app for iPhone, iPad, and Mac."
+  canonicalPath="/app/support/"
+  footerVariant="app"
+>
+  <div class="max-w-3xl mx-auto px-4 py-12 sm:py-16">
+    <h1 class="text-3xl font-bold text-text-primary dark:text-dark-text-primary mb-8">Support</h1>
+
+    <div class="space-y-6 text-text-secondary dark:text-dark-text-secondary leading-relaxed">
+      <p>
+        Need help with the SFCE Learning app, found a bug, or have feedback to share? We are happy to hear from you.
+      </p>
+
+      <p>
+        Please send your question or feedback by email to
+        <a href="#" data-contact class="text-accent dark:text-dark-accent hover:underline font-medium"></a>
+        and we will get back to you as soon as we can.
+      </p>
+
+      <p>
+        To help us answer faster, include the following when relevant:
+      </p>
+      <ul class="list-disc list-inside space-y-1">
+        <li>Your device and OS version (for example, iPhone 17 on iOS 26.4)</li>
+        <li>The app version, shown on the app's About / Settings screen</li>
+        <li>A short description of the issue and steps to reproduce it</li>
+      </ul>
+
+      <p class="pt-4">
+        See also the <a href={`${import.meta.env.BASE_URL}app/privacy-policy/`} class="text-accent dark:text-dark-accent hover:underline">Privacy Policy</a>.
+      </p>
+    </div>
+  </div>
+</BaseLayout>

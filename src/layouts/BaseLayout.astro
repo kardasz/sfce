@@ -7,10 +7,11 @@ interface Props {
   title: string;
   description: string;
   canonicalPath?: string;
+  footerVariant?: 'web' | 'app';
 }
 
 const SITE_URL = 'https://sfcelearning.com';
-const { title, description, canonicalPath = '' } = Astro.props;
+const { title, description, canonicalPath = '', footerVariant = 'web' } = Astro.props;
 const canonicalURL = `${SITE_URL}${canonicalPath}`;
 ---
 
@@ -67,7 +68,7 @@ const canonicalURL = `${SITE_URL}${canonicalPath}`;
       <slot />
     </main>
 
-    <Footer />
+    <Footer variant={footerVariant} />
 
     <!-- Theme toggle script -->
     <script>

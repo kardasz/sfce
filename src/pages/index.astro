@@ -19,6 +19,21 @@ const versionStats = VERSIONS.map(version => {
   <!-- Hero -->
   <section class="py-16 sm:py-24 px-4">
     <div class="max-w-3xl mx-auto text-center">
+      {/* Re-enable when the native app is published on the App Store. */}
+      {false && (
+        <a
+          href={`${import.meta.env.BASE_URL}app/`}
+          class="inline-flex items-center gap-2 mb-6 text-xs font-medium px-3 py-1 rounded-full bg-accent/10 dark:bg-dark-accent/20 text-accent dark:text-dark-accent hover:bg-accent/20 dark:hover:bg-dark-accent/30 transition-colors"
+        >
+          <svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M17.564 12.65c-.025-2.59 2.117-3.834 2.215-3.893-1.207-1.764-3.084-2.005-3.752-2.033-1.598-.16-3.118.94-3.928.94-.81 0-2.066-.916-3.398-.89-1.748.026-3.36 1.014-4.26 2.575-1.815 3.144-.464 7.79 1.305 10.34.864 1.247 1.893 2.65 3.241 2.6 1.302-.052 1.793-.842 3.367-.842 1.573 0 2.014.842 3.39.815 1.4-.026 2.286-1.272 3.142-2.526.99-1.45 1.397-2.852 1.422-2.925-.031-.013-2.722-1.046-2.744-4.16zM14.97 4.97c.717-.87 1.202-2.077 1.07-3.275-1.034.043-2.286.69-3.026 1.554-.665.766-1.246 1.99-1.09 3.17 1.153.09 2.328-.586 3.046-1.45z" />
+          </svg>
+          Native app for iPhone, iPad &amp; Mac &mdash; coming soon
+          <svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+          </svg>
+        </a>
+      )}
       <h1 class="text-4xl sm:text-5xl font-bold text-text-primary dark:text-dark-text-primary mb-4 tracking-tight">
         Prepare for the <span class="text-accent dark:text-dark-accent">Symfony Certification</span> Exam
       </h1>
