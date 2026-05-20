@@ -44,3 +44,24 @@ body {
   background-color: var(--color-dark-surface);
   color: var(--color-dark-text-primary);
 }
+
+.app-store-badge {
+  display: inline-block;
+  line-height: 0;
+  border-radius: 8px;
+  transition: transform 0.15s ease, opacity 0.15s ease;
+}
+.app-store-badge:hover,
+.app-store-badge:focus-visible {
+  transform: translateY(-1px);
+  opacity: 0.9;
+}
+.app-store-badge img {
+  display: inline-block;
+  height: 48px;
+  width: auto;
+}
+.app-store-badge .badge-dark { display: inline-block; }
+.app-store-badge .badge-light { display: none; }
+.dark .app-store-badge .badge-dark { display: none; }
+.dark .app-store-badge .badge-light { display: inline-block; }

@@ -1,5 +1,16 @@
 ---
+import { Image } from 'astro:assets';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import iphoneHome from '../../assets/app-screenshots/iphone-home.png';
+import ipadHome from '../../assets/app-screenshots/ipad-home.png';
+import macHome from '../../assets/app-screenshots/mac-home.png';
+import iphonePaywall from '../../assets/app-screenshots/iphone-paywall.png';
+import iphoneQuizQuestion from '../../assets/app-screenshots/iphone-quiz-question.png';
+import iphoneQuizReview from '../../assets/app-screenshots/iphone-quiz-review.png';
+import macQuiz from '../../assets/app-screenshots/mac-quiz.png';
+
+const APP_STORE_IOS = 'https://apps.apple.com/app/sfce-learning/id6764245530';
+const APP_STORE_MAC = 'https://apps.apple.com/pl/app/sfce-learning/id6764245530?mt=12';
 ---
 
 <BaseLayout
@@ -12,7 +23,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
   <section class="py-16 sm:py-24 px-4">
     <div class="max-w-3xl mx-auto text-center">
       <span class="inline-block mb-4 text-xs font-medium px-3 py-1 rounded-full bg-accent/10 dark:bg-dark-accent/20 text-accent dark:text-dark-accent">
-        Coming soon to the App Store
+        Available on the App Store
       </span>
       <h1 class="text-4xl sm:text-5xl font-bold text-text-primary dark:text-dark-text-primary mb-4 tracking-tight">
         SFCE Learning <span class="text-accent dark:text-dark-accent">on Apple devices</span>
@@ -22,40 +33,100 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
         Same content as <a href={import.meta.env.BASE_URL} class="text-accent dark:text-dark-accent hover:underline">sfcelearning.com</a> &mdash; offline, fast, and at home on Apple platforms.
       </p>
 
-      <div class="flex flex-col sm:flex-row gap-3 justify-center items-center">
-        <span
-          class="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-lg bg-text-muted/40 dark:bg-dark-text-muted/30 text-text-secondary dark:text-dark-text-secondary font-medium text-base cursor-not-allowed select-none"
-          aria-disabled="true"
-          title="Not yet available on the App Store"
-        >
-          <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-            <path d="M17.564 12.65c-.025-2.59 2.117-3.834 2.215-3.893-1.207-1.764-3.084-2.005-3.752-2.033-1.598-.16-3.118.94-3.928.94-.81 0-2.066-.916-3.398-.89-1.748.026-3.36 1.014-4.26 2.575-1.815 3.144-.464 7.79 1.305 10.34.864 1.247 1.893 2.65 3.241 2.6 1.302-.052 1.793-.842 3.367-.842 1.573 0 2.014.842 3.39.815 1.4-.026 2.286-1.272 3.142-2.526.99-1.45 1.397-2.852 1.422-2.925-.031-.013-2.722-1.046-2.744-4.16zM14.97 4.97c.717-.87 1.202-2.077 1.07-3.275-1.034.043-2.286.69-3.026 1.554-.665.766-1.246 1.99-1.09 3.17 1.153.09 2.328-.586 3.046-1.45z" />
-          </svg>
-          Coming soon
-        </span>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
         <a
-          href={`${import.meta.env.BASE_URL}app/privacy-policy/`}
-          class="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-lg border border-border dark:border-dark-border text-text-primary dark:text-dark-text-primary hover:bg-surface-hover dark:hover:bg-dark-surface-hover font-medium transition-colors text-base"
+          class="app-store-badge"
+          href={APP_STORE_IOS}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Download SFCE Learning on the App Store for iPhone and iPad"
         >
-          Privacy Policy
+          <img class="badge-dark" src={`${import.meta.env.BASE_URL}badges/app-store-ios-black.svg`} alt="Download on the App Store" height="48" width="143.6" />
+          <img class="badge-light" src={`${import.meta.env.BASE_URL}badges/app-store-ios-white.svg`} alt="Download on the App Store" height="48" width="143.6" />
         </a>
         <a
-          href={`${import.meta.env.BASE_URL}app/content-rights/`}
-          class="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-lg border border-border dark:border-dark-border text-text-primary dark:text-dark-text-primary hover:bg-surface-hover dark:hover:bg-dark-surface-hover font-medium transition-colors text-base"
+          class="app-store-badge"
+          href={APP_STORE_MAC}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Download SFCE Learning on the Mac App Store"
         >
-          Content Rights
-        </a>
-        <a
-          href={`${import.meta.env.BASE_URL}app/support/`}
-          class="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-lg border border-border dark:border-dark-border text-text-primary dark:text-dark-text-primary hover:bg-surface-hover dark:hover:bg-dark-surface-hover font-medium transition-colors text-base"
-        >
-          Support
+          <img class="badge-dark" src={`${import.meta.env.BASE_URL}badges/mac-app-store-black.svg`} alt="Download on the Mac App Store" height="48" width="187.3" />
+          <img class="badge-light" src={`${import.meta.env.BASE_URL}badges/mac-app-store-white.svg`} alt="Download on the Mac App Store" height="48" width="187.3" />
         </a>
       </div>
 
       <p class="mt-6 text-sm text-text-muted dark:text-dark-text-muted">
         For iPhone, iPad, and Mac &mdash; iOS / iPadOS / macOS 26.4 or later.
       </p>
+    </div>
+  </section>
+
+  <!-- Device showcase -->
+  <section class="pb-20 px-4">
+    <div class="max-w-5xl mx-auto">
+      <h2 class="text-2xl sm:text-3xl font-bold text-text-primary dark:text-dark-text-primary text-center mb-3">
+        At home on every Apple device
+      </h2>
+      <p class="text-center text-text-secondary dark:text-dark-text-secondary max-w-2xl mx-auto mb-12">
+        Free to download on iPhone, iPad, and Mac. Progress syncs through iCloud so you can pick up exactly where you left off.
+      </p>
+
+      <!-- Hero device composition: Mac in back, iPad in front-left, iPhone in front-right -->
+      <div class="relative mx-auto max-w-4xl">
+        <!-- Mac (laptop) -->
+        <div class="mx-auto w-full max-w-3xl">
+          <div class="rounded-t-xl bg-neutral-800 dark:bg-neutral-900 p-[10px] pb-2 shadow-2xl ring-1 ring-black/10">
+            <div class="overflow-hidden rounded-md bg-black">
+              <Image
+                src={macHome}
+                alt="SFCE Learning app running on macOS, showing the Symfony 8.0 topics home screen"
+                widths={[640, 1024, 1600]}
+                sizes="(max-width: 768px) 90vw, 720px"
+                class="block w-full h-auto"
+              />
+            </div>
+          </div>
+          <!-- Laptop base -->
+          <div class="mx-auto h-3 w-[105%] -mt-[1px] rounded-b-lg bg-gradient-to-b from-neutral-700 to-neutral-800 dark:from-neutral-800 dark:to-neutral-900 shadow-md"></div>
+          <div class="mx-auto h-1.5 w-[60%] rounded-b-xl bg-neutral-300/60 dark:bg-neutral-700/60"></div>
+        </div>
+
+        <!-- iPad — front left -->
+        <div class="absolute -bottom-6 sm:-bottom-10 left-0 sm:left-6 w-[34%] sm:w-[30%] max-w-[260px]">
+          <div class="rounded-[18px] sm:rounded-[24px] bg-neutral-900 dark:bg-neutral-950 p-[6px] sm:p-[8px] shadow-2xl ring-1 ring-black/10 rotate-[-4deg]">
+            <div class="overflow-hidden rounded-[12px] sm:rounded-[18px] bg-black">
+              <Image
+                src={ipadHome}
+                alt="SFCE Learning on iPad showing the topic list"
+                widths={[240, 360, 480]}
+                sizes="(max-width: 640px) 30vw, 240px"
+                class="block w-full h-auto"
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- iPhone — front right -->
+        <div class="absolute -bottom-8 sm:-bottom-14 right-0 sm:right-8 w-[18%] sm:w-[16%] max-w-[140px]">
+          <div class="rounded-[20px] sm:rounded-[28px] bg-neutral-900 dark:bg-neutral-950 p-[4px] sm:p-[5px] shadow-2xl ring-1 ring-black/20 rotate-[5deg]">
+            <div class="relative overflow-hidden rounded-[16px] sm:rounded-[24px] bg-black">
+              <!-- Dynamic Island -->
+              <div class="absolute top-1.5 left-1/2 -translate-x-1/2 z-10 w-[28%] h-[6px] sm:h-[8px] rounded-full bg-black"></div>
+              <Image
+                src={iphoneHome}
+                alt="SFCE Learning on iPhone showing the topic list"
+                widths={[160, 240, 360]}
+                sizes="(max-width: 640px) 18vw, 140px"
+                class="block w-full h-auto"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Spacer so floating devices don't crash into next section -->
+      <div class="h-16 sm:h-24"></div>
     </div>
   </section>
 
@@ -137,4 +208,106 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
       </div>
     </div>
   </section>
+
+  <!-- Test your knowledge — In-App Purchase -->
+  <section class="pb-24 px-4">
+    <div class="max-w-5xl mx-auto">
+      <div class="text-center mb-12">
+        <span class="inline-block mb-4 text-xs font-medium px-3 py-1 rounded-full bg-accent/10 dark:bg-dark-accent/20 text-accent dark:text-dark-accent">
+          In-App Purchase &mdash; lifetime access
+        </span>
+        <h2 class="text-2xl sm:text-3xl font-bold text-text-primary dark:text-dark-text-primary mb-4">
+          Test your knowledge
+        </h2>
+        <p class="text-text-secondary dark:text-dark-text-secondary max-w-2xl mx-auto">
+          Unlock practice quizzes with a one-time purchase &mdash; no subscriptions, no expirations.
+          Thousands of questions across Symfony 6.0, 7.0, and 8.0, with instant answer review so you
+          learn from every mistake.
+        </p>
+      </div>
+
+      <!-- iPhone trio: Paywall → Question → Review -->
+      <div class="grid grid-cols-3 gap-3 sm:gap-8 items-start max-w-3xl mx-auto">
+        <div class="flex flex-col items-center">
+          <div class="w-full">
+            <div class="rounded-[20px] sm:rounded-[36px] bg-neutral-900 dark:bg-neutral-950 p-[4px] sm:p-[6px] shadow-xl ring-1 ring-black/20">
+              <div class="relative overflow-hidden rounded-[16px] sm:rounded-[32px] bg-black">
+                <div class="absolute top-1.5 sm:top-2 left-1/2 -translate-x-1/2 z-10 w-[28%] h-[6px] sm:h-[10px] rounded-full bg-black"></div>
+                <Image
+                  src={iphonePaywall}
+                  alt="SFCE Learning paywall on iPhone showing lifetime in-app purchase"
+                  widths={[200, 320, 480]}
+                  sizes="(max-width: 640px) 30vw, 220px"
+                  class="block w-full h-auto"
+                />
+              </div>
+            </div>
+          </div>
+          <p class="mt-4 text-xs sm:text-sm font-medium text-text-primary dark:text-dark-text-primary">Unlock once</p>
+          <p class="mt-1 text-xs text-text-muted dark:text-dark-text-muted text-center">Lifetime purchase</p>
+        </div>
+
+        <div class="flex flex-col items-center">
+          <div class="w-full">
+            <div class="rounded-[20px] sm:rounded-[36px] bg-neutral-900 dark:bg-neutral-950 p-[4px] sm:p-[6px] shadow-xl ring-1 ring-black/20">
+              <div class="relative overflow-hidden rounded-[16px] sm:rounded-[32px] bg-black">
+                <div class="absolute top-1.5 sm:top-2 left-1/2 -translate-x-1/2 z-10 w-[28%] h-[6px] sm:h-[10px] rounded-full bg-black"></div>
+                <Image
+                  src={iphoneQuizQuestion}
+                  alt="Quiz question screen on iPhone"
+                  widths={[200, 320, 480]}
+                  sizes="(max-width: 640px) 30vw, 220px"
+                  class="block w-full h-auto"
+                />
+              </div>
+            </div>
+          </div>
+          <p class="mt-4 text-xs sm:text-sm font-medium text-text-primary dark:text-dark-text-primary">Practice</p>
+          <p class="mt-1 text-xs text-text-muted dark:text-dark-text-muted text-center">Real exam-style questions</p>
+        </div>
+
+        <div class="flex flex-col items-center">
+          <div class="w-full">
+            <div class="rounded-[20px] sm:rounded-[36px] bg-neutral-900 dark:bg-neutral-950 p-[4px] sm:p-[6px] shadow-xl ring-1 ring-black/20">
+              <div class="relative overflow-hidden rounded-[16px] sm:rounded-[32px] bg-black">
+                <div class="absolute top-1.5 sm:top-2 left-1/2 -translate-x-1/2 z-10 w-[28%] h-[6px] sm:h-[10px] rounded-full bg-black"></div>
+                <Image
+                  src={iphoneQuizReview}
+                  alt="Quiz review screen on iPhone showing correct and incorrect answers"
+                  widths={[200, 320, 480]}
+                  sizes="(max-width: 640px) 30vw, 220px"
+                  class="block w-full h-auto"
+                />
+              </div>
+            </div>
+          </div>
+          <p class="mt-4 text-xs sm:text-sm font-medium text-text-primary dark:text-dark-text-primary">Review</p>
+          <p class="mt-1 text-xs text-text-muted dark:text-dark-text-muted text-center">Learn from every answer</p>
+        </div>
+      </div>
+
+      <!-- Mac quiz screenshot below -->
+      <div class="mt-16 sm:mt-20">
+        <div class="mx-auto w-full max-w-3xl">
+          <div class="rounded-t-xl bg-neutral-800 dark:bg-neutral-900 p-[10px] pb-2 shadow-2xl ring-1 ring-black/10">
+            <div class="overflow-hidden rounded-md bg-black">
+              <Image
+                src={macQuiz}
+                alt="SFCE Learning quiz running on macOS"
+                widths={[640, 1024, 1600]}
+                sizes="(max-width: 768px) 90vw, 720px"
+                class="block w-full h-auto"
+              />
+            </div>
+          </div>
+          <div class="mx-auto h-3 w-[105%] -mt-[1px] rounded-b-lg bg-gradient-to-b from-neutral-700 to-neutral-800 dark:from-neutral-800 dark:to-neutral-900 shadow-md"></div>
+          <div class="mx-auto h-1.5 w-[60%] rounded-b-xl bg-neutral-300/60 dark:bg-neutral-700/60"></div>
+        </div>
+        <p class="mt-8 text-center text-sm text-text-secondary dark:text-dark-text-secondary">
+          Same quizzes &mdash; with a bigger window &mdash; on iPad and Mac.
+        </p>
+      </div>
+    </div>
+  </section>
+
 </BaseLayout>
