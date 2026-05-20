@@ -1,0 +1,252 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Privacy Policy — SFCE Learning App for Android"
+  description="Privacy policy for the SFCE Learning native app for Android."
+  canonicalPath="/app/android/privacy-policy/"
+  footerVariant="app"
+>
+  <div class="max-w-3xl mx-auto px-4 py-12 sm:py-16">
+    <h1 class="text-3xl font-bold text-text-primary dark:text-dark-text-primary mb-2">Privacy Policy</h1>
+    <p class="text-sm text-text-secondary dark:text-dark-text-secondary mb-8">
+      <strong class="text-text-primary dark:text-dark-text-primary">Last updated:</strong> May 20, 2026
+    </p>
+
+    <div class="space-y-8 text-text-secondary dark:text-dark-text-secondary leading-relaxed">
+      <p>
+        SFCE Learning app ("the app", "we", "us") is a native study guide for the Symfony Framework
+        Certification Exam. This Privacy Policy explains what information the app uses, where it is
+        stored, and how privacy-related Android and Google Play services are used.
+      </p>
+
+      <p>
+        SFCE Learning app is designed to provide its study guide structure and quiz content without
+        requiring an account with us. Documentation links open external websites. The app does not
+        use advertising, does not use analytics SDKs, and does not track you across apps or websites.
+      </p>
+
+      <section>
+        <h2 class="text-xl font-semibold text-text-primary dark:text-dark-text-primary mb-3">Information We Do Not Collect</h2>
+        <p>
+          We do not collect, sell, rent, or share personal information for advertising or tracking.
+        </p>
+        <p class="mt-3">SFCE Learning app does not collect:</p>
+        <ul class="list-disc list-inside mt-2 space-y-1">
+          <li>Your name, email address, phone number, or address</li>
+          <li>Precise or coarse location</li>
+          <li>Contacts, photos, camera, microphone, or health data</li>
+          <li>Advertising identifiers (such as the Android Advertising ID)</li>
+          <li>Analytics events or telemetry</li>
+          <li>Crash reports sent to our own servers</li>
+          <li>Browsing history from the in-app browser</li>
+        </ul>
+        <p class="mt-3">
+          The app does not include third-party analytics, advertising SDKs, or social tracking SDKs.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-xl font-semibold text-text-primary dark:text-dark-text-primary mb-3">Study Progress</h2>
+        <p>
+          SFCE Learning app stores your study progress so the app can show completed references,
+          progress indicators, and your last-read location.
+        </p>
+        <p class="mt-3">This information may include:</p>
+        <ul class="list-disc list-inside mt-2 space-y-1">
+          <li>Symfony version selected for study progress</li>
+          <li>Completed reference identifiers</li>
+          <li>Completion timestamps stored locally by the app</li>
+          <li>Last-read topic and chapter identifiers</li>
+        </ul>
+        <p class="mt-3">
+          This data is stored on your device using standard Android storage technologies such as a
+          Room (SQLite) database and DataStore Preferences. It is used only to provide app
+          functionality.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-xl font-semibold text-text-primary dark:text-dark-text-primary mb-3">Cross-Device Backup</h2>
+        <p>
+          If you have Android Auto Backup enabled for the app on your device, your study progress may
+          be backed up to your Google Drive backup account by the Android operating system. This
+          allows your progress to be restored when you reinstall the app or set up a new device.
+        </p>
+        <p class="mt-3">
+          The backed-up data is limited to the app's local study progress (such as completion state
+          by Symfony version and reference identifier) and lightweight app preferences. SFCE Learning
+          app does not back up your name, email address, or other contact information.
+        </p>
+        <p class="mt-3">
+          Android Auto Backup is provided by Google and the Android platform. We do not operate a
+          server for this data and do not have access to the contents of your Google Drive backup.
+          You can manage app backup and Google Drive backup settings on your device in the system
+          settings.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-xl font-semibold text-text-primary dark:text-dark-text-primary mb-3">Calendar Integration</h2>
+        <p>
+          SFCE Learning app can create study sessions in your calendar when you choose the "Add to
+          Calendar" action.
+        </p>
+        <p class="mt-3">
+          When you use this feature, the app hands off to your system Calendar app using a standard
+          Android calendar intent. You confirm and save the event inside your Calendar app; SFCE
+          Learning app does not need the runtime calendar permission and does not read your existing
+          calendar entries. Calendar events suggested by SFCE Learning app may include:
+        </p>
+        <ul class="list-disc list-inside mt-2 space-y-1">
+          <li>A study title based on the selected chapter or reference</li>
+          <li>A suggested start and end time</li>
+          <li>Reference links or notes when relevant</li>
+        </ul>
+        <p class="mt-3">
+          SFCE Learning app uses this calendar hand-off only to pre-fill the events you choose to
+          create. The app does not upload your calendar data to us.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-xl font-semibold text-text-primary dark:text-dark-text-primary mb-3">Study Reminders</h2>
+        <p>
+          SFCE Learning app can schedule local study reminders when you choose the "Add Reminder"
+          action.
+        </p>
+        <p class="mt-3">
+          Reminders are delivered as local notifications scheduled on your device using the Android
+          <code class="text-text-primary dark:text-dark-text-primary">AlarmManager</code> and shown
+          by the system <code class="text-text-primary dark:text-dark-text-primary">NotificationManager</code>.
+          On Android 13 and newer, the app asks for the system notification permission so it can
+          display these reminders. Local reminders created by SFCE Learning app may include:
+        </p>
+        <ul class="list-disc list-inside mt-2 space-y-1">
+          <li>A study reminder title based on the selected chapter or reference</li>
+          <li>Notes or reference links when relevant</li>
+          <li>A scheduled time that you choose</li>
+        </ul>
+        <p class="mt-3">
+          Reminders are scheduled and stored locally on your device. SFCE Learning app does not
+          upload reminder content to us, and reminders are not sent through any remote push
+          notification service.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-xl font-semibold text-text-primary dark:text-dark-text-primary mb-3">In-App Browser and External Reference Links</h2>
+        <p>
+          SFCE Learning app includes reference links to external documentation and websites. When
+          you open a reference link, the page may open in an Android Custom Tab (powered by your
+          default browser, such as Chrome) or, when Custom Tabs are unavailable, in an in-app
+          <code class="text-text-primary dark:text-dark-text-primary">WebView</code>.
+        </p>
+        <p class="mt-3">
+          External websites are not operated by SFCE Learning app. Those websites may receive
+          standard web request information, such as your IP address, browser information, cookies,
+          or other data depending on their own privacy practices. Their handling of data is governed
+          by their own privacy policies.
+        </p>
+        <p class="mt-3">
+          SFCE Learning app does not collect or store your in-app browsing history.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-xl font-semibold text-text-primary dark:text-dark-text-primary mb-3">Purchases</h2>
+        <p>
+          If the app offers a purchase, such as a quiz unlock, the purchase flow is handled by
+          Google through Google Play using the Google Play Billing Library.
+        </p>
+        <p class="mt-3">
+          SFCE Learning app may check Google Play-provided purchase entitlement status to unlock
+          purchased functionality. We do not receive or store your payment card details or Google
+          Play payment information.
+        </p>
+        <p class="mt-3">
+          Google's handling of purchase, billing, and Google Account information is governed by
+          Google's own privacy policy and Google Play terms.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-xl font-semibold text-text-primary dark:text-dark-text-primary mb-3">Content Ownership Notice</h2>
+        <p>
+          SFCE Learning app includes original study content, including quiz questions, answer
+          options, and related quiz material. This content is provided for personal study use within
+          the app.
+        </p>
+        <p class="mt-3">
+          You may not copy, scrape, reproduce, republish, redistribute, sell, or use the app's quiz
+          question and answer database to create another product or dataset without written
+          permission from the developer.
+        </p>
+        <p class="mt-3">
+          This notice does not claim ownership of Symfony, PHP, public technical facts, official
+          documentation, or general programming concepts. Some simple questions or answers may
+          naturally resemble common technical explanations or publicly known facts. The restriction
+          applies to the app's authored selection, wording, structure, and quiz database as a whole.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-xl font-semibold text-text-primary dark:text-dark-text-primary mb-3">Data Sharing</h2>
+        <p>
+          We do not sell your data. We do not share your data with advertisers or data brokers.
+        </p>
+        <p class="mt-3">
+          Data may be processed by Google and Android platform services when you use system features
+          such as Android Auto Backup, the Calendar app, system notifications, Google Play Billing,
+          Android Custom Tabs, <code class="text-text-primary dark:text-dark-text-primary">WebView</code>,
+          or Google Play. These services are provided by Google and the Android platform and are
+          subject to Google's privacy practices.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-xl font-semibold text-text-primary dark:text-dark-text-primary mb-3">Data Retention and Deletion</h2>
+        <p>
+          Study progress remains on your device unless you delete it, uninstall the app, clear the
+          app's data through Android system settings, or sign out of the device.
+        </p>
+        <p class="mt-3">
+          Auto Backup data remains in your Google Drive backup account according to Android's backup
+          behavior and your Google account settings. You can manage backups and remove the app's
+          backup data from your Google account at any time.
+        </p>
+        <p class="mt-3">
+          Calendar events and reminders created with help from SFCE Learning app remain in your
+          Calendar app or in your device's scheduled notifications until you edit, dismiss, or
+          delete them.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-xl font-semibold text-text-primary dark:text-dark-text-primary mb-3">Children's Privacy</h2>
+        <p>
+          SFCE Learning app is a professional study tool for developers preparing for a
+          certification exam. The app is not directed to children and does not knowingly collect
+          personal information from children.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-xl font-semibold text-text-primary dark:text-dark-text-primary mb-3">Changes to This Policy</h2>
+        <p>
+          We may update this Privacy Policy if the app's privacy practices change. When we make
+          changes, we will update the "Last updated" date above.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-xl font-semibold text-text-primary dark:text-dark-text-primary mb-3">Contact</h2>
+        <p>
+          For privacy questions, contact the developer through the support contact listed on the
+          SFCE Learning app's Google Play store listing or the official project website.
+        </p>
+      </section>
+    </div>
+  </div>
+</BaseLayout>
