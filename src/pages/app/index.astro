@@ -4,6 +4,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import iphoneHome from '../../assets/app-screenshots/iphone-home.png';
 import ipadHome from '../../assets/app-screenshots/ipad-home.png';
 import macHome from '../../assets/app-screenshots/mac-home.png';
+import androidPhoneHome from '../../assets/app-screenshots/android-phone-home.png';
 import iphonePaywall from '../../assets/app-screenshots/iphone-paywall.png';
 import iphoneQuizQuestion from '../../assets/app-screenshots/iphone-quiz-question.png';
 import iphoneQuizReview from '../../assets/app-screenshots/iphone-quiz-review.png';
@@ -11,11 +12,14 @@ import macQuiz from '../../assets/app-screenshots/mac-quiz.png';
 
 const APP_STORE_IOS = 'https://apps.apple.com/app/sfce-learning/id6764245530';
 const APP_STORE_MAC = 'https://apps.apple.com/pl/app/sfce-learning/id6764245530?mt=12';
+const ANDROID_PLAY = 'https://play.google.com/store/apps/details?id=com.sfcelearning';
+const ANDROID_PLAY_WEB = 'https://play.google.com/apps/testing/com.sfcelearning';
+const ANDROID_TEST_GROUP = 'https://groups.google.com/g/sfcelearning-test';
 ---
 
 <BaseLayout
-  title="SFCE Learning App — Symfony Certification Study Guide for iPhone, iPad & Mac"
-  description="Native Apple app for the Symfony Framework Certification Exam. Browse topics, chapters, and references; track progress offline with iCloud sync, Calendar, and Reminders integration."
+  title="SFCE Learning App — Symfony Certification Study Guide for iPhone, iPad, Mac & Android"
+  description="Native app for the Symfony Framework Certification Exam. Browse topics, chapters, and references; track progress offline on iPhone, iPad, Mac, and Android (closed beta)."
   canonicalPath="/app/"
   footerVariant="app"
 >
@@ -23,17 +27,17 @@ const APP_STORE_MAC = 'https://apps.apple.com/pl/app/sfce-learning/id6764245530?
   <section class="py-16 sm:py-24 px-4">
     <div class="max-w-3xl mx-auto text-center">
       <span class="inline-block mb-4 text-xs font-medium px-3 py-1 rounded-full bg-accent/10 dark:bg-dark-accent/20 text-accent dark:text-dark-accent">
-        Available on the App Store
+        On the App Store &middot; Android beta open
       </span>
       <h1 class="text-4xl sm:text-5xl font-bold text-text-primary dark:text-dark-text-primary mb-4 tracking-tight">
-        SFCE Learning <span class="text-accent dark:text-dark-accent">on Apple devices</span>
+        SFCE Learning <span class="text-accent dark:text-dark-accent">on every device</span>
       </h1>
       <p class="text-lg sm:text-xl text-text-secondary dark:text-dark-text-secondary max-w-2xl mx-auto mb-10">
-        A native iPhone, iPad, and Mac companion for your Symfony Framework Certification Exam preparation.
-        Same content as <a href={import.meta.env.BASE_URL} class="text-accent dark:text-dark-accent hover:underline">sfcelearning.com</a> &mdash; offline, fast, and at home on Apple platforms.
+        A native companion for the Symfony Framework Certification Exam &mdash; on iPhone, iPad, Mac, and Android.
+        Same content as <a href={import.meta.env.BASE_URL} class="text-accent dark:text-dark-accent hover:underline">sfcelearning.com</a> &mdash; offline, fast, and at home on each platform.
       </p>
 
-      <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+      <div class="flex flex-col sm:flex-row flex-wrap gap-4 justify-center items-center">
         <a
           class="app-store-badge"
           href={APP_STORE_IOS}
@@ -54,10 +58,25 @@ const APP_STORE_MAC = 'https://apps.apple.com/pl/app/sfce-learning/id6764245530?
           <img class="badge-dark" src={`${import.meta.env.BASE_URL}badges/mac-app-store-black.svg`} alt="Download on the Mac App Store" height="48" width="187.3" />
           <img class="badge-light" src={`${import.meta.env.BASE_URL}badges/mac-app-store-white.svg`} alt="Download on the Mac App Store" height="48" width="187.3" />
         </a>
+        <a
+          href="#android-beta"
+          class="android-beta-badge"
+          aria-label="Learn how to join the SFCE Learning Android beta"
+        >
+          <span class="flex items-center gap-2.5 h-12 px-4 rounded-lg border border-border dark:border-dark-border bg-surface dark:bg-dark-surface text-text-primary dark:text-dark-text-primary text-sm font-medium hover:bg-surface-hover dark:hover:bg-dark-surface-hover transition-colors">
+            <svg class="w-5 h-5 text-accent dark:text-dark-accent" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M17.523 15.34a1.12 1.12 0 1 1 0-2.24 1.12 1.12 0 0 1 0 2.24m-11.046 0a1.12 1.12 0 1 1 0-2.24 1.12 1.12 0 0 1 0 2.24m11.451-6.02 2.239-3.876a.465.465 0 0 0-.806-.466l-2.268 3.93a14.06 14.06 0 0 0-5.093-.926c-1.815 0-3.535.333-5.093.926L4.64 4.978a.465.465 0 0 0-.806.466l2.24 3.876C2.234 11.328.014 15.029 0 18.844h24c-.014-3.815-2.234-7.516-6.072-9.524" />
+            </svg>
+            <span class="flex flex-col items-start leading-tight text-left">
+              <span class="text-[10px] uppercase tracking-wide text-text-muted dark:text-dark-text-muted">Android &mdash; closed beta</span>
+              <span class="text-sm font-semibold">Join the beta</span>
+            </span>
+          </span>
+        </a>
       </div>
 
       <p class="mt-6 text-sm text-text-muted dark:text-dark-text-muted">
-        For iPhone, iPad, and Mac &mdash; iOS / iPadOS / macOS 26.4 or later.
+        iPhone, iPad, Mac &mdash; iOS / iPadOS / macOS 26.4 or later. Android in closed testing on Google Play.
       </p>
     </div>
   </section>
@@ -66,13 +85,13 @@ const APP_STORE_MAC = 'https://apps.apple.com/pl/app/sfce-learning/id6764245530?
   <section class="pb-20 px-4">
     <div class="max-w-5xl mx-auto">
       <h2 class="text-2xl sm:text-3xl font-bold text-text-primary dark:text-dark-text-primary text-center mb-3">
-        At home on every Apple device
+        At home on every device
       </h2>
       <p class="text-center text-text-secondary dark:text-dark-text-secondary max-w-2xl mx-auto mb-12">
-        Free to download on iPhone, iPad, and Mac. Progress syncs through iCloud so you can pick up exactly where you left off.
+        Free on iPhone, iPad, and Mac &mdash; and now in closed beta on Android. Pick up exactly where you left off, on whatever you have in hand.
       </p>
 
-      <!-- Hero device composition: Mac in back, iPad in front-left, iPhone in front-right -->
+      <!-- Hero device composition: Mac in back, iPad in front-left, iPhone + Pixel in front-right -->
       <div class="relative mx-auto max-w-4xl">
         <!-- Mac (laptop) -->
         <div class="mx-auto w-full max-w-3xl">
@@ -107,8 +126,29 @@ const APP_STORE_MAC = 'https://apps.apple.com/pl/app/sfce-learning/id6764245530?
           </div>
         </div>
 
-        <!-- iPhone — front right -->
-        <div class="absolute -bottom-8 sm:-bottom-14 right-0 sm:right-8 w-[18%] sm:w-[16%] max-w-[140px]">
+        <!-- Android Pixel — front right, behind iPhone -->
+        <div class="absolute -bottom-7 sm:-bottom-12 right-[12%] sm:right-[14%] w-[16%] sm:w-[14%] max-w-[124px] z-0">
+          <div class="rounded-[18px] sm:rounded-[24px] bg-neutral-900 dark:bg-neutral-950 p-[3px] sm:p-[4px] shadow-2xl ring-1 ring-black/20 rotate-[-6deg]">
+            <div class="relative overflow-hidden rounded-[14px] sm:rounded-[20px] bg-black">
+              <!-- Hole-punch camera -->
+              <div class="absolute top-1.5 left-1/2 -translate-x-1/2 z-10 w-[5px] h-[5px] sm:w-[7px] sm:h-[7px] rounded-full bg-neutral-900 ring-1 ring-black"></div>
+              <Image
+                src={androidPhoneHome}
+                alt="SFCE Learning on Android (Pixel) showing the topic list"
+                widths={[160, 240, 360]}
+                sizes="(max-width: 640px) 16vw, 124px"
+                class="block w-full h-auto"
+              />
+            </div>
+          </div>
+          <!-- Beta tag -->
+          <span class="absolute -top-2 -left-2 rotate-[-6deg] inline-block px-1.5 py-0.5 text-[9px] sm:text-[10px] font-semibold uppercase tracking-wide rounded bg-accent text-white shadow-md">
+            Beta
+          </span>
+        </div>
+
+        <!-- iPhone — front right, in front of Pixel -->
+        <div class="absolute -bottom-8 sm:-bottom-14 right-0 sm:right-8 w-[18%] sm:w-[16%] max-w-[140px] z-10">
           <div class="rounded-[20px] sm:rounded-[28px] bg-neutral-900 dark:bg-neutral-950 p-[4px] sm:p-[5px] shadow-2xl ring-1 ring-black/20 rotate-[5deg]">
             <div class="relative overflow-hidden rounded-[16px] sm:rounded-[24px] bg-black">
               <!-- Dynamic Island -->
@@ -153,8 +193,8 @@ const APP_STORE_MAC = 'https://apps.apple.com/pl/app/sfce-learning/id6764245530?
             </svg>
           </div>
           <div>
-            <h3 class="font-semibold text-text-primary dark:text-dark-text-primary mb-1">iCloud Sync</h3>
-            <p class="text-sm text-text-secondary dark:text-dark-text-secondary">Completed references sync between your iPhone, iPad, and Mac through your iCloud account.</p>
+            <h3 class="font-semibold text-text-primary dark:text-dark-text-primary mb-1">Cloud Sync</h3>
+            <p class="text-sm text-text-secondary dark:text-dark-text-secondary">Progress syncs between your iPhone, iPad, and Mac via iCloud, and is backed up on Android through Auto Backup.</p>
           </div>
         </div>
 
@@ -201,8 +241,8 @@ const APP_STORE_MAC = 'https://apps.apple.com/pl/app/sfce-learning/id6764245530?
             </svg>
           </div>
           <div>
-            <h3 class="font-semibold text-text-primary dark:text-dark-text-primary mb-1">Built for Apple</h3>
-            <p class="text-sm text-text-secondary dark:text-dark-text-secondary">Written in Swift &amp; SwiftUI. Light and dark mode follow your system appearance automatically.</p>
+            <h3 class="font-semibold text-text-primary dark:text-dark-text-primary mb-1">Native on each platform</h3>
+            <p class="text-sm text-text-secondary dark:text-dark-text-secondary">Swift &amp; SwiftUI on Apple, Kotlin &amp; Compose on Android. Light and dark mode follow your system appearance automatically.</p>
           </div>
         </div>
       </div>
@@ -304,8 +344,105 @@ const APP_STORE_MAC = 'https://apps.apple.com/pl/app/sfce-learning/id6764245530?
           <div class="mx-auto h-1.5 w-[60%] rounded-b-xl bg-neutral-300/60 dark:bg-neutral-700/60"></div>
         </div>
         <p class="mt-8 text-center text-sm text-text-secondary dark:text-dark-text-secondary">
-          Same quizzes &mdash; with a bigger window &mdash; on iPad and Mac.
+          Same quizzes &mdash; with a bigger window &mdash; on iPad, Mac, and Android tablets.
         </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Android beta -->
+  <section id="android-beta" class="pb-24 px-4 scroll-mt-20">
+    <div class="max-w-3xl mx-auto">
+      <div class="rounded-2xl border border-border dark:border-dark-border bg-surface dark:bg-dark-surface p-6 sm:p-10">
+        <div class="flex items-start gap-4 mb-6">
+          <div class="flex-shrink-0 w-12 h-12 rounded-xl bg-accent/10 dark:bg-dark-accent/20 flex items-center justify-center">
+            <svg class="w-6 h-6 text-accent dark:text-dark-accent" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M17.523 15.34a1.12 1.12 0 1 1 0-2.24 1.12 1.12 0 0 1 0 2.24m-11.046 0a1.12 1.12 0 1 1 0-2.24 1.12 1.12 0 0 1 0 2.24m11.451-6.02 2.239-3.876a.465.465 0 0 0-.806-.466l-2.268 3.93a14.06 14.06 0 0 0-5.093-.926c-1.815 0-3.535.333-5.093.926L4.64 4.978a.465.465 0 0 0-.806.466l2.24 3.876C2.234 11.328.014 15.029 0 18.844h24c-.014-3.815-2.234-7.516-6.072-9.524" />
+            </svg>
+          </div>
+          <div class="flex-1">
+            <span class="inline-block mb-2 text-[10px] font-semibold uppercase tracking-wide px-2 py-0.5 rounded bg-accent/10 dark:bg-dark-accent/20 text-accent dark:text-dark-accent">
+              Closed beta &middot; testers wanted
+            </span>
+            <h2 class="text-2xl sm:text-3xl font-bold text-text-primary dark:text-dark-text-primary">
+              Help us launch on Android
+            </h2>
+          </div>
+        </div>
+
+        <p class="text-text-secondary dark:text-dark-text-secondary mb-4">
+          The Android version of SFCE Learning is currently in closed testing on Google Play.
+          Join the beta and we'll thank you with <strong class="text-text-primary dark:text-dark-text-primary">free lifetime access to the Knowledge Test</strong> &mdash; the same premium quiz pack you'd normally pay for in the app.
+        </p>
+        <p class="text-text-secondary dark:text-dark-text-secondary mb-6">
+          Google requires testers to keep the app installed for at least <strong class="text-text-primary dark:text-dark-text-primary">two weeks</strong> before we can promote the build to production &mdash; please only join if you're happy to leave it installed that long.
+        </p>
+
+        <h3 class="text-sm font-semibold uppercase tracking-wide text-text-muted dark:text-dark-text-muted mb-4">How to join</h3>
+        <ol class="space-y-3 mb-8">
+          <li class="flex gap-3">
+            <span class="flex-shrink-0 w-6 h-6 rounded-full bg-accent/10 dark:bg-dark-accent/20 text-accent dark:text-dark-accent text-xs font-semibold flex items-center justify-center">1</span>
+            <p class="text-sm text-text-secondary dark:text-dark-text-secondary">
+              Join the <a href={ANDROID_TEST_GROUP} target="_blank" rel="noopener noreferrer" class="text-accent dark:text-dark-accent hover:underline">Google Group</a> using the Gmail account you'll test from.
+            </p>
+          </li>
+          <li class="flex gap-3">
+            <span class="flex-shrink-0 w-6 h-6 rounded-full bg-accent/10 dark:bg-dark-accent/20 text-accent dark:text-dark-accent text-xs font-semibold flex items-center justify-center">2</span>
+            <p class="text-sm text-text-secondary dark:text-dark-text-secondary">
+              Open the testing link on
+              <a href={ANDROID_PLAY} target="_blank" rel="noopener noreferrer" class="text-accent dark:text-dark-accent hover:underline">Android (Play Store)</a>
+              or on the
+              <a href={ANDROID_PLAY_WEB} target="_blank" rel="noopener noreferrer" class="text-accent dark:text-dark-accent hover:underline">web</a>
+              &mdash; signed in with the same Gmail account.
+            </p>
+          </li>
+          <li class="flex gap-3">
+            <span class="flex-shrink-0 w-6 h-6 rounded-full bg-accent/10 dark:bg-dark-accent/20 text-accent dark:text-dark-accent text-xs font-semibold flex items-center justify-center">3</span>
+            <p class="text-sm text-text-secondary dark:text-dark-text-secondary">
+              Install the app on your device.
+            </p>
+          </li>
+          <li class="flex gap-3">
+            <span class="flex-shrink-0 w-6 h-6 rounded-full bg-accent/10 dark:bg-dark-accent/20 text-accent dark:text-dark-accent text-xs font-semibold flex items-center justify-center">4</span>
+            <p class="text-sm text-text-secondary dark:text-dark-text-secondary">
+              To unlock the Knowledge Test for free, start the in-app purchase and switch the payment method to <strong class="text-text-primary dark:text-dark-text-primary">Promo code</strong> &mdash; we'll send you the code after you join the Google Group.
+            </p>
+          </li>
+          <li class="flex gap-3">
+            <span class="flex-shrink-0 w-6 h-6 rounded-full bg-accent/10 dark:bg-dark-accent/20 text-accent dark:text-dark-accent text-xs font-semibold flex items-center justify-center">5</span>
+            <p class="text-sm text-text-secondary dark:text-dark-text-secondary">
+              Spend roughly 30&ndash;40 minutes with the app: explore a few sections, tick off references as you read them, and run a couple of quizzes.
+            </p>
+          </li>
+          <li class="flex gap-3">
+            <span class="flex-shrink-0 w-6 h-6 rounded-full bg-accent/10 dark:bg-dark-accent/20 text-accent dark:text-dark-accent text-xs font-semibold flex items-center justify-center">6</span>
+            <p class="text-sm text-text-secondary dark:text-dark-text-secondary">
+              Keep the app installed for at least <strong class="text-text-primary dark:text-dark-text-primary">two weeks</strong> (Google's requirement for closed testing).
+            </p>
+          </li>
+        </ol>
+
+        <div class="flex flex-col sm:flex-row gap-3">
+          <a
+            href={ANDROID_TEST_GROUP}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-lg bg-accent hover:bg-accent-hover text-white text-sm font-medium transition-colors"
+          >
+            Join the Google Group
+            <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+            </svg>
+          </a>
+          <a
+            href={ANDROID_PLAY}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-lg border border-border dark:border-dark-border text-text-primary dark:text-dark-text-primary hover:bg-surface-hover dark:hover:bg-dark-surface-hover text-sm font-medium transition-colors"
+          >
+            Open on Google Play
+          </a>
+        </div>
       </div>
     </div>
   </section>
