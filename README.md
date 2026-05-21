@@ -67,11 +67,13 @@ happy to leave it installed that long.
 
 1. Join the [Google Group](https://groups.google.com/g/sfcelearning-test) and
    sign in with the Gmail account you want to test from.
-2. Open the testing link on your 📱 Android device
-   ([Play Store link](https://play.google.com/store/apps/details?id=com.sfcelearning))
-   or on your computer ([web link](https://play.google.com/apps/testing/com.sfcelearning))
-   using the same Gmail account.
-3. Install the app.
+2. Opt in to the closed test via the
+   [web testing link](https://play.google.com/apps/testing/com.sfcelearning)
+   — signed in with the same Gmail account — and accept becoming a tester.
+3. Download the app from the
+   [Play Store](https://play.google.com/store/apps/details?id=com.sfcelearning)
+   on your 📱 Android device. It can take a few minutes after opting in
+   before the listing becomes available.
 4. The Knowledge Test is a paid in-app purchase. To unlock it for free, switch
    the payment method to **Promo code** and enter the code — we send the code
    out after you join the Google Group.
