@@ -1,8 +1,50 @@
 # Symfony Certification Study Guide
 
-A static study guide for the [Symfony certification exam](https://certification.symfony.com/), built with Astro and Tailwind CSS.
+<p align="center">
+  <a href="https://sfcelearning.com">
+    <img src="docs/images/banner.png" alt="SFCE Learning — Symfony Certification Exam Study Guide" width="800" />
+  </a>
+</p>
 
-Visit the app at [sfcelearning.com](https://sfcelearning.com)
+<p align="center">
+  A free, open-source study guide for the
+  <a href="https://certification.symfony.com/">Symfony Framework Certification Exam</a>,
+  built with Astro and Tailwind CSS.
+</p>
+
+<p align="center">
+  <strong>🌐 Web · <a href="https://sfcelearning.com">sfcelearning.com</a></strong>
+</p>
+
+## Now on the App Store — native app for iPhone, iPad & Mac
+
+Prefer to study offline? **SFCE Learning** is also available as a native Apple
+app. Same content as [sfcelearning.com](https://sfcelearning.com) — fast,
+offline-ready, and at home on Apple platforms. Progress syncs through iCloud,
+and you can plug your study plan straight into Calendar and Reminders.
+
+<p align="center">
+  <a href="https://apps.apple.com/app/sfce-learning/id6764245530">
+    <img src="docs/images/app-store-badge.svg" alt="Download on the App Store" height="56" />
+  </a>
+  &nbsp;
+  <a href="https://apps.apple.com/app/sfce-learning/id6764245530?mt=12">
+    <img src="docs/images/mac-app-store-badge.svg" alt="Download on the Mac App Store" height="56" />
+  </a>
+</p>
+
+<p align="center">
+  Learn more on the <a href="https://sfcelearning.com/app/">app landing page</a>.
+  Requires iOS / iPadOS / macOS 26.4 or later.
+</p>
+
+### What you get in the app
+
+- 📚 The full Symfony 6.0, 7.0 and 8.0 outlines, browseable offline
+- ✅ Per-reference progress tracking with iCloud sync across devices
+- 🧠 Built-in quizzes to test yourself on each topic
+- 📅 Calendar and Reminders integration to plan your prep
+- 🌗 Native light and dark mode, optimised for iPhone, iPad and Mac
 
 ## Supported Versions
 
