@@ -1,6 +1,15 @@
 # Symfony Certification Study Guide
 
 <p align="center">
+  <a href="https://github.com/kardasz/sfce/actions/workflows/pages.yml">
+    <img src="https://github.com/kardasz/sfce/actions/workflows/pages.yml/badge.svg" alt="Build status" />
+  </a>
+  <a href="https://sfcelearning.com">
+    <img src="https://img.shields.io/github/deployments/kardasz/sfce/github-pages?label=deployment" alt="Deployment status" />
+  </a>
+</p>
+
+<p align="center">
   <a href="https://sfcelearning.com">
     <img src="docs/images/banner.png" alt="SFCE Learning — Symfony Certification Exam Study Guide" width="800" />
   </a>
