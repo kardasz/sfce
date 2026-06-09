@@ -25,12 +25,14 @@
   <strong>🌐 Web · <a href="https://sfcelearning.com">sfcelearning.com</a></strong>
 </p>
 
-## Now on the App Store — native app for iPhone, iPad & Mac
+## Now on the App Store and Google Play — native app for iPhone, iPad, Mac & Android
 
-Prefer to study offline? **SFCE Learning** is also available as a native Apple
-app. Same content as [sfcelearning.com](https://sfcelearning.com) — fast,
-offline-ready, and at home on Apple platforms. Progress syncs through iCloud,
-and you can plug your study plan straight into Calendar and Reminders.
+Prefer to study offline? **SFCE Learning** is also available as a native app on
+Apple platforms and Android. Same content as
+[sfcelearning.com](https://sfcelearning.com) — fast, offline-ready, and at home
+on each platform. Progress syncs through iCloud on Apple devices and is backed
+up via Auto Backup on Android, and you can plug your study plan straight into
+Calendar and Reminders.
 
 <p align="center">
   <a href="https://apps.apple.com/app/sfce-learning/id6764245530">
@@ -43,6 +45,10 @@ and you can plug your study plan straight into Calendar and Reminders.
 </p>
 
 <p align="center">
+  <strong>🤖 Android · <a href="https://play.google.com/store/apps/details?id=com.sfcelearning">Get it on Google Play</a></strong>
+</p>
+
+<p align="center">
   Learn more on the <a href="https://sfcelearning.com/app/">app landing page</a>.
   Requires iOS / iPadOS / macOS 26.4 or later.
 </p>
@@ -50,48 +56,10 @@ and you can plug your study plan straight into Calendar and Reminders.
 ### What you get in the app
 
 - 📚 The full Symfony 6.0, 7.0 and 8.0 outlines, browseable offline
-- ✅ Per-reference progress tracking with iCloud sync across devices
+- ✅ Per-reference progress tracking with iCloud sync across Apple devices
 - 🧠 Built-in quizzes to test yourself on each topic
 - 📅 Calendar and Reminders integration to plan your prep
-- 🌗 Native light and dark mode, optimised for iPhone, iPad and Mac
-
-## 🤖 Android — closed beta, looking for testers!
-
-The Android version of **SFCE Learning** is currently in closed testing on
-Google Play, and we're looking for testers to help us ship it. **As a thank
-you, every tester gets free access to the in-app Knowledge Test** (the same
-paid quiz pack that ships in the app).
-
-Google requires testers to keep the app installed for **at least two weeks**
-before we can promote the build to production — so please only join if you're
-happy to leave it installed that long.
-
-**Links**
-
-- 📱 Android (Play Store): <https://play.google.com/store/apps/details?id=com.sfcelearning>
-- 🌐 Web testing link: <https://play.google.com/apps/testing/com.sfcelearning>
-- 🔗 Google Group (required): <https://groups.google.com/g/sfcelearning-test>
-
-**How to join the test**
-
-1. Join the [Google Group](https://groups.google.com/g/sfcelearning-test) and
-   sign in with the Gmail account you want to test from.
-2. Opt in to the closed test via the
-   [web testing link](https://play.google.com/apps/testing/com.sfcelearning)
-   — signed in with the same Gmail account — and accept becoming a tester.
-3. Download the app from the
-   [Play Store](https://play.google.com/store/apps/details?id=com.sfcelearning)
-   on your 📱 Android device. It can take a few minutes after opting in
-   before the listing becomes available.
-4. The Knowledge Test is a paid in-app purchase. To unlock it for free, switch
-   the payment method to **Promo code** and enter the code — we send the code
-   out after you join the Google Group.
-5. Play with the app for ~5–10 minutes: open a section, tick a few checkboxes,
-   run a quick quiz.
-6. **Keep the app installed for at least two weeks** (Google's requirement for
-   closed testing).
-
-Thanks in advance — every tester moves us closer to a public Android release!
+- 🌗 Native light and dark mode, optimised for iPhone, iPad, Mac and Android
 
 ## Supported Versions
 
