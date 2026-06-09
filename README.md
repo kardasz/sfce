@@ -42,10 +42,10 @@ Calendar and Reminders.
   <a href="https://apps.apple.com/app/sfce-learning/id6764245530?mt=12">
     <img src="docs/images/mac-app-store-badge.svg" alt="Download on the Mac App Store" height="56" />
   </a>
-</p>
-
-<p align="center">
-  <strong>🤖 Android · <a href="https://play.google.com/store/apps/details?id=com.sfcelearning">Get it on Google Play</a></strong>
+  &nbsp;
+  <a href="https://play.google.com/store/apps/details?id=com.sfcelearning">
+    <img src="docs/images/google-play-badge.svg" alt="Get it on Google Play" height="56" />
+  </a>
 </p>
 
 <p align="center">
