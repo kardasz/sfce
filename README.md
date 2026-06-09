@@ -36,15 +36,15 @@ Calendar and Reminders.
 
 <p align="center">
   <a href="https://apps.apple.com/app/sfce-learning/id6764245530">
-    <img src="docs/images/app-store-badge.svg" alt="Download on the App Store" height="56" />
+    <img src="docs/images/app-store-badge.svg" alt="Download on the App Store" width="120" height="40" />
   </a>
   &nbsp;
   <a href="https://apps.apple.com/app/sfce-learning/id6764245530?mt=12">
-    <img src="docs/images/mac-app-store-badge.svg" alt="Download on the Mac App Store" height="56" />
+    <img src="docs/images/mac-app-store-badge.svg" alt="Download on the Mac App Store" width="156" height="40" />
   </a>
   &nbsp;
   <a href="https://play.google.com/store/apps/details?id=com.sfcelearning">
-    <img src="docs/images/google-play-badge.svg" alt="Get it on Google Play" height="56" />
+    <img src="docs/images/google-play-badge.svg" alt="Get it on Google Play" width="135" height="40" />
   </a>
 </p>
 
