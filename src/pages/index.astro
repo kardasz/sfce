@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import Support from '../components/Support.astro';
 import { getTopics } from '../data/versions';
 import { VERSIONS } from '../types';
 
@@ -206,4 +207,7 @@ const versionStats = VERSIONS.map(version => {
       </a>
     </div>
   </section>
+
+  <!-- GitHub Sponsors -->
+  <Support />
 </BaseLayout>

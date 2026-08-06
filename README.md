@@ -7,6 +7,9 @@
   <a href="https://sfcelearning.com">
     <img src="https://img.shields.io/github/deployments/kardasz/sfce/github-pages?label=deployment" alt="Deployment status" />
   </a>
+  <a href="https://github.com/sponsors/kardasz">
+    <img src="https://img.shields.io/github/sponsors/kardasz?label=Sponsor&amp;logo=githubsponsors" alt="Sponsor on GitHub" />
+  </a>
 </p>
 
 <p align="center">
@@ -82,6 +85,13 @@ npm install    # install dependencies
 npm run dev    # start dev server
 npm run build  # production build
 ```
+
+## 💖 Support
+
+If this study guide helps you prepare, you can
+[sponsor its continued development on GitHub](https://github.com/sponsors/kardasz).
+Your support helps keep SFCE Learning free, ad-free, and up to date with every
+Symfony release.
 
 ## Privacy Policy
 
