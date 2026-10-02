@@ -1,0 +1,48 @@
+---
+const privacyURL = `${import.meta.env.BASE_URL}privacy/`;
+---
+
+<section
+  id="cookie-consent"
+  hidden
+  aria-labelledby="cookie-consent-title"
+  aria-describedby="cookie-consent-description"
+  class="fixed inset-x-0 bottom-0 z-50 max-h-[85dvh] overflow-y-auto border-t border-border dark:border-dark-border bg-surface dark:bg-dark-surface px-4 py-5 shadow-lg"
+>
+  <div class="max-w-5xl mx-auto">
+    <h2 id="cookie-consent-title" class="text-lg font-semibold">Your privacy choices</h2>
+    <p id="cookie-consent-description" class="mt-2 text-sm text-text-secondary dark:text-dark-text-secondary">
+      With your permission, we use Google Analytics cookies to understand visits and improve this website.
+      Google receives usage and device data and may process it in the United States.
+      Analytics stays off until you accept. Essential storage remembers your privacy choice, theme and study progress.
+      You can use the whole site without analytics and withdraw consent anytime through Cookie settings.
+      <a href={privacyURL} class="underline">Privacy &amp; cookie policy</a>
+    </p>
+    <p id="cookie-consent-current" class="mt-2 text-sm text-text-secondary dark:text-dark-text-secondary"></p>
+    <div class="mt-4 flex flex-wrap gap-3">
+      <button type="button" data-consent-reject class="consent-choice">Reject analytics</button>
+      <button type="button" data-consent-accept class="consent-choice">Accept analytics</button>
+      <button type="button" data-consent-close class="px-3 py-2 text-sm underline rounded-md focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent">Close without changing</button>
+    </div>
+  </div>
+</section>
+<p id="cookie-consent-status" role="status" class="sr-only"></p>
+
+<style>
+  .consent-choice {
+    padding: 0.625rem 1rem;
+    border: 1px solid var(--color-text-secondary);
+    border-radius: 0.375rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .consent-choice:hover { background: var(--color-surface-hover); }
+  .consent-choice:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 3px; }
+  :global(.dark) .consent-choice { border-color: var(--color-dark-text-secondary); }
+  :global(.dark) .consent-choice:hover { background: var(--color-dark-surface-hover); }
+</style>
+
+<script>
+  import '../scripts/cookie-consent';
+</script>

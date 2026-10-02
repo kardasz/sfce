@@ -3,110 +3,176 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 ---
 
 <BaseLayout
-  title="Privacy Policy — SFCE Learning"
-  description="Privacy policy for SFCE Learning. We do not collect personal data, use cookies, or track users."
+  title="Privacy & Cookie Policy — SFCE Learning"
+  description="How SFCE Learning uses essential browser storage and optional Google Analytics cookies, and how to manage your privacy choices."
   canonicalPath="/privacy/"
 >
   <div class="max-w-3xl mx-auto px-4 py-12 sm:py-16">
-    <h1 class="text-3xl font-bold text-text-primary dark:text-dark-text-primary mb-8">Privacy Policy</h1>
+    <h1 class="text-3xl font-bold text-text-primary dark:text-dark-text-primary mb-8">Privacy &amp; Cookie Policy</h1>
 
     <div class="space-y-8 text-text-secondary dark:text-dark-text-secondary leading-relaxed">
+      <p><strong>Last updated:</strong> October 2, 2026</p>
       <p>
-        <strong class="text-text-primary dark:text-dark-text-primary">Last updated:</strong> April 15, 2026
+        This policy covers the SFCE Learning website at sfcelearning.com, including its app information pages.
+        The native apps have separate <a href={`${import.meta.env.BASE_URL}app/privacy-policy/`}>Apple app</a>
+        and <a href={`${import.meta.env.BASE_URL}app/android/privacy-policy/`}>Android app</a> privacy policies.
+        You can use the website without an account and without accepting analytics.
       </p>
 
-      <p>
-        SFCE Learning (<a href="https://sfcelearning.com" class="text-accent dark:text-dark-accent hover:underline">sfcelearning.com</a>)
-        is a free, open-source study guide for the Symfony Framework Certification Exam. Your privacy matters to us,
-        and we have designed this application to operate without collecting any personal information.
-      </p>
-
       <section>
-        <h2 class="text-xl font-semibold text-text-primary dark:text-dark-text-primary mb-3">No Personal Data Collection</h2>
+        <h2>Who is responsible for your data?</h2>
         <p>
-          We do not collect, store, process, or transmit any personal data. There are no user accounts,
-          no registration forms, no email collection, and no contact forms on this website. No information
-          about you is ever sent to our servers or any third-party service.
+          The controller of personal data processed for this website is Krzysztof Kardasz.
+          For privacy questions or to exercise your rights, email
+          <a href="mailto:contact@sfcelearning.com">contact@sfcelearning.com</a>.
         </p>
       </section>
 
       <section>
-        <h2 class="text-xl font-semibold text-text-primary dark:text-dark-text-primary mb-3">No Cookies</h2>
+        <h2>Essential browser storage</h2>
         <p>
-          This website does not use cookies of any kind — no session cookies, no tracking cookies,
-          no analytics cookies, and no third-party cookies. As such, no cookie consent banner is required.
+          We store your chosen theme, study progress and privacy choice in your browser's localStorage.
+          This storage supports features you request and remembers whether you accepted or rejected analytics;
+          it is not used for advertising. Theme and study progress stay on your device until you clear them.
+          The privacy record (<code>sfce:cookie-consent</code>) contains your choice, its date, expiry and policy version.
+          It is valid for 180 days, after which we ask again. An expired record may remain in browser storage until
+          the site is used again or you clear it. These preferences are not sent to Google Analytics.
+        </p>
+        <p>
+          This storage is used under the strictly necessary exception in Article 399(3) of Poland's Electronic
+          Communications Law. Where personal data is involved in operating and securing the website or remembering
+          privacy choices, our legal basis is our legitimate interest in providing these functions
+          (Article 6(1)(f) GDPR).
         </p>
       </section>
 
       <section>
-        <h2 class="text-xl font-semibold text-text-primary dark:text-dark-text-primary mb-3">Local Storage</h2>
+        <h2>Optional Google Analytics</h2>
         <p>
-          This application uses your browser's <strong class="text-text-primary dark:text-dark-text-primary">localStorage</strong> API
-          to save two types of preferences directly on your device:
+          Only after you select “Accept analytics”, we load Google Analytics 4 (measurement ID G-TZSSJDCPGS)
+          to measure visits, use of pages and engagement, and improve the study guide.
+          The legal basis is your consent (Article 6(1)(a) GDPR and Article 399(1) of Poland's Electronic
+          Communications Law). Before consent, or after rejection, we do not load the Google tag or send
+          analytics requests, including cookieless measurement requests.
         </p>
-        <ul class="list-disc list-inside mt-3 space-y-1">
-          <li><strong class="text-text-primary dark:text-dark-text-primary">Study progress</strong> — which references you have marked as completed</li>
-          <li><strong class="text-text-primary dark:text-dark-text-primary">Theme preference</strong> — your chosen color scheme (light, dark, or system)</li>
-        </ul>
-        <p class="mt-3">
-          This data is stored exclusively in your browser and is never transmitted to any server.
-          You can clear it at any time through your browser settings. Unlike cookies, localStorage data
-          is not sent with HTTP requests and cannot be used for cross-site tracking.
-        </p>
-      </section>
-
-      <section>
-        <h2 class="text-xl font-semibold text-text-primary dark:text-dark-text-primary mb-3">No Analytics or Tracking</h2>
         <p>
-          We do not use any analytics services (such as Google Analytics), tracking pixels, fingerprinting,
-          or any other mechanism to monitor your behavior on this website. We have no interest in tracking
-          how you use this application.
+          Google receives cookie identifiers, page views and interaction information, visit times,
+          referring pages, and browser and device information. Your IP address is transmitted as part of
+          the connection and may be used to derive an approximate location; Google states that GA4 does not
+          log or store individual IP addresses. We do not send your study completion records, name or email
+          address to Analytics. Google signals and advertising personalization are disabled by this site's tag;
+          we do not use this integration for advertising or decisions with legal or similarly significant effects.
         </p>
-      </section>
-
-      <section>
-        <h2 class="text-xl font-semibold text-text-primary dark:text-dark-text-primary mb-3">No Third-Party Data Sharing</h2>
         <p>
-          Since we do not collect any data, there is nothing to share with third parties. This website
-          does not integrate with any advertising networks, social media platforms, or data brokers.
+          Analytics is provided by Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland,
+          with processing by Google and its subprocessors. See
+          <a href="https://policies.google.com/privacy">Google's Privacy Policy</a> and
+          <a href="https://support.google.com/analytics/answer/12017362">Google's GA4 data collection explanation</a>.
         </p>
       </section>
 
       <section>
-        <h2 class="text-xl font-semibold text-text-primary dark:text-dark-text-primary mb-3">External Links</h2>
+        <h2>Cookies and retention</h2>
+        <div class="overflow-x-auto">
+          <table class="w-full text-left text-sm">
+            <caption class="text-left mb-3">Analytics cookies are optional and set only after consent.</caption>
+            <thead><tr><th>Cookie</th><th>Purpose / provider</th><th>Lifetime</th></tr></thead>
+            <tbody>
+              <tr><td><code>_ga</code></td><td>Distinguishes browsers for Google Analytics (Google).</td><td>Up to 180 days</td></tr>
+              <tr><td><code>_ga_TZSSJDCPGS</code></td><td>Maintains session state for Google Analytics (Google).</td><td>Up to 180 days</td></tr>
+            </tbody>
+          </table>
+        </div>
         <p>
-          This application contains links to external websites, primarily the official Symfony documentation
-          and PHP documentation. These external sites have their own privacy policies, and we are not
-          responsible for their content or data practices.
+          These are first-party cookies. We configure their expiry to 180 days and disable automatic
+          renewal on each page load. Browser restrictions may shorten their lifetime. They are removed
+          by this website when you withdraw consent.
+        </p>
+        <p>
+          The GA4 property's retention period for user and event data is set to 2 months.
+          User-identifier retention can restart on a new visit if the property's reset-on-new-activity
+          setting is enabled. Aggregated standard reports are not subject to this same retention period
+          and may remain available longer. Cookie lifetime and Google's data retention are separate.
+          See <a href="https://support.google.com/analytics/answer/7667196">Google's retention documentation</a>.
         </p>
       </section>
 
       <section>
-        <h2 class="text-xl font-semibold text-text-primary dark:text-dark-text-primary mb-3">Hosting</h2>
+        <h2>Your choice and withdrawal of consent</h2>
         <p>
-          This website is hosted on <strong class="text-text-primary dark:text-dark-text-primary">GitHub Pages</strong>.
-          GitHub may collect basic server logs (such as IP addresses) as part of their infrastructure.
-          For details, please refer to
-          <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener noreferrer" class="text-accent dark:text-dark-accent hover:underline">GitHub's Privacy Statement</a>.
+          “Reject analytics” is as accessible as “Accept analytics”. Closing the notice or continuing to
+          browse does not grant consent. We remember either decision for 180 days in this browser only.
+          You can reopen <strong>Cookie settings</strong> in the footer of any page and select “Reject analytics”
+          to withdraw consent. This stops further collection, deletes this site's accessible Analytics cookies,
+          and reloads the page to unload the tag. It does not erase data already sent to Google or affect the
+          lawfulness of processing before withdrawal. Contact us to request erasure where applicable.
+        </p>
+        <p>
+          You can also delete cookies and localStorage in your browser. Removing the privacy choice means
+          you will be asked again. If your browser cannot save a choice, it applies only to the current page.
+          Rejecting analytics does not restrict access to study content or progress tracking.
         </p>
       </section>
 
       <section>
-        <h2 class="text-xl font-semibold text-text-primary dark:text-dark-text-primary mb-3">Open Source</h2>
+        <h2>Recipients, hosting and international transfers</h2>
         <p>
-          This application is open source. You can review the entire source code to verify these privacy
-          claims at our
-          <a href="https://github.com/kardasz/sfce" target="_blank" rel="noopener noreferrer" class="text-accent dark:text-dark-accent hover:underline">GitHub repository</a>.
+          The website is hosted on GitHub Pages. GitHub processes connection information, including IP
+          addresses, to deliver and secure the site, independently of your analytics choice. See
+          <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub's Privacy Statement</a>
+          for its purposes, retention practices and transfer safeguards. We do not operate a separate server
+          that receives your locally stored study progress.
+        </p>
+        <p>
+          Google and GitHub may process data outside the European Economic Area, including in the United States.
+          Google describes its reliance on the EU–US Data Privacy Framework for covered transfers to certified
+          recipients and on Standard Contractual Clauses where applicable in its
+          <a href="https://business.safety.google/adsdatatransfers/">international transfer information</a>.
+          Further details and copies of applicable safeguards can be requested from us or the providers.
         </p>
       </section>
 
       <section>
-        <h2 class="text-xl font-semibold text-text-primary dark:text-dark-text-primary mb-3">Changes to This Policy</h2>
+        <h2>Your data protection rights</h2>
         <p>
-          If we make any changes to this privacy policy, we will update the "Last updated" date at the top
-          of this page. Given the nature of this application, significant changes are unlikely.
+          Subject to the conditions in the GDPR, you may request access to, rectification or erasure of your
+          personal data, restriction of processing, and portability of data processed by automated means
+          on the basis of consent. You may object to processing based on legitimate interests and withdraw
+          consent at any time. We may need information to locate the relevant analytics records, since we
+          do not maintain user accounts. You may lodge a complaint with the President of Poland's Personal
+          Data Protection Office (<a href="https://uodo.gov.pl/">UODO</a>) or your local supervisory authority.
+        </p>
+      </section>
+
+      <section>
+        <h2>External links and contact</h2>
+        <p>
+          Linked websites, including Symfony and PHP documentation, have their own privacy practices.
+          If you email us, we use your email address and message to answer your request, based on our
+          legitimate interest in handling correspondence (Article 6(1)(f) GDPR), or a legal obligation
+          where your message concerns a statutory rights request (Article 6(1)(c) GDPR). We keep correspondence
+          for the time needed to resolve the matter and meet applicable legal obligations or establish,
+          exercise or defend legal claims.
+        </p>
+      </section>
+
+      <section>
+        <h2>Changes to this policy</h2>
+        <p>
+          We update the date above when this policy changes and request fresh consent if the purposes
+          or scope of analytics materially change. The website's source code is available in our
+          <a href="https://github.com/kardasz/sfce">GitHub repository</a>.
         </p>
       </section>
     </div>
   </div>
 </BaseLayout>
+
+<style>
+  h2 { font-size: 1.25rem; font-weight: 600; color: var(--color-text-primary); margin-bottom: 0.75rem; }
+  :global(.dark) h2 { color: var(--color-dark-text-primary); }
+  section p + p, section div + p { margin-top: 0.75rem; }
+  a { text-decoration: underline; }
+  th, td { padding: 0.75rem; border-bottom: 1px solid var(--color-border); vertical-align: top; }
+  :global(.dark) th, :global(.dark) td { border-color: var(--color-dark-border); }
+</style>

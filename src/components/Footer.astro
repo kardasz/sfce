@@ -8,6 +8,7 @@ const { variant = 'web' } = Astro.props;
 
 <footer class="border-t border-border dark:border-dark-border py-6 px-4 text-center text-sm text-text-secondary dark:text-dark-text-secondary">
   <div class="flex flex-wrap items-center justify-center gap-x-4 gap-y-2">
+    <button type="button" hidden data-cookie-settings aria-controls="cookie-consent" aria-expanded="false" class="cursor-pointer text-text-secondary dark:text-dark-text-secondary hover:text-accent dark:hover:text-dark-accent transition-colors underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent">Cookie settings</button>
     <p>&copy; 2026 <a href="https://kardasz.eu" target="_blank" rel="noopener noreferrer" class="text-text-secondary dark:text-dark-text-secondary hover:text-accent dark:hover:text-dark-accent transition-colors">Krzysztof Kardasz</a></p>
     <span class="hidden sm:inline text-text-muted dark:text-dark-text-muted">&middot;</span>
     {variant === 'app' ? (
